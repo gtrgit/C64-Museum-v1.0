@@ -334,7 +334,7 @@ export const paginationUIComponent = () => {
         ))}
       </UiEntity>
       
-      {/* Search Titles & Year Row */}
+      {/* Year Row */}
       <UiEntity
         uiTransform={{
           width: '100%',
@@ -354,72 +354,6 @@ export const paginationUIComponent = () => {
           }}
         />
         
-        {/* Search Titles Section - Fixed position */}
-        <UiEntity
-          uiTransform={{
-            flexDirection: 'row',
-            alignItems: 'center',
-            justifyContent: 'flex-start',
-            flexWrap: 'nowrap',
-            flexShrink: 0 // Prevent shrinking
-          }}
-        >
-          {/* Search Titles Label */}
-          <UiEntity
-            uiTransform={{
-              width: 100,
-              height: 30,
-              margin: '1px 4px 1px 2px',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-            uiBackground={{ color: Color4.create(1, 1, 1, 0.2) }}
-          >
-            <Label
-              value="Search Titles:"
-              fontSize={11}
-              color={Color4.White()}
-              uiTransform={{ width: '100%', height: '100%' }}
-              textAlign='middle-center'
-            />
-          </UiEntity>
-          
-          {/* Search Input Field */}
-          <Input
-            onChange={(value) => handleSearchChange(value)}
-            onSubmit={(value) => handleSearchChange(value)}
-            fontSize={11}
-            placeholder="Type title..."
-            placeholderColor={Color4.create(0.6, 0.6, 0.6, 1)}
-            uiTransform={{ 
-              width: 150, 
-              height: 30,
-              margin: '1px 4px'
-            }}
-            color={Color4.Black()}
-            uiBackground={{
-              color: Color4.create(1, 1, 1, 0.9) // White background for input
-            }}
-            textAlign='middle-left'
-          />
-          
-          {/* Current Search Display */}
-          {searchQuery && (
-            <Button
-              value={`"${searchQuery}"`}
-              variant='primary'
-              fontSize={11}
-              onMouseDown={() => {}} // Display only
-              uiTransform={{ 
-                width: Math.min(120, searchQuery.length * 6 + 20), 
-                height: 30, 
-                margin: '1px 1px',
-                opacity: 0.8
-              }}
-            />
-          )}
-        </UiEntity>
-        
         {/* Year Section - Separate container */}
         <UiEntity
           uiTransform={{
@@ -427,7 +361,7 @@ export const paginationUIComponent = () => {
             alignItems: 'center',
             justifyContent: 'flex-start',
             flexWrap: 'wrap', // Allow wrapping within year section only
-            margin: '0 0 0 8px'
+            margin: '0 0 0 0'
           }}
         >
           {/* Year Label */}
@@ -598,6 +532,57 @@ export const paginationUIComponent = () => {
             opacity: canGoNext ? 1 : 0.5
           }}
         />
+        
+        {/* Search Titles Section */}
+        <UiEntity
+          uiTransform={{
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'flex-start',
+            flexWrap: 'nowrap',
+            flexShrink: 0, // Prevent shrinking
+            margin: '0 0 -10px 20px'
+          }}
+        >
+          {/* Search Titles Label */}
+          <UiEntity
+            uiTransform={{
+              width: 100,
+              height: 30,
+              margin: '0 4px 0 2px',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+            uiBackground={{ color: Color4.create(1, 1, 1, 0.2) }}
+          >
+            <Label
+              value="Search Titles:"
+              fontSize={11}
+              color={Color4.White()}
+              uiTransform={{ width: '100%', height: '100%' }}
+              textAlign='middle-center'
+            />
+          </UiEntity>
+          
+          {/* Search Input Field */}
+          <Input
+            onChange={(value) => handleSearchChange(value)}
+            onSubmit={(value) => handleSearchChange(value)}
+            fontSize={11}
+            placeholder="Type title..."
+            placeholderColor={Color4.create(0.6, 0.6, 0.6, 1)}
+            uiTransform={{ 
+              width: 150, 
+              height: 30,
+              margin: '0 4px'
+            }}
+            color={Color4.Black()}
+            uiBackground={{
+              color: Color4.create(1, 1, 1, 0.9) // White background for input
+            }}
+            textAlign='middle-left'
+          />
+        </UiEntity>
         
         {/* Clear Filters Button */}
         <Button

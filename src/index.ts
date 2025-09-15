@@ -43,13 +43,13 @@ export async function main() {
   engine.addSystem(teleporterRippleSystem)
 
   // // // Create test teleporter
-  // createTeleporter(
-  //   { x: 4, y: 0.5, z: 4 },    // teleporter position
-  //   { x: 16, y: 7.5, z: 24 },    // destination
-  //   'images/teleporter-pad.png',
-  //   'images/joystick-icon.png',
-  //   'Games!'
-  // )
+  createTeleporter(
+    { x: 4, y: 0.5, z: 4 },    // teleporter position
+    { x: 16, y: 7.5, z: 24 },    // destination
+    'images/teleporter-pad.png',
+    'images/joystick-icon.png',
+    'Games!'
+  )
 
   //game 3d ui
   initializeScene()
