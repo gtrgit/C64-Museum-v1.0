@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "WebFetch(domain:docs.decentraland.org)",
+      "Bash(npm start)"
+    ],
+    "deny": []
+  }
+}
