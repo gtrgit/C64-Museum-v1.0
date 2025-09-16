@@ -259,7 +259,16 @@ export function calculateDynamicCounts() {
     const matchesCreatorForGenre = selectedCreator === 'all' || 
       ((game as any).creator && getFieldAsString((game as any).creator).includes(selectedCreator))
     
-    const matchesYearForGenre = selectedYear === 'all' || getYear(game) === selectedYear
+    const matchesYearForGenre = (() => {
+      if (selectedYear === 'all') return true
+      if (selectedYear === 'Other') {
+        const year = getYear(game)
+        if (year === 'unknown') return true
+        const yearNum = parseInt(year)
+        return !isNaN(yearNum) && (yearNum < 1982 || yearNum > 1992)
+      }
+      return getYear(game) === selectedYear
+    })()
     
     if (matchesSearchForGenre && matchesMediaTypeForGenre && matchesCreatorForGenre && matchesYearForGenre) {
       const genre = getGenre(game)
@@ -277,7 +286,16 @@ export function calculateDynamicCounts() {
     
     const matchesGenreForCreator = selectedGenre === 'all' || getGenre(game) === selectedGenre
     
-    const matchesYearForCreator = selectedYear === 'all' || getYear(game) === selectedYear
+    const matchesYearForCreator = (() => {
+      if (selectedYear === 'all') return true
+      if (selectedYear === 'Other') {
+        const year = getYear(game)
+        if (year === 'unknown') return true
+        const yearNum = parseInt(year)
+        return !isNaN(yearNum) && (yearNum < 1982 || yearNum > 1992)
+      }
+      return getYear(game) === selectedYear
+    })()
     
     if (matchesSearchForCreator && matchesMediaTypeForCreator && matchesGenreForCreator && matchesYearForCreator) {
       const creator = getCreator(game)
@@ -359,7 +377,18 @@ export function applyFilters() {
         }
         return 'unknown'
       }
-      const matchesYear = selectedYear === 'all' || getYear(game) === selectedYear
+      
+      const matchesYear = (() => {
+        if (selectedYear === 'all') return true
+        if (selectedYear === 'Other') {
+          // Match if year is unknown or outside 1982-1992 range
+          const year = getYear(game)
+          if (year === 'unknown') return true
+          const yearNum = parseInt(year)
+          return !isNaN(yearNum) && (yearNum < 1982 || yearNum > 1992)
+        }
+        return getYear(game) === selectedYear
+      })()
       
       return matchesSearch && matchesMediaType && matchesGenre && matchesCreator && matchesYear
     })

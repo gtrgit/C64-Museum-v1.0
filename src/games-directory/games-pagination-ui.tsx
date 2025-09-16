@@ -153,17 +153,32 @@ export const paginationUIComponent = () => {
     .filter(([,count]) => count >= 3)
     .slice(0, 6) // Show top 6 creators
   
-  // Get years from 1982 to 1993, filter out those with 0 count
+  // Get years from 1982 to 1992 and create 'Other' bucket
   const sortedYears = []
-  for (let year = 1982; year <= 1993; year++) {
+  let otherCount = 0
+  
+  // Add years 1982-1992 in order
+  for (let year = 1982; year <= 1992; year++) {
     const yearStr = year.toString()
     if (yearCounts[yearStr] && yearCounts[yearStr] > 0) {
       sortedYears.push([yearStr, yearCounts[yearStr]])
     }
   }
-  // Add 'unknown' at the end if it exists
-  if (yearCounts['unknown'] && yearCounts['unknown'] > 0) {
-    sortedYears.push(['unknown', yearCounts['unknown']])
+  
+  // Count all other years (including unknown) for 'Other' bucket
+  for (const [year, count] of Object.entries(yearCounts)) {
+    if (count > 0) {
+      const yearNum = parseInt(year)
+      // Include in 'Other' if it's outside 1982-1992 range or is 'unknown'
+      if (year === 'unknown' || isNaN(yearNum) || yearNum < 1982 || yearNum > 1992) {
+        otherCount += count
+      }
+    }
+  }
+  
+  // Add 'Other' bucket at the end if it has items
+  if (otherCount > 0) {
+    sortedYears.push(['Other', otherCount])
   }
   
   // Debug logging (uncomment if needed)
@@ -407,7 +422,7 @@ export const paginationUIComponent = () => {
               fontSize={10}
               onMouseDown={() => handleYearChange(String(year))}
               uiTransform={{ 
-                width: year === 'unknown' ? 65 : 45, 
+                width: year === 'Other' ? 65 : 45, 
                 height: 36, 
                 margin: '1px 2px',
                 opacity: selectedYear === year ? 1 : 0.7
