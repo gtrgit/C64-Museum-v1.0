@@ -1464,12 +1464,17 @@ export const uiComponent = () => {
               <ColorPicker
                 title='Text Color Picker'
                 onColorSelect={(hex) => {
+                  console.log(`🎨 Color picker selected: ${hex}`)
                   const entity = getHoveredPlaneEntity()
                   if (entity) {
                     const textEntities = getTextEntitiesForPlane(entity)
+                    console.log(`Found ${textEntities.length} text entities for plane`)
                     if (textEntities.length > 0) {
+                      console.log(`Calling setTextColor on entity:`, textEntities[0])
                       setTextColor(textEntities[0], hex)
                     }
+                  } else {
+                    console.log('No hovered plane entity found')
                   }
                 }}
               />

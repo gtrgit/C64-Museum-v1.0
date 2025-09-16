@@ -7,7 +7,7 @@ import { SavedSceneData } from '../src/utils'
 // 3. Replace the data below with your saved data
 export const savedSceneData: SavedSceneData = {
   "version": "1.0.0",
-  "timestamp": "2025-09-15T07:23:32.677Z",
+  "timestamp": "2025-09-16T03:21:23.762Z",
   "planes": [
     {
       "name": "Jack Tramiel",
@@ -73,8 +73,8 @@ export const savedSceneData: SavedSceneData = {
       "material": {
         "albedoColor": {
           "r": 1,
-          "g": 1,
-          "b": 1,
+          "g": 0,
+          "b": 0,
           "a": 1
         },
         "emissiveColor": {
@@ -91,9 +91,9 @@ export const savedSceneData: SavedSceneData = {
           "fontSize": 1,
           "font": "sans-serif",
           "textColor": {
-            "r": 1,
-            "g": 1,
-            "b": 1,
+            "r": 0,
+            "g": 0,
+            "b": 0,
             "a": 1
           },
           "outlineColor": {
@@ -205,9 +205,9 @@ export const savedSceneData: SavedSceneData = {
           "fontSize": 1,
           "font": "sans-serif",
           "textColor": {
-            "r": 1,
+            "r": 0,
             "g": 1,
-            "b": 1,
+            "b": 0,
             "a": 1
           },
           "outlineColor": {

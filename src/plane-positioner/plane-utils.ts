@@ -257,20 +257,21 @@ export function finishTemplateCreation(name: string): void {
       const planeText = PlaneText.getOrNull(textEntity)
       
       if (textShape && planeText) {
+        console.log(`[SAVE] Entity ${textEntity}: Saving text "${planeText.text.substring(0, 30)}..." with textColor:`, textShape.textColor)
         savedTexts.push({
           text: planeText.text,
           fontSize: planeText.fontSize,
           font: planeText.font,
           textColor: {
-            r: textShape.textColor?.r || 1,
-            g: textShape.textColor?.g || 1,
-            b: textShape.textColor?.b || 1,
-            a: textShape.textColor?.a || 1
+            r: textShape.textColor?.r ?? 1,
+            g: textShape.textColor?.g ?? 1,
+            b: textShape.textColor?.b ?? 1,
+            a: textShape.textColor?.a ?? 1
           },
           outlineColor: {
-            r: textShape.outlineColor?.r || 0,
-            g: textShape.outlineColor?.g || 0,
-            b: textShape.outlineColor?.b || 0,
+            r: textShape.outlineColor?.r ?? 0,
+            g: textShape.outlineColor?.g ?? 0,
+            b: textShape.outlineColor?.b ?? 0,
             a: 1
           }
         })
@@ -1062,9 +1063,12 @@ export function setTextColor(textEntity: Entity, hexColor: string) {
   if (!TextShape.has(textEntity)) return
   
   const textShape = TextShape.getMutable(textEntity)
-  textShape.textColor = hexToColor4(hexColor, 1)
+  const newColor = hexToColor4(hexColor, 1)
+  textShape.textColor = newColor
   
   console.log(`Text color set to: ${hexColor}`)
+  console.log(`Converted to Color4:`, newColor)
+  console.log(`TextShape now has color:`, textShape.textColor)
 }
 
 export function getTextColor(textEntity: Entity): string {
@@ -1143,7 +1147,7 @@ export function getTextControlsState(): boolean {
   return uiState.showTextControls
 }
 
-export function addTextToPlane(planeEntity: Entity, text: string, fontSize: number = 1, font: string = 'sans-serif'): Entity | null {
+export function addTextToPlane(planeEntity: Entity, text: string, fontSize: number = 1, font: string = 'sans-serif', textColor: Color4 = Color4.White()): Entity | null {
   if (!Transform.has(planeEntity)) return null
   
   const textEntity = engine.addEntity()
@@ -1164,7 +1168,7 @@ export function addTextToPlane(planeEntity: Entity, text: string, fontSize: numb
     text: text,
     fontSize: fontSize,
     font: mapStringToFont(font),
-    textColor: Color4.White(),
+    textColor: textColor,
     outlineWidth: 0.1,
     outlineColor: Color4.Black(),
     textWrapping: true,
@@ -1180,7 +1184,7 @@ export function addTextToPlane(planeEntity: Entity, text: string, fontSize: numb
     font: font
   })
   
-  console.log(`Text "${text}" added to plane`)
+  console.log(`Text "${text}" added to plane with color:`, textColor)
   return textEntity
 }
 
@@ -1345,6 +1349,14 @@ export function setPlaneTexture(entity: Entity, imageName: string) {
 }
 
 export async function saveSceneState(): Promise<void> {
+  console.log('💾 Starting saveSceneState...')
+  
+  // Debug: Check all TextShape entities before saving
+  console.log('🔍 Checking all TextShape entities before saving:')
+  for (const [entity, textShape] of engine.getEntitiesWith(TextShape)) {
+    console.log(`Entity ${entity}: TextShape color:`, textShape.textColor)
+  }
+  
   // First, get existing saved data from the data files
   let existingSavedPlanes: SavedPlaneData[] = []
   let existingSavedTemplates: TemplateData[] = []
@@ -1423,20 +1435,21 @@ export async function saveSceneState(): Promise<void> {
       const planeText = PlaneText.getOrNull(textEntity)
       
       if (textShape && planeText) {
+        console.log(`[SAVE] Entity ${textEntity}: Saving text "${planeText.text.substring(0, 30)}..." with textColor:`, textShape.textColor)
         savedTexts.push({
           text: planeText.text,
           fontSize: planeText.fontSize,
           font: planeText.font,
           textColor: {
-            r: textShape.textColor?.r || 1,
-            g: textShape.textColor?.g || 1,
-            b: textShape.textColor?.b || 1,
-            a: textShape.textColor?.a || 1
+            r: textShape.textColor?.r ?? 1,
+            g: textShape.textColor?.g ?? 1,
+            b: textShape.textColor?.b ?? 1,
+            a: textShape.textColor?.a ?? 1
           },
           outlineColor: {
-            r: textShape.outlineColor?.r || 0,
-            g: textShape.outlineColor?.g || 0,
-            b: textShape.outlineColor?.b || 0,
+            r: textShape.outlineColor?.r ?? 0,
+            g: textShape.outlineColor?.g ?? 0,
+            b: textShape.outlineColor?.b ?? 0,
             a: 1
           }
         })
@@ -1541,6 +1554,7 @@ export async function saveSceneState(): Promise<void> {
 }
 
 export async function loadSceneState(): Promise<void> {
+  console.log('🔄 loadSceneState: Starting to load scene state...')
   try {
     // Import the saved data from the TypeScript file
     const module = await import('../../data/label-data')
@@ -1554,6 +1568,7 @@ export async function loadSceneState(): Promise<void> {
     }
     
     console.log('Loading scene data:', savedSceneData)
+    console.log(`Found ${savedSceneData.planes.length} planes to load`)
     
     // Clear existing planes (optional - you might want to keep this for safety)
     // for (const [entity] of engine.getEntitiesWith(PlacedPlane)) {
@@ -1562,6 +1577,7 @@ export async function loadSceneState(): Promise<void> {
     
     // Recreate each plane
     for (const planeData of savedSceneData.planes) {
+      console.log(`Loading plane: ${planeData.name} with ${planeData.texts.length} text elements`)
       const entity = engine.addEntity()
       
       // For legacy data, generate ID from name if not present
@@ -1659,7 +1675,9 @@ export async function loadSceneState(): Promise<void> {
       })
       
       // Recreate text entities
+      console.log(`Loading ${planeData.texts.length} text entities for plane ${planeData.name}`)
       for (const textData of planeData.texts) {
+        console.log(`Creating text entity: "${textData.text.substring(0, 50)}..."`)
         const textEntity = engine.addEntity()
         const planeTransform = Transform.get(entity)
         const planeScale = planeTransform.scale
@@ -1671,16 +1689,19 @@ export async function loadSceneState(): Promise<void> {
           parent: entity
         })
         
+        const loadedColor = Color4.create(
+          textData.textColor.r,
+          textData.textColor.g,
+          textData.textColor.b,
+          textData.textColor.a
+        )
+        console.log(`Loading text "${textData.text}" with color:`, loadedColor)
+        
         TextShape.create(textEntity, {
           text: textData.text,
           fontSize: textData.fontSize,
           font: mapStringToFont(textData.font),
-          textColor: Color4.create(
-            textData.textColor.r,
-            textData.textColor.g,
-            textData.textColor.b,
-            textData.textColor.a
-          ),
+          textColor: loadedColor,
           outlineWidth: 0.1,
           outlineColor: Color4.create(
             textData.outlineColor.r,
@@ -1732,8 +1753,21 @@ export async function loadSceneState(): Promise<void> {
     // Initialize plane counter based on loaded planes
     initializePlaneCounter(savedSceneData.planes)
     
+    console.log('✅ loadSceneState: Scene state loaded successfully!')
+    
+    // Verify that text entities were created correctly
+    setTimeout(() => {
+      console.log('🔍 Verifying loaded text entities after 1 second...')
+      let totalTextEntities = 0
+      for (const [entity, textShape] of engine.getEntitiesWith(TextShape)) {
+        totalTextEntities++
+        console.log(`Text entity found: "${textShape.text.substring(0, 30)}..." color:`, textShape.textColor)
+      }
+      console.log(`Total text entities found: ${totalTextEntities}`)
+    }, 1000)
+    
   } catch (error) {
-    console.error('Failed to load scene data:', error)
+    console.error('❌ loadSceneState: Failed to load scene data:', error)
     // Initialize plane counter even when loading fails
     initializePlaneCounter()
   }

@@ -68,7 +68,7 @@ async function initializeScene() {
   
   try {
     // Define the center position for the entire curved grid display
-    const gridCenterPosition = Vector3.create(34, 1.8,38)
+    const gridCenterPosition = Vector3.create(34, 7.2,38)
     
 
     // Angular ranges with 1° per row vertical separation
