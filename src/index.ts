@@ -11,7 +11,7 @@ import {} from '@dcl/sdk/math'
 
 // Import the plane positioner module
 import { initializePlanePositioner, logPlayerTransformValues } from './plane-positioner'
-import { createTeleporter, teleporterSystem, teleporterRippleSystem } from './teleporter/teleporter'
+import { createTeleporter, teleporterSystem, teleporterRippleSystem, teleporterAnimationSystem } from './teleporter/teleporter'
 import { setupCombinedUI } from './ui-manager'
 
 
@@ -41,14 +41,25 @@ export async function main() {
   
   engine.addSystem(teleporterSystem)
   engine.addSystem(teleporterRippleSystem)
+  engine.addSystem(teleporterAnimationSystem)
 
   // // // Create test teleporter
   createTeleporter(
-    { x: 4, y: 0.5, z: 4 },    // teleporter position
+    { x: 36, y: 0.01, z: 36 },    // teleporter position
     { x: 16, y: 7.5, z: 24 },    // destination
     'images/teleporter-pad.png',
     'images/joystick-icon.png',
     'Games!'
+  )
+
+  
+
+   createTeleporter(
+    { x: 36, y: 0.01, z: 39 },    // teleporter position
+    { x: 36, y: 0, z: 10 },    // destination
+    'images/teleporter-pad.png',
+    'images/joystick-icon.png',
+    'History'
   )
 
   //game 3d ui

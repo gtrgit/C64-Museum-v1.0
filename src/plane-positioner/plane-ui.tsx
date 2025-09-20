@@ -7,7 +7,7 @@ import { Color4 } from '@dcl/sdk/math'
 import ReactEcs, { Button, Label, ReactEcsRenderer, UiEntity, Input } from '@dcl/sdk/react-ecs'
 import { Cube, PlacedPlane } from './plane-components'
 import { createCube, createPlane, createPreviewPlane } from './plane-factory'
-import { setTextColor ,getPlaneEmission, setTextOutlineColor,getTextFontSize,getPlaneOpacity,logPlayerTransformValues, lastLoggedTransform, getHoveredPlaneName, getHoveredPlaneEntity, setHoveredPlaneName, setHoveredPlaneEntity, adjustPlaneScale, adjustPlaneEmission, adjustPlaneOpacity, setPlaneAlbedoColor, setPlaneEmissionColor, toggleMaterialColorPicker, toggleEmissionColorPicker, getMaterialColorPickerState, getEmissionColorPickerState, commonColors, toggleTextControls, getTextControlsState, addTextToPlane, getTextEntitiesForPlane, updatePlaneText, updateTextFontSize, updateTextFont, availableFonts, renamePlane, removeTextFromPlaneParent, setPlaneTexture, toggleSnapping, getSnappingEnabled, saveSceneState, findNearestClusterForNewPlane, toggleCreateTemplate, getCreateTemplateState, setTemplateName, getTemplateName, createTemplate, getTemplates, createTemplatePreview, clearTemplatePreview, placeTemplate, adjustPlanePositionWithSnapping, adjustPlaneRotationWithSnapping, getHoveredSnapTarget, startTemplateCreation, isCreatingTemplate, getSelectedPlanesCount, finishTemplateCreation, cancelTemplateCreation } from './plane-utils'
+import { setTextColor ,getPlaneEmission, setTextOutlineColor,getTextFontSize,getPlaneOpacity,logPlayerTransformValues, lastLoggedTransform, getHoveredPlaneName, getHoveredPlaneEntity, setHoveredPlaneName, setHoveredPlaneEntity, adjustPlaneScale, adjustPlaneEmission, adjustPlaneOpacity, setPlaneAlbedoColor, setPlaneEmissionColor, toggleMaterialColorPicker, toggleEmissionColorPicker, getMaterialColorPickerState, getEmissionColorPickerState, commonColors, toggleTextControls, getTextControlsState, addTextToPlane, getTextEntitiesForPlane, updatePlaneText, updateTextFontSize, updateTextFont, availableFonts, renamePlane, removeTextFromPlaneParent, setPlaneTexture, toggleSnapping, getSnappingEnabled, saveSceneState, findNearestClusterForNewPlane, toggleCreateTemplate, getCreateTemplateState, setTemplateName, getTemplateName, createTemplate, getTemplates, createTemplatePreview, clearTemplatePreview, placeTemplate, adjustPlanePositionWithSnapping, adjustPlaneRotationWithSnapping, getHoveredSnapTarget, startTemplateCreation, isCreatingTemplate, getSelectedPlanesCount, finishTemplateCreation, cancelTemplateCreation, startDeleteMode, isDeletingPlanes, getSelectedDeletePlanesCount, finishDeletePlanes, cancelDeleteMode, isTemplatePreviewActive, cancelTemplatePreview } from './plane-utils'
 import { PreviewPlane } from './plane-components'
 
 // Tab state management
@@ -1624,37 +1624,124 @@ export const uiComponent = () => {
           )}
 
           {/* Delete Tab */}
-          {currentTab === 'delete' && isPlaneSelected && (
+          {currentTab === 'delete' && (
             <UiEntity
               uiTransform={{
                 width: '100%',
                 height: '100%',
                 flexDirection: 'column',
                 alignItems: 'center',
-                justifyContent: 'center'
+                justifyContent: 'flex-start'
               }}
             >
-              <Label
-                value={`Delete ${getHoveredPlaneName()}?`}
-                fontSize={16}
-                uiTransform={{ width: '100%', height: 40, margin: '0 0 20px 0' }}
-                textAlign='middle-center'
-                color={Color4.Black()}
-              />
-              <Button
-                uiTransform={{ width: 120, height: 40 }}
-                value='Confirm Delete'
-                variant='primary'
-                fontSize={14}
-                color={Color4.create(0.8, 0.2, 0.2, 1)}
-                onMouseDown={() => {
-                  const entity = getHoveredPlaneEntity()
-                  if (entity) {
-                    engine.removeEntity(entity)
-                    currentTab = 'plane' // Switch back to plane tab after deletion
-                  }
-                }}
-              />
+              {!isDeletingPlanes() ? (
+                // Start delete mode
+                <UiEntity
+                  uiTransform={{
+                    width: '100%',
+                    height: '100%',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center'
+                  }}
+                >
+                  <Label
+                    value='Multi-Select Delete Mode'
+                    fontSize={18}
+                    uiTransform={{ width: '100%', height: 40, margin: '0 0 10px 0' }}
+                    textAlign='middle-center'
+                    color={Color4.Black()}
+                  />
+                  <Label
+                    value='Click to select multiple planes to delete'
+                    fontSize={12}
+                    uiTransform={{ width: '100%', height: 30, margin: '0 0 20px 0' }}
+                    textAlign='middle-center'
+                    color={Color4.create(0.6, 0.6, 0.6, 1)}
+                  />
+                  <Button
+                    uiTransform={{ width: 140, height: 40 }}
+                    value='Start Multi-Delete'
+                    variant='primary'
+                    fontSize={14}
+                    color={Color4.create(0.8, 0.2, 0.2, 1)}
+                    onMouseDown={() => {
+                      startDeleteMode()
+                    }}
+                  />
+                </UiEntity>
+              ) : (
+                // Delete mode active - show controls
+                <UiEntity
+                  uiTransform={{
+                    width: '100%',
+                    height: '100%',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'flex-start'
+                  }}
+                >
+                  <Label
+                    value='DELETE MODE ACTIVE'
+                    fontSize={16}
+                    uiTransform={{ width: '100%', height: 30, margin: '0 0 10px 0' }}
+                    textAlign='middle-center'
+                    color={Color4.create(0.8, 0.2, 0.2, 1)}
+                  />
+                  <Label
+                    value='Click planes to select them for deletion'
+                    fontSize={12}
+                    uiTransform={{ width: '100%', height: 25, margin: '0 0 5px 0' }}
+                    textAlign='middle-center'
+                    color={Color4.create(0.6, 0.6, 0.6, 1)}
+                  />
+                  <Label
+                    value='Selected planes will glow red'
+                    fontSize={12}
+                    uiTransform={{ width: '100%', height: 25, margin: '0 0 15px 0' }}
+                    textAlign='middle-center'
+                    color={Color4.create(0.6, 0.6, 0.6, 1)}
+                  />
+                  <Label
+                    value={`Selected: ${getSelectedDeletePlanesCount()} planes`}
+                    fontSize={14}
+                    uiTransform={{ width: '100%', height: 30, margin: '0 0 20px 0' }}
+                    textAlign='middle-center'
+                    color={Color4.Black()}
+                  />
+                  
+                  <UiEntity
+                    uiTransform={{
+                      width: '100%',
+                      height: 50,
+                      flexDirection: 'row',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}
+                  >
+                    <Button
+                      uiTransform={{ width: 100, height: 40, margin: '0 5px 0 0' }}
+                      value='Delete All'
+                      variant='primary'
+                      fontSize={12}
+                      color={Color4.create(0.8, 0.2, 0.2, 1)}
+                      onMouseDown={() => {
+                        finishDeletePlanes()
+                        currentTab = 'plane' // Switch back to plane tab after deletion
+                      }}
+                    />
+                    <Button
+                      uiTransform={{ width: 80, height: 40, margin: '0 0 0 5px' }}
+                      value='Cancel'
+                      variant='secondary'
+                      fontSize={12}
+                      onMouseDown={() => {
+                        cancelDeleteMode()
+                      }}
+                    />
+                  </UiEntity>
+                </UiEntity>
+              )}
             </UiEntity>
           )}
 
@@ -1725,7 +1812,7 @@ export const uiComponent = () => {
                 </UiEntity>
               )}
 
-              {/* Place Template Button */}
+              {/* Template Actions */}
               <UiEntity
                 uiTransform={{
                   width: '100%',
@@ -1736,16 +1823,47 @@ export const uiComponent = () => {
                   margin: '15px 0 0 0'
                 }}
               >
-                <Button
-                  uiTransform={{ width: 120, height: 40 }}
-                  value='Place Template'
-                  variant='primary'
-                  fontSize={12}
-                  color={Color4.create(0.2, 0.6, 0.8, 1)}
-                  onMouseDown={() => {
-                    placeTemplate()
-                  }}
-                />
+                {isTemplatePreviewActive() ? (
+                  // Show Place and Cancel buttons when template is ready to place
+                  <UiEntity
+                    uiTransform={{
+                      width: '100%',
+                      height: '100%',
+                      flexDirection: 'row',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}
+                  >
+                    <Button
+                      uiTransform={{ width: 100, height: 40, margin: '0 5px 0 0' }}
+                      value='Place'
+                      variant='primary'
+                      fontSize={12}
+                      color={Color4.create(0.2, 0.6, 0.8, 1)}
+                      onMouseDown={() => {
+                        placeTemplate()
+                      }}
+                    />
+                    <Button
+                      uiTransform={{ width: 80, height: 40, margin: '0 0 0 5px' }}
+                      value='Cancel'
+                      variant='secondary'
+                      fontSize={12}
+                      onMouseDown={() => {
+                        cancelTemplatePreview()
+                      }}
+                    />
+                  </UiEntity>
+                ) : (
+                  // Show preview instructions when no template is active
+                  <Label
+                    value='Select a template above to preview it'
+                    fontSize={12}
+                    uiTransform={{ width: '100%', height: 40 }}
+                    textAlign='middle-center'
+                    color={Color4.create(0.6, 0.6, 0.6, 1)}
+                  />
+                )}
               </UiEntity>
             </UiEntity>
           )}

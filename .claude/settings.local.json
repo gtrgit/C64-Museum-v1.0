@@ -5,7 +5,9 @@
       "Bash(find:*)",
       "Bash(grep:*)",
       "WebFetch(domain:docs.decentraland.org)",
-      "Bash(npm start)"
+      "Bash(npm start)",
+      "Bash(npm run build:*)",
+      "Bash(npx tsc:*)"
     ],
     "deny": []
   }

@@ -41,3 +41,13 @@ export const PlaneText = engine.defineComponent('plane-text', {
   fontSize: Schemas.Number,
   font: Schemas.String
 })
+
+// Component to store original emission values before template selection highlight
+export const OriginalEmission = engine.defineComponent('original-emission', {
+  emissiveColorR: Schemas.Number,
+  emissiveColorG: Schemas.Number,
+  emissiveColorB: Schemas.Number,
+  emissiveColorA: Schemas.Number,
+  emissiveIntensity: Schemas.Number,
+  hasOriginal: Schemas.Boolean
+})

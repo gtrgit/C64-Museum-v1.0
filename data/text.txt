@@ -1,0 +1,307 @@
+
+export function createTemplatePreview(templateId: number): void {
+  // First clear any existing template previews
+  clearTemplatePreview()
+  
+  const template = uiState.templates.find(t => t.id === templateId)
+  if (!template) {
+    console.error(`Template with ID ${templateId} not found`)
+    return
+  }
+  
+  console.log(`Creating template preview for "${template.name}" with ${template.planes.length} planes`)
+  
+  // Calculate the center position of the template
+  let centerPosition = Vector3.Zero()
+  if (template.planes.length > 0) {
+    let sumPosition = Vector3.Zero()
+    for (const planeData of template.planes) {
+      sumPosition = Vector3.add(sumPosition, Vector3.create(planeData.position.x, planeData.position.y, planeData.position.z))
+    }
+    centerPosition = Vector3.scale(sumPosition, 1 / template.planes.length)
+  }
+  
+  // Create parent entity with billboard component
+  const parentEntity = engine.addEntity()
+  
+  // Add TemplatePreviewParent component
+  TemplatePreviewParent.create(parentEntity, {
+    templateId: templateId
+  })
+  
+  // Set transform for parent entity (position will be updated by system)
+  Transform.create(parentEntity, {
+    position: Vector3.create(0, 0, 2), // Initial position in front of camera
+    rotation: Quaternion.Identity(),
+    scale: Vector3.One()
+  })
+  
+  // Add billboard component so parent always faces the camera
+  Billboard.create(parentEntity, {})
+  
+  // Create preview entities for each plane in the template as children
+  for (const planeData of template.planes) {
+    const entity = engine.addEntity()
+    
+    // Add TemplatePreview component
+    TemplatePreview.create(entity, {
+      templateId: templateId,
+      originalPlaneId: planeData.id || 0
+    })
+    
+    // Calculate local position relative to template center
+    const localPosition = Vector3.subtract(
+      Vector3.create(planeData.position.x, planeData.position.y, planeData.position.z),
+      centerPosition
+    )
+    
+    // Set transform as child of parent entity with local position
+    Transform.create(entity, {
+      position: localPosition,
+      rotation: Quaternion.create(planeData.rotation.x, planeData.rotation.y, planeData.rotation.z, planeData.rotation.w),
+      scale: Vector3.create(planeData.scale.x, planeData.scale.y, planeData.scale.z),
+      parent: parentEntity
+    })
+    
+    // Set plane mesh
+    MeshRenderer.setPlane(entity)
+    
+    // Set material with semi-transparent green for template preview
+    Material.setPbrMaterial(entity, { 
+      albedoColor: Color4.create(0.2, 1, 0.2, 0.3),
+      emissiveColor: Color4.create(0.1, 0.5, 0.1, 1),
+      emissiveIntensity: 0.8
+    })
+    
+    // Add hover text
+    PointerEvents.create(entity, {
+      pointerEvents: [
+        { 
+          eventType: PointerEventType.PET_HOVER_ENTER, 
+          eventInfo: { 
+            button: InputAction.IA_POINTER, 
+            hoverText: `Template: ${template.name} - ${planeData.name}` 
+          } 
+        }
+      ]
+    })
+  }
+}
+
+
+
+export function placeTemplate(): void {
+  // Get the template preview parent entity
+  const parentEntities = [...engine.getEntitiesWith(TemplatePreviewParent, Transform)]
+  if (parentEntities.length === 0) return
+  
+  const [parentEntity, parentComponent, parentTransform] = parentEntities[0]
+  const templateId = parentComponent.templateId
+  const template = uiState.templates.find(t => t.id === templateId)
+  if (!template) return
+  
+  // Get camera transform to use its rotation (since parent uses Billboard)
+  const cameraTransform = Transform.getOrNull(engine.CameraEntity)
+  if (!cameraTransform) return
+  
+  console.log(`Placing template "${template.name}" with ${template.planes.length} planes`)
+  
+  // Calculate the center position of the template (same as used in createTemplatePreview)
+  let centerPosition = Vector3.Zero()
+  if (template.planes.length > 0) {
+    let sumPosition = Vector3.Zero()
+    for (const planeData of template.planes) {
+      sumPosition = Vector3.add(sumPosition, Vector3.create(planeData.position.x, planeData.position.y, planeData.position.z))
+    }
+    centerPosition = Vector3.scale(sumPosition, 1 / template.planes.length)
+  }
+  
+  // Create actual planes from template data
+  for (const planeData of template.planes) {
+    const entity = engine.addEntity()
+    
+    // Generate new unique name and ID for the placed plane
+    const newName = `Template_Plane_${Date.now()}_${Math.floor(Math.random() * 1000)}`
+    const newId = Date.now() + Math.floor(Math.random() * 1000)
+    
+    // Calculate the plane's local position relative to template center
+    const localPosition = Vector3.subtract(
+      Vector3.create(planeData.position.x, planeData.position.y, planeData.position.z),
+      centerPosition
+    )
+    
+    // Transform the local position by the camera's rotation to get world position
+    const rotatedLocalPosition = Vector3.rotate(localPosition, cameraTransform.rotation)
+    const worldPosition = Vector3.add(parentTransform.position, rotatedLocalPosition)
+    
+    // Use the camera's rotation combined with the plane's local rotation
+    const localRotation = Quaternion.create(planeData.rotation.x, planeData.rotation.y, planeData.rotation.z, planeData.rotation.w)
+    const worldRotation = Quaternion.multiply(cameraTransform.rotation, localRotation)
+    
+    // Add PlacedPlane component with new name and ID
+    PlacedPlane.create(entity, { 
+      name: newName, 
+      id: newId,
+      currentImage: planeData.currentImage,
+      localKnnClusterId: 0, // Will be assigned by clustering
+      snapParentId: 0 // Template planes are not snapped
+    })
+    
+    // Set transform
+    Transform.create(entity, {
+      position: worldPosition,
+      rotation: worldRotation,
+      scale: Vector3.create(planeData.scale.x, planeData.scale.y, planeData.scale.z)
+    })
+    
+    // Set plane mesh and collider
+    MeshRenderer.setPlane(entity)
+    MeshCollider.setPlane(entity)
+    
+    // Set material from template data, but reset emissive to normal values (remove green tint)
+    Material.setPbrMaterial(entity, { 
+      albedoColor: Color4.create(
+        planeData.material.albedoColor.r,
+        planeData.material.albedoColor.g,
+        planeData.material.albedoColor.b,
+        planeData.material.albedoColor.a
+      ),
+      emissiveColor: Color4.create(0.2, 0.2, 0.3, 1),  // Normal emissive color
+      emissiveIntensity: 0.3  // Normal emissive intensity
+    })
+    
+    // Set texture if there's an image
+    if (planeData.currentImage) {
+      const material = Material.getMutable(entity)
+      const texturePath = `images/${planeData.currentImage}`
+      
+      if (material.material?.$case === 'pbr') {
+        material.material.pbr.texture = Material.Texture.Common({
+          src: texturePath,
+          wrapMode: TextureWrapMode.TWM_CLAMP,
+        })
+        material.material.pbr.emissiveTexture = Material.Texture.Common({
+          src: texturePath,
+          wrapMode: TextureWrapMode.TWM_CLAMP,
+        })
+      }
+    }
+    
+    // Add pointer events
+    PointerEvents.create(entity, {
+      pointerEvents: [
+        { 
+          eventType: PointerEventType.PET_DOWN, 
+          eventInfo: { 
+            button: InputAction.IA_POINTER, 
+            hoverText: `Click to select ${newName}` 
+          } 
+        },
+        {
+          eventType: PointerEventType.PET_HOVER_ENTER,
+          eventInfo: {
+            button: InputAction.IA_POINTER,
+            hoverText: `${newName} (Snap Target)`
+          }
+        },
+        {
+          eventType: PointerEventType.PET_HOVER_LEAVE,
+          eventInfo: {
+            button: InputAction.IA_POINTER
+          }
+        }
+      ]
+    })
+    
+    // Recreate text entities from template
+    for (const textData of planeData.texts) {
+      const textEntity = engine.addEntity()
+      const planeTransform = Transform.get(entity)
+      const planeScale = planeTransform.scale
+      
+      Transform.create(textEntity, {
+        position: Vector3.create(0, 0, -0.01),
+        rotation: Quaternion.Identity(),
+        scale: Vector3.create(1 / planeScale.x, 1 / planeScale.y, 1),
+        parent: entity
+      })
+      
+      TextShape.create(textEntity, {
+        text: textData.text,
+        fontSize: textData.fontSize,
+        font: mapStringToFont(textData.font),
+        textColor: Color4.create(
+          textData.textColor.r,
+          textData.textColor.g,
+          textData.textColor.b,
+          textData.textColor.a
+        ),
+        outlineWidth: 0.1,
+        outlineColor: Color4.create(
+          textData.outlineColor.r,
+          textData.outlineColor.g,
+          textData.outlineColor.b,
+          textData.outlineColor.a
+        ),
+        textWrapping: true,
+        width: 4,
+        height: 2
+      })
+      
+      PlaneText.create(textEntity, {
+        parentPlane: entity,
+        text: textData.text,
+        fontSize: textData.fontSize,
+        font: textData.font
+      })
+    }
+  }
+  
+  // Clear template preview after placement
+  clearTemplatePreview()
+  
+  console.log(`Template "${template.name}" placed successfully`)
+}
+
+
+
+export function clearTemplatePreview(): void {
+  // Remove all existing template preview entities
+  for (const [entity] of engine.getEntitiesWith(TemplatePreview)) {
+    engine.removeEntity(entity)
+  }
+  // Remove all template preview parent entities
+  for (const [entity] of engine.getEntitiesWith(TemplatePreviewParent)) {
+    engine.removeEntity(entity)
+  }
+}
+
+
+export function templatePreviewSystem() {
+  const cameraTransform = Transform.getOrNull(engine.CameraEntity)
+  if (!cameraTransform) return
+
+  // Only update the parent entity position - child planes will follow automatically
+  for (const [parentEntity, parentComponent] of engine.getEntitiesWith(TemplatePreviewParent, Transform)) {
+    const mutableTransform = Transform.getMutable(parentEntity)
+    
+    // Position the template parent entity in front of the camera
+    const forward = Vector3.create(0, 0, 2) // 2 meters forward
+    const rotatedOffset = Vector3.rotate(forward, cameraTransform.rotation)
+    const newPosition = Vector3.add(cameraTransform.position, rotatedOffset)
+    
+    mutableTransform.position = newPosition
+    // Note: Billboard component will automatically handle rotation to face camera
+  }
+}
+
+/ Component to track template preview planes
+export const TemplatePreview = engine.defineComponent('template-preview', {
+  templateId: Schemas.Number,
+  originalPlaneId: Schemas.Number // References the original plane this preview represents
+})
+
+// Component to track the parent entity for template previews
+export const TemplatePreviewParent = engine.defineComponent('template-preview-parent', {
+  templateId: Schemas.Number
+})

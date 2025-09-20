@@ -15,6 +15,16 @@ import { Quaternion, Vector3, Color4 } from '@dcl/sdk/math'
 import { movePlayerTo } from '~system/RestrictedActions'
 import { Teleporter, TeleporterAnimated, TeleporterRipple } from './teleporter-components'
 
+// Cache textures to avoid creating duplicates
+const teleporterTextureCache = new Map<string, any>()
+
+function getTeleporterCachedTexture(src: string) {
+  if (!teleporterTextureCache.has(src)) {
+    teleporterTextureCache.set(src, Material.Texture.Common({ src }))
+  }
+  return teleporterTextureCache.get(src)
+}
+
 export function createTeleporter(
   position: { x: number, y: number, z: number },
   destination: { x: number, y: number, z: number },
@@ -38,15 +48,17 @@ export function createTeleporter(
   MeshRenderer.setPlane(entity)
   MeshCollider.setPlane(entity)
 
+  // Get cached textures
+  const teleporterTexture = getTeleporterCachedTexture(textureSrc)
+  const logoTexture = getTeleporterCachedTexture(logoTextureSrc)
+
   // Apply texture for static layer (no animation)
   Material.setPbrMaterial(entity, {
-    texture: Material.Texture.Common({
-      src: textureSrc
-    }),
+    texture: teleporterTexture,
     transparencyMode: MaterialTransparencyMode.MTM_ALPHA_BLEND,
     alphaTest: 0.1,
-    emissiveColor: Color4.create(0.5, 0.5, 0.5, 1), // Dimmed emission for static layer
-    emissiveIntensity: 0.3,
+    emissiveColor: Color4.create(1, 1, 1, 1), // Dimmed emission for static layer
+    emissiveIntensity: 7.3,
     castShadows: false,
     albedoColor: Color4.create(1, 1, 1, 0.8) // Slightly transparent
   })
@@ -72,13 +84,11 @@ export function createTeleporter(
 
   // Apply same material but will be animated
   Material.setPbrMaterial(animatedEntity, {
-    texture: Material.Texture.Common({
-      src: textureSrc
-    }),
+    texture: teleporterTexture,
     transparencyMode: MaterialTransparencyMode.MTM_ALPHA_BLEND,
     alphaTest: 0.1,
     emissiveColor: Color4.create(1, 1, 1, 1), // Full white emission initially
-    emissiveIntensity: 1.0, // Full intensity initially
+    emissiveIntensity: 5.0, // Full intensity initially
     castShadows: false,
     albedoColor: Color4.create(1, 1, 1, 1.0) // Full opacity initially
   })
@@ -98,13 +108,12 @@ export function createTeleporter(
 
   // Apply logo texture without transparency inheritance
   Material.setPbrMaterial(logoEntity, {
-    texture: Material.Texture.Common({
-      src: logoTextureSrc
-    }),
+    texture: logoTexture,
+    emissiveTexture: logoTexture,
     transparencyMode: MaterialTransparencyMode.MTM_ALPHA_BLEND,
-    // alphaTest: 0.1,
-    // emissiveColor: Color4.create(1.0, 1.0, 1.0, 1.0),
-    emissiveIntensity: 0.2,
+    alphaTest: 0.1,
+    emissiveColor: Color4.create(1.0, 1.0, 1.0, 1.0),
+    emissiveIntensity: 1.5,
     castShadows: false,
     albedoColor: Color4.create(1, 1, 1, 1.0) // Full opacity
   })
@@ -138,32 +147,54 @@ export function teleporterAnimationSystem(dt: number) {
   const animationDuration = 2.0 // 2 seconds for full cycle (up and back down)
   const time = Date.now() / 1000 // Time in seconds
   
+  // Count entities for debugging
+  let entityCount = 0
+  for (const [entity, animated] of engine.getEntitiesWith(TeleporterAnimated)) {
+    entityCount++
+  }
+  
+  // Track material count every frame to see if we're creating materials
+  let materialCountBefore = 0
+  let materialCountAfter = 0
+  
+  // Count materials before animation
+  for (const [entity] of engine.getEntitiesWith(Material)) {
+    materialCountBefore++
+  }
+  
   // Animate the single animated plane on each teleporter
   for (const [entity, animated] of engine.getEntitiesWith(TeleporterAnimated)) {
+    // Get transform mutable
     const transform = Transform.getMutable(entity)
-    const material = Material.getMutable(entity)
+    if (!transform) continue
     
-    if (!transform || !material.material || material.material.$case !== 'pbr') continue
+    // Check if material exists before getting mutable
+    const materialCheck = Material.getOrNull(entity)
+    if (!materialCheck || !materialCheck.material || materialCheck.material.$case !== 'pbr') continue
+    
+    // Only get mutable material if we know it exists and is PBR
+    const material = Material.getMutable(entity)
     
     // Calculate animation phase (0 to 1 repeating)
     const phase = (time / animationDuration) % 1
     
-    // Y position animation: starts at base, goes up 1 meter, then back down
-    const baseY = animated.basePosition.y
-    let yOffset: number
+    // Z position animation: starts at base, goes up 1 meter, then back down
+    // Since the plane is rotated 90° around X-axis, Z is the "up" direction visually
+    const baseZ = animated.basePosition.z
+    let zOffset: number
     let alpha: number
     let emissionIntensity: number
     
     if (phase <= 0.5) {
       // Rising phase (0 to 0.5): go up 1 meter
       const risingPhase = phase * 2 // 0 to 1
-      yOffset = risingPhase * 1.0 // 0 to 1 meter up
+      zOffset = -risingPhase * 1.0 // 0 to -1 meter up (negative Z is up when rotated)
       alpha = 1.0 - risingPhase // 1.0 to 0.0 (fade out as it rises)
       emissionIntensity = 1.0 - risingPhase // 1.0 to 0.0 (emission fades as it rises)
     } else {
       // Falling phase (0.5 to 1): come back down instantly and fade in
       const fallingPhase = (phase - 0.5) * 2 // 0 to 1
-      yOffset = 0 // Back at base position
+      zOffset = 0 // Back at base position
       alpha = fallingPhase // 0.0 to 1.0 (fade in)
       emissionIntensity = fallingPhase // 0.0 to 1.0 (emission increases)
     }
@@ -171,13 +202,53 @@ export function teleporterAnimationSystem(dt: number) {
     // Update transform position
     transform.position = Vector3.create(
       animated.basePosition.x,
-      baseY + yOffset,
-      animated.basePosition.z
+      animated.basePosition.y,
+      baseZ + zOffset
     )
     
-    // Update material opacity and emission without creating new materials
-    material.material.pbr.albedoColor = Color4.create(1, 1, 1, alpha)
-    material.material.pbr.emissiveIntensity = emissionIntensity
+    // Since modifying materials creates new instances, we'll use transform scale instead for the effect
+    // Scale the animated plane to create a visual fade effect
+    // At alpha 0, scale to almost 0; at alpha 1, scale to full size
+    const scaleMultiplier = 0.1 + (alpha * 0.9) // Range from 0.1 to 1.0
+    transform.scale = Vector3.create(scaleMultiplier, scaleMultiplier, 1)
+  }
+  
+  // Count materials after animation
+  for (const [entity] of engine.getEntitiesWith(Material)) {
+    materialCountAfter++
+  }
+  
+  // Log material count changes every 120 frames (every 2 seconds at 60fps)
+  if (Math.floor(time * 60) % 120 === 0) {
+    console.log(`Teleporter animation: Materials before: ${materialCountBefore}, after: ${materialCountAfter}, entities: ${entityCount}`)
+    if (materialCountAfter > materialCountBefore) {
+      console.log(`⚠️ Material count increased by ${materialCountAfter - materialCountBefore} during teleporter animation!`)
+    }
+    
+    // Log detailed material analysis every 10 seconds
+    if (Math.floor(time) % 10 === 0) {
+      // Count total materials vs unique textures
+      let totalMaterials = 0
+      let materialsWithTexture = 0
+      let materialsWithoutTexture = 0
+      
+      for (const [entity, material] of engine.getEntitiesWith(Material)) {
+        totalMaterials++
+        if (material.material && material.material.$case === 'pbr') {
+          if (material.material.pbr.texture) {
+            materialsWithTexture++
+          } else {
+            materialsWithoutTexture++
+          }
+        }
+      }
+      
+      console.log('📊 Material Analysis:')
+      console.log(`  Total materials: ${totalMaterials}`)
+      console.log(`  Materials with texture: ${materialsWithTexture}`)
+      console.log(`  Materials without texture: ${materialsWithoutTexture}`)
+      console.log(`  Unique textures in teleporter cache: ${teleporterTextureCache.size}`)
+    }
   }
 }
 

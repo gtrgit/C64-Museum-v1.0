@@ -157,19 +157,19 @@
           "json": {
             "position": {
               "x": 38.75,
-              "y": 0,
-              "z": 37
-            },
-            "scale": {
-              "x": 1,
-              "y": 0.5,
-              "z": 1
+              "y": 0.8999999761581421,
+              "z": 38.25
             },
             "rotation": {
               "x": 0,
               "y": 1,
               "z": 0,
               "w": 6.123234262925839e-17
+            },
+            "scale": {
+              "x": 1,
+              "y": 0.5,
+              "z": 1
             },
             "parent": 0
           }
@@ -1036,7 +1036,7 @@
         "serializationType": "map"
       },
       "data": {
-        "0": {
+        "515": {
           "json": {
             "gizmo": 0
           }
@@ -1371,12 +1371,14 @@
           "json": {
             "name": "C64-Museum-v1.0",
             "description": "Empty Scene Template",
-            "thumbnail": "",
             "categories": [],
             "author": "SDK",
-            "email": "",
             "tags": [],
             "layout": {
+              "base": {
+                "x": -126,
+                "y": 107
+              },
               "parcels": [
                 {
                   "x": -126,
@@ -1478,14 +1480,8 @@
                   "x": -122,
                   "y": 107
                 }
-              ],
-              "base": {
-                "x": -126,
-                "y": 107
-              }
+              ]
             },
-            "silenceVoiceChat": false,
-            "disablePortableExperiences": false,
             "skyboxConfig": {},
             "spawnPoints": [
               {
@@ -1495,22 +1491,19 @@
                   "x": {
                     "$case": "range",
                     "value": [
-                      0,
-                      3
+                      40
                     ]
                   },
                   "y": {
                     "$case": "range",
                     "value": [
-                      0,
                       0
                     ]
                   },
                   "z": {
                     "$case": "range",
                     "value": [
-                      0,
-                      3
+                      40
                     ]
                   }
                 },

@@ -1,6 +1,6 @@
 import { engine, Transform, Entity, Material, TextShape, PointerEvents, PointerEventType, InputAction, Font, TextureWrapMode, MeshRenderer, MeshCollider, Billboard } from '@dcl/sdk/ecs'
 import { Quaternion, Vector3, Color4 } from '@dcl/sdk/math'
-import { PlaneText, PlacedPlane, TemplatePreview, TemplatePreviewParent } from './plane-components'
+import { PlaneText, PlacedPlane, TemplatePreview, TemplatePreviewParent, OriginalEmission } from './plane-components'
 import { initializePlaneCounter, createPreviewPlane } from './plane-factory'
 
 export interface StoredTransform {
@@ -144,6 +144,13 @@ export const templateCreationState = {
   templateName: ''
 }
 
+// State for multi-delete mode
+export const deleteModeState = {
+  isDeleting: false,
+  selectedPlanes: new Set<Entity>(),
+  deletedPlaneNames: new Set<string>() // Track names of deleted planes
+}
+
 export function startTemplateCreation(): void {
   console.log('startTemplateCreation called')
   templateCreationState.isCreating = true
@@ -235,16 +242,28 @@ export function finishTemplateCreation(name: string): void {
           a: pbr.albedoColor.a
         }
       }
-      if (pbr.emissiveColor) {
+      
+      // Use original emission values if available (to avoid saving the green highlight)
+      const originalEmission = OriginalEmission.getOrNull(entity)
+      if (originalEmission && originalEmission.hasOriginal) {
+        savedMaterial.emissiveColor = {
+          r: originalEmission.emissiveColorR,
+          g: originalEmission.emissiveColorG,
+          b: originalEmission.emissiveColorB,
+          a: originalEmission.emissiveColorA
+        }
+        savedMaterial.emissiveIntensity = originalEmission.emissiveIntensity
+      } else if (pbr.emissiveColor) {
+        // Fallback to current values if no original stored
         savedMaterial.emissiveColor = {
           r: pbr.emissiveColor.r,
           g: pbr.emissiveColor.g,
           b: pbr.emissiveColor.b,
           a: 1
         }
-      }
-      if (pbr.emissiveIntensity !== undefined) {
-        savedMaterial.emissiveIntensity = pbr.emissiveIntensity
+        if (pbr.emissiveIntensity !== undefined) {
+          savedMaterial.emissiveIntensity = pbr.emissiveIntensity
+        }
       }
     }
     
@@ -316,13 +335,23 @@ export function finishTemplateCreation(name: string): void {
   // Add template to the list
   uiState.templates.push(template)
   
-  // Reset visual highlights for all selected planes
+  // Restore original emission values for all selected planes
   for (const entity of templateCreationState.selectedPlanes) {
     const material = Material.getMutable(entity)
-    if (material.material?.$case === 'pbr' && material.material.pbr.emissiveColor) {
-      // Reset to normal emissive color
-      material.material.pbr.emissiveColor = Color4.create(0.2, 0.2, 0.3, 1)
-      material.material.pbr.emissiveIntensity = 0.3
+    if (material.material?.$case === 'pbr') {
+      const originalEmission = OriginalEmission.getOrNull(entity)
+      if (originalEmission && originalEmission.hasOriginal) {
+        // Restore original values
+        material.material.pbr.emissiveColor = Color4.create(
+          originalEmission.emissiveColorR,
+          originalEmission.emissiveColorG,
+          originalEmission.emissiveColorB,
+          originalEmission.emissiveColorA
+        )
+        material.material.pbr.emissiveIntensity = originalEmission.emissiveIntensity
+        // Remove the component as it's no longer needed
+        OriginalEmission.deleteFrom(entity)
+      }
     }
   }
   
@@ -338,13 +367,23 @@ export function finishTemplateCreation(name: string): void {
 }
 
 export function cancelTemplateCreation(): void {
-  // Reset visual highlights for all selected planes
+  // Restore original emission values for all selected planes
   for (const entity of templateCreationState.selectedPlanes) {
     const material = Material.getMutable(entity)
-    if (material.material?.$case === 'pbr' && material.material.pbr.emissiveColor) {
-      // Reset to normal emissive color
-      material.material.pbr.emissiveColor = Color4.create(0.2, 0.2, 0.3, 1)
-      material.material.pbr.emissiveIntensity = 0.3
+    if (material.material?.$case === 'pbr') {
+      const originalEmission = OriginalEmission.getOrNull(entity)
+      if (originalEmission && originalEmission.hasOriginal) {
+        // Restore original values
+        material.material.pbr.emissiveColor = Color4.create(
+          originalEmission.emissiveColorR,
+          originalEmission.emissiveColorG,
+          originalEmission.emissiveColorB,
+          originalEmission.emissiveColorA
+        )
+        material.material.pbr.emissiveIntensity = originalEmission.emissiveIntensity
+        // Remove the component as it's no longer needed
+        OriginalEmission.deleteFrom(entity)
+      }
     }
   }
   
@@ -364,6 +403,136 @@ export function isCreatingTemplate(): boolean {
 
 export function getSelectedPlanesCount(): number {
   return templateCreationState.selectedPlanes.size
+}
+
+// Delete mode functions
+export function startDeleteMode(): void {
+  console.log('startDeleteMode called')
+  deleteModeState.isDeleting = true
+  deleteModeState.selectedPlanes.clear()
+  console.log('Delete mode started')
+}
+
+export function addPlaneToDelete(planeEntity: Entity): void {
+  if (!deleteModeState.isDeleting) return
+  
+  deleteModeState.selectedPlanes.add(planeEntity)
+  console.log(`Added plane to delete selection. Total: ${deleteModeState.selectedPlanes.size}`)
+}
+
+export function removePlaneFromDelete(planeEntity: Entity): void {
+  deleteModeState.selectedPlanes.delete(planeEntity)
+  console.log(`Removed plane from delete selection. Total: ${deleteModeState.selectedPlanes.size}`)
+}
+
+export function finishDeletePlanes(): void {
+  console.log('finishDeletePlanes called')
+  console.log('deleteModeState.isDeleting:', deleteModeState.isDeleting)
+  console.log('deleteModeState.selectedPlanes.size:', deleteModeState.selectedPlanes.size)
+  
+  if (!deleteModeState.isDeleting) {
+    console.error('Delete mode is not active')
+    return
+  }
+
+  if (deleteModeState.selectedPlanes.size === 0) {
+    console.error('No planes selected for deletion')
+    return
+  }
+
+  console.log(`Deleting ${deleteModeState.selectedPlanes.size} selected planes`)
+
+  // Delete all selected planes and their associated text entities
+  for (const entity of deleteModeState.selectedPlanes) {
+    // Get the plane name before deletion
+    const planeComponent = PlacedPlane.getOrNull(entity)
+    const planeName = planeComponent?.name || `Entity_${entity}`
+    
+    console.log(`🗑️ Deleting entity ${entity} with name: ${planeName}`)
+    
+    // Track the deleted plane name
+    deleteModeState.deletedPlaneNames.add(planeName)
+    
+    // Remove any associated text entities
+    const textEntities = getTextEntitiesForPlane(entity)
+    for (const textEntity of textEntities) {
+      console.log(`🗑️ Removing text entity ${textEntity}`)
+      engine.removeEntity(textEntity)
+    }
+    
+    // Remove all components first to ensure they're not picked up by queries
+    if (PlacedPlane.has(entity)) {
+      PlacedPlane.deleteFrom(entity)
+      console.log(`🗑️ Removed PlacedPlane component from entity ${entity}`)
+    }
+    if (Transform.has(entity)) {
+      Transform.deleteFrom(entity)
+    }
+    if (Material.has(entity)) {
+      Material.deleteFrom(entity)
+    }
+    if (OriginalEmission.has(entity)) {
+      OriginalEmission.deleteFrom(entity)
+    }
+    
+    // Remove the plane entity itself
+    engine.removeEntity(entity)
+    console.log(`🗑️ Removed entity ${entity} from engine`)
+  }
+
+  // Clean up delete mode state
+  deleteModeState.isDeleting = false
+  deleteModeState.selectedPlanes.clear()
+  
+  console.log(`🗑️ Deletion complete. Total deleted plane names tracked: ${deleteModeState.deletedPlaneNames.size}`)
+  console.log(`🗑️ Deleted plane names: [${Array.from(deleteModeState.deletedPlaneNames).join(', ')}]`)
+  
+  console.log(`Deleted planes successfully`)
+}
+
+export function cancelDeleteMode(): void {
+  // Restore original emission values for all selected planes
+  for (const entity of deleteModeState.selectedPlanes) {
+    const material = Material.getMutable(entity)
+    if (material.material?.$case === 'pbr') {
+      const originalEmission = OriginalEmission.getOrNull(entity)
+      if (originalEmission && originalEmission.hasOriginal) {
+        // Restore original values
+        material.material.pbr.emissiveColor = Color4.create(
+          originalEmission.emissiveColorR,
+          originalEmission.emissiveColorG,
+          originalEmission.emissiveColorB,
+          originalEmission.emissiveColorA
+        )
+        material.material.pbr.emissiveIntensity = originalEmission.emissiveIntensity
+        // Remove the component as it's no longer needed
+        OriginalEmission.deleteFrom(entity)
+      }
+    }
+  }
+  
+  deleteModeState.isDeleting = false
+  deleteModeState.selectedPlanes.clear()
+  
+  console.log('Delete mode cancelled')
+}
+
+export function isDeletingPlanes(): boolean {
+  return deleteModeState.isDeleting
+}
+
+export function getSelectedDeletePlanesCount(): number {
+  return deleteModeState.selectedPlanes.size
+}
+
+export function clearDeletedPlaneNames(): void {
+  const count = deleteModeState.deletedPlaneNames.size
+  deleteModeState.deletedPlaneNames.clear()
+  console.log(`🧹 Cleared ${count} deleted plane names from tracking`)
+}
+
+export function getDeletedPlaneNames(): string[] {
+  return Array.from(deleteModeState.deletedPlaneNames)
 }
 
 // Legacy function for backward compatibility - now redirects to new workflow
@@ -475,6 +644,16 @@ export function clearTemplatePreview(): void {
   }
 }
 
+export function isTemplatePreviewActive(): boolean {
+  const parentEntities = [...engine.getEntitiesWith(TemplatePreviewParent)]
+  return parentEntities.length > 0
+}
+
+export function cancelTemplatePreview(): void {
+  console.log('Template preview cancelled')
+  clearTemplatePreview()
+}
+
 export function placeTemplate(): void {
   // Get the template preview parent entity
   const parentEntities = [...engine.getEntitiesWith(TemplatePreviewParent, Transform)]
@@ -543,7 +722,7 @@ export function placeTemplate(): void {
     MeshRenderer.setPlane(entity)
     MeshCollider.setPlane(entity)
     
-    // Set material from template data, but reset emissive to normal values (remove green tint)
+    // Set material from template data, including saved emission properties
     Material.setPbrMaterial(entity, { 
       albedoColor: Color4.create(
         planeData.material.albedoColor.r,
@@ -551,26 +730,17 @@ export function placeTemplate(): void {
         planeData.material.albedoColor.b,
         planeData.material.albedoColor.a
       ),
-      emissiveColor: Color4.create(0.2, 0.2, 0.3, 1),  // Normal emissive color
-      emissiveIntensity: 0.3  // Normal emissive intensity
+      emissiveColor: Color4.create(
+        planeData.material.emissiveColor.r,
+        planeData.material.emissiveColor.g,
+        planeData.material.emissiveColor.b,
+        planeData.material.emissiveColor.a
+      ),
+      emissiveIntensity: planeData.material.emissiveIntensity
     })
     
-    // Set texture if there's an image
-    if (planeData.currentImage) {
-      const material = Material.getMutable(entity)
-      const texturePath = `images/${planeData.currentImage}`
-      
-      if (material.material?.$case === 'pbr') {
-        material.material.pbr.texture = Material.Texture.Common({
-          src: texturePath,
-          wrapMode: TextureWrapMode.TWM_CLAMP,
-        })
-        material.material.pbr.emissiveTexture = Material.Texture.Common({
-          src: texturePath,
-          wrapMode: TextureWrapMode.TWM_CLAMP,
-        })
-      }
-    }
+    // Don't set texture immediately - let KNN system handle texture loading based on proximity
+    // The texture path is stored in planeData.currentImage and will be loaded by the KNN system when in range
     
     // Add pointer events
     PointerEvents.create(entity, {
@@ -1351,6 +1521,11 @@ export function setPlaneTexture(entity: Entity, imageName: string) {
 export async function saveSceneState(): Promise<void> {
   console.log('💾 Starting saveSceneState...')
   
+  // Debug: Check how many PlacedPlane entities exist
+  const allPlacedPlanes = [...engine.getEntitiesWith(PlacedPlane)]
+  console.log(`🔍 Found ${allPlacedPlanes.length} entities with PlacedPlane component`)
+  console.log(`🔍 Deleted plane names in current session: [${Array.from(deleteModeState.deletedPlaneNames).join(', ')}]`)
+  
   // Debug: Check all TextShape entities before saving
   console.log('🔍 Checking all TextShape entities before saving:')
   for (const [entity, textShape] of engine.getEntitiesWith(TextShape)) {
@@ -1381,20 +1556,53 @@ export async function saveSceneState(): Promise<void> {
     console.log('No existing template data found, starting fresh')
   }
   
-  // Create a map of existing planes by name for easy lookup
+  // Create a map of existing planes by name for easy lookup, excluding deleted ones
   const existingPlanesMap = new Map<string, SavedPlaneData>()
+  console.log(`🔍 Processing existing saved planes:`)
   for (const plane of existingSavedPlanes) {
-    existingPlanesMap.set(plane.name, plane)
+    if (deleteModeState.deletedPlaneNames.has(plane.name)) {
+      console.log(`❌ Excluding deleted plane from existing data: ${plane.name}`)
+    } else {
+      existingPlanesMap.set(plane.name, plane)
+      console.log(`✅ Including existing plane: ${plane.name}`)
+    }
   }
+  console.log(`📊 Existing planes after filtering: ${existingPlanesMap.size} (was ${existingSavedPlanes.length})`)
   
   const savedPlanes: SavedPlaneData[] = []
   
   // Iterate through all placed planes currently in the scene
+  let processedCount = 0
+  let skippedCount = 0
+  
   for (const [entity, planeComponent] of engine.getEntitiesWith(PlacedPlane)) {
+    console.log(`Processing entity ${entity} with name: ${planeComponent.name}`)
+    
+    // Check if this plane was deleted in the current session
+    if (deleteModeState.deletedPlaneNames.has(planeComponent.name)) {
+      console.log(`❌ Skipping entity ${entity} (${planeComponent.name}) - marked as deleted`)
+      skippedCount++
+      continue
+    }
+    
+    // Check if entity still exists and has required components
+    if (!PlacedPlane.has(entity) || !Transform.has(entity) || !Material.has(entity)) {
+      console.log(`❌ Skipping entity ${entity} (${planeComponent.name}) - missing required components`)
+      skippedCount++
+      continue
+    }
+    
     const transform = Transform.getOrNull(entity)
     const material = Material.getOrNull(entity)
     
-    if (!transform || !material) continue
+    if (!transform || !material) {
+      console.log(`❌ Skipping entity ${entity} (${planeComponent.name}) due to missing transform or material`)
+      skippedCount++
+      continue
+    }
+    
+    console.log(`✅ Processing plane: ${planeComponent.name}`)
+    processedCount++
     
     // Get material data
     let savedMaterial: SavedMaterialData = {
@@ -1487,11 +1695,37 @@ export async function saveSceneState(): Promise<void> {
     existingPlanesMap.set(planeComponent.name, savedPlane)
   }
   
+  console.log(`📊 Save Summary:`)
+  console.log(`  - Total entities found with PlacedPlane: ${allPlacedPlanes.length}`)
+  console.log(`  - Processed: ${processedCount} planes`)
+  console.log(`  - Skipped: ${skippedCount} planes`)
+  console.log(`  - Current session planes: ${savedPlanes.length}`)
+  console.log(`  - Deleted plane names tracked: ${deleteModeState.deletedPlaneNames.size}`)
+  
+  // Log the names of all planes that were actually saved
+  console.log(`📝 Planes being saved in current session:`)
+  savedPlanes.forEach((plane, index) => {
+    console.log(`  ${index + 1}. ${plane.name}`)
+  })
+  
   // Merge all planes: existing planes that weren't updated + all current session planes
   const allPlanes = Array.from(existingPlanesMap.values())
   
-  console.log(`Merging ${existingSavedPlanes.length} existing saved planes with ${savedPlanes.length} current session planes`)
-  console.log(`Total planes after merge: ${allPlanes.length}`)
+  console.log(`🔄 Merge Process:`)
+  console.log(`  - Existing saved planes: ${existingSavedPlanes.length}`)
+  console.log(`  - Current session planes: ${savedPlanes.length}`)
+  console.log(`  - Total planes after merge: ${allPlanes.length}`)
+  
+  // Check if any deleted planes ended up in the final merge
+  console.log(`🔍 Checking final merged planes for deleted entries:`)
+  let deletedPlanesInFinal = 0
+  allPlanes.forEach((plane, index) => {
+    if (deleteModeState.deletedPlaneNames.has(plane.name)) {
+      console.log(`❌ PROBLEM: Deleted plane "${plane.name}" found in final save data at index ${index}`)
+      deletedPlanesInFinal++
+    }
+  })
+  console.log(`🔍 Found ${deletedPlanesInFinal} deleted planes in final merge (should be 0)`)
   
   // Calculate KNN clusters for ALL planes (both existing and current)
   const clusterAssignments = calculateKNNClustersForAllPlanes(allPlanes, 5.0)
@@ -1631,22 +1865,8 @@ export async function loadSceneState(): Promise<void> {
         emissiveIntensity: planeData.material.emissiveIntensity
       })
       
-      // Set texture if there's an image
-      if (planeData.currentImage) {
-        const material = Material.getMutable(entity)
-        const texturePath = `images/${planeData.currentImage}`
-        
-        if (material.material?.$case === 'pbr') {
-          material.material.pbr.texture = Material.Texture.Common({
-            src: texturePath,
-            wrapMode: TextureWrapMode.TWM_CLAMP,
-          })
-          material.material.pbr.emissiveTexture = Material.Texture.Common({
-            src: texturePath,
-            wrapMode: TextureWrapMode.TWM_CLAMP,
-          })
-        }
-      }
+      // Don't set texture immediately - let KNN system handle texture loading based on proximity
+      // The texture path is stored in planeData.currentImage and will be loaded by the KNN system when in range
       
       // Add pointer events
       PointerEvents.create(entity, {
@@ -1755,16 +1975,23 @@ export async function loadSceneState(): Promise<void> {
     
     console.log('✅ loadSceneState: Scene state loaded successfully!')
     
-    // Verify that text entities were created correctly
-    setTimeout(() => {
-      console.log('🔍 Verifying loaded text entities after 1 second...')
-      let totalTextEntities = 0
-      for (const [entity, textShape] of engine.getEntitiesWith(TextShape)) {
-        totalTextEntities++
-        console.log(`Text entity found: "${textShape.text.substring(0, 30)}..." color:`, textShape.textColor)
+    // Verify that text entities were created correctly using a temporary system
+    let elapsedTime = 0
+    const verifySystem = (dt: number) => {
+      elapsedTime += dt
+      if (elapsedTime >= 1) {
+        console.log('🔍 Verifying loaded text entities after 1 second...')
+        let totalTextEntities = 0
+        for (const [entity, textShape] of engine.getEntitiesWith(TextShape)) {
+          totalTextEntities++
+          console.log(`Text entity found: "${textShape.text.substring(0, 30)}..." color:`, textShape.textColor)
+        }
+        console.log(`Total text entities found: ${totalTextEntities}`)
+        // Remove this system after execution
+        engine.removeSystem(verifySystem)
       }
-      console.log(`Total text entities found: ${totalTextEntities}`)
-    }, 1000)
+    }
+    engine.addSystem(verifySystem)
     
   } catch (error) {
     console.error('❌ loadSceneState: Failed to load scene data:', error)
