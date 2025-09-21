@@ -9,7 +9,7 @@ import { SavedSceneData } from '../src/utils'
 export const savedSceneData: SavedSceneData = 
 {
   "version": "1.0.0",
-  "timestamp": "2025-09-20T10:49:03.957Z",
+  "timestamp": "2025-09-21T07:21:36.465Z",
   "planes": [
     {
       "name": "Template_Plane_1758255860422_768",
@@ -1764,26 +1764,26 @@ export const savedSceneData: SavedSceneData =
       ]
     },
     {
-      "name": "Template_Plane_1758365319326_880",
-      "id": 1758365320185,
+      "name": "Template_Plane_1758420428968_52",
+      "id": 1758420429723,
       "position": {
-        "x": 20.60612346025178,
-        "y": 3.238636173145579,
-        "z": 17.554981305294536
+        "x": 6.333821604351842,
+        "y": 3.2140772696745272,
+        "z": 29.022804738632015
       },
       "rotation": {
-        "x": -0.02400611696910645,
-        "y": -0.23967861372554208,
-        "z": -0.00225831815761849,
-        "w": 0.9705529139153047
+        "x": -0.020659579648781134,
+        "y": -0.8033170691018171,
+        "z": -0.02384766995972419,
+        "w": 0.5947153996952053
       },
       "scale": {
         "x": 4.000000000000003,
         "y": 4.000000000000003,
         "z": 1
       },
-      "currentImage": "exhibitions/Jack-Tramiel.png",
-      "localKnnClusterId": 1758365320274,
+      "currentImage": "exhibitions/Charles-Winterble.jpg",
+      "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
       "material": {
         "albedoColor": {
@@ -1803,26 +1803,26 @@ export const savedSceneData: SavedSceneData =
       "texts": []
     },
     {
-      "name": "Template_Plane_1758365319326_164",
-      "id": 1758365319671,
+      "name": "Template_Plane_1758420428968_23",
+      "id": 1758420429059,
       "position": {
-        "x": 20.7040079365818,
-        "y": 1.3429786934201813,
-        "z": 17.621215072341897
+        "x": 6.260692607371782,
+        "y": 1.318573918905401,
+        "z": 29.118748416640617
       },
       "rotation": {
-        "x": -0.02400611696910645,
-        "y": -0.23967861372554208,
-        "z": -0.00225831815761849,
-        "w": 0.9705529139153047
+        "x": -0.020659579648781134,
+        "y": -0.8033170691018171,
+        "z": -0.02384766995972419,
+        "w": 0.5947153996952053
       },
       "scale": {
         "x": 3.0000000000000018,
         "y": 0.30000000000000016,
         "z": 1
       },
-      "currentImage": "",
-      "localKnnClusterId": 1758365320274,
+      "currentImage": "Charles Winterble",
+      "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
       "material": {
         "albedoColor": {
@@ -1841,7 +1841,7 @@ export const savedSceneData: SavedSceneData =
       },
       "texts": [
         {
-          "text": "Jack Tramiel",
+          "text": "Charles Winterble",
           "fontSize": 2.5000000000000013,
           "font": "sans-serif",
           "textColor": {
@@ -1860,18 +1860,18 @@ export const savedSceneData: SavedSceneData =
       ]
     },
     {
-      "name": "Template_Plane_1758365319326_94",
-      "id": 1758365319533,
+      "name": "Template_Plane_1758420428968_500",
+      "id": 1758420429483,
       "position": {
-        "x": 23.777503476657653,
-        "y": 1.7319592472273007,
-        "z": 19.308274069425945
+        "x": 5.1826944597204125,
+        "y": 1.7004191015592034,
+        "z": 32.455807675432105
       },
       "rotation": {
-        "x": -0.02400611696910645,
-        "y": -0.23967861372554208,
-        "z": -0.00225831815761849,
-        "w": 0.9705529139153047
+        "x": -0.020659579648781134,
+        "y": -0.8033170691018171,
+        "z": -0.02384766995972419,
+        "w": 0.5947153996952053
       },
       "scale": {
         "x": 3.0000000000000018,
@@ -1879,7 +1879,7 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758365320274,
+      "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
       "material": {
         "albedoColor": {
@@ -1898,7 +1898,7 @@ export const savedSceneData: SavedSceneData =
       },
       "texts": [
         {
-          "text": "The Commodore 64, launched under Tramiel's leadership in 1982, became his greatest legacy and \\n vindication of his revolutionary approach to technology marketing. By pricing it at $595—half the cost \\n of comparable machines—and then aggressively reducing that price to just $199, Tramiel didn't just \\n  sell computers; he fundamentally transformed the entire industry from a niche market serving \\n wealthy early adopters into a mass consumer category. His decision to sacrifice short-term profits for \\n long-term market dominance paid off spectacularly, with the C64 becoming the best-selling single \\n computer model in history. Though he was forced out of Commodore in 1984 during a boardroom \\n coup, Tramiel's impact on the technology industry was irreversible. His relentless focus on affordability\\n  and accessibility helped democratize computing power, making programming and \\n digital creativity available to an entire generation of children and families who could never have \\n afforded an Apple II or IBM PC. The ripple effects of his \"computers for the masses\" philosophy can be \\n  seen throughout the modern technology industry, where accessibility and affordability remain \\n primary drivers of innovation and market success.",
+          "text": "Without Winterble's manufacturing innovations, the technical brilliance of the VIC-II, SID, and 6502\\nchips would never have reached consumers at prices that made the personal computer revolution\\npossible. His ability to scale production while maintaining quality enabled Commodore to survive the\\nbrutal price wars of 1983-1984 that destroyed competitors like Texas Instruments. The manufacturing\\ntechniques he developed at Commodore became standard practice throughout the electronics industry,\\ninfluencing everything from video game console production to modern smartphone manufacturing. His\\nlegacy lives on in every efficiently manufactured electronic device, proving that manufacturing\\nengineering is just as crucial to technological progress as chip design or software development.",
           "fontSize": 0.6000000000000001,
           "font": "sans-serif",
           "textColor": {
@@ -1917,18 +1917,18 @@ export const savedSceneData: SavedSceneData =
       ]
     },
     {
-      "name": "Template_Plane_1758365319326_355",
-      "id": 1758365319730,
+      "name": "Template_Plane_1758420428968_544",
+      "id": 1758420429577,
       "position": {
-        "x": 23.792960741893346,
-        "y": 2.4106954368461473,
-        "z": 19.26848372406019
+        "x": 5.234098668069757,
+        "y": 2.3784400401378916,
+        "z": 32.46806667136279
       },
       "rotation": {
-        "x": -0.02400611696910645,
-        "y": -0.23967861372554208,
-        "z": -0.00225831815761849,
-        "w": 0.9705529139153047
+        "x": -0.020659579648781134,
+        "y": -0.8033170691018171,
+        "z": -0.02384766995972419,
+        "w": 0.5947153996952053
       },
       "scale": {
         "x": 3.0000000000000018,
@@ -1936,7 +1936,7 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758365320274,
+      "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
       "material": {
         "albedoColor": {
@@ -1955,7 +1955,7 @@ export const savedSceneData: SavedSceneData =
       },
       "texts": [
         {
-          "text": "The C64 Legacy and Democratization of Computing",
+          "text": "The Foundation of Commodore's Success",
           "fontSize": 1,
           "font": "sans-serif",
           "textColor": {
@@ -1974,18 +1974,18 @@ export const savedSceneData: SavedSceneData =
       ]
     },
     {
-      "name": "Template_Plane_1758365319326_696",
-      "id": 1758365320274,
+      "name": "Template_Plane_1758420428968_183",
+      "id": 1758420429565,
       "position": {
-        "x": 23.79177705190196,
-        "y": 3.145465687394467,
-        "z": 19.250712430351616
+        "x": 5.261544898378849,
+        "y": 3.1129134245539585,
+        "z": 32.46846341107978
       },
       "rotation": {
-        "x": -0.02400611696910645,
-        "y": -0.23967861372554208,
-        "z": -0.00225831815761849,
-        "w": 0.9705529139153047
+        "x": -0.020659579648781134,
+        "y": -0.8033170691018171,
+        "z": -0.02384766995972419,
+        "w": 0.5947153996952053
       },
       "scale": {
         "x": 3.0000000000000018,
@@ -1993,7 +1993,7 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758365320274,
+      "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
       "material": {
         "albedoColor": {
@@ -2012,7 +2012,7 @@ export const savedSceneData: SavedSceneData =
       },
       "texts": [
         {
-          "text": "Tramiel's business philosophy was both elegantly simple and ruthlessly effective: \\n \"We need to build computers for the masses, not the classes.\" This democratizing vision drove \\n every major decision at Commodore, from his aggressive vertical integration strategy to his \\nlegendary price wars that destroyed competitors and opened computing to millions. \\n He viewed business as warfare, famously declaring \"Business is war. I don't believe in \\n compromising,\" and this combative approach led him to make bold decisions that others \\n considered reckless. When he acquired MOS Technology in 1976, bringing Chuck Peddle and \\n the 6502 processor in-house, Tramiel gained control over the critical components needed \\n to build affordable computers. His management style was notoriously demanding but \\n effective—he walked factory floors daily, knew every manufacturing process intimately, and \\n expected nothing less than excellence from his teams. Tramiel understood that controlling \\n every aspect of production, from semiconductor fabrication to final assembly, was \\nessential to achieving the cost reductions necessary to make computers truly affordable for \\n ordinary families.",
+          "text": "Winterble's manufacturing philosophy emphasized prevention over correction, implementing statistical\\nquality control systems that identified potential problems before they reached customers. His\\ncross-training programs ensured that production workers understood not just their specific tasks,\\nbut how their work affected overall product quality and company success. He introduced suggestion\\nprograms that encouraged line workers to propose efficiency improvements, recognizing that the\\npeople actually building the computers often had the best insights into manufacturing challenges.\\nThese human-centered approaches to manufacturing were revolutionary in an industry that typically\\ntreated assembly workers as interchangeable components rather than valuable contributors to product\\ndevelopment.",
           "fontSize": 0.6000000000000001,
           "font": "sans-serif",
           "textColor": {
@@ -2031,18 +2031,18 @@ export const savedSceneData: SavedSceneData =
       ]
     },
     {
-      "name": "Template_Plane_1758365319326_295",
-      "id": 1758365319457,
+      "name": "Template_Plane_1758420428968_893",
+      "id": 1758420429855,
       "position": {
-        "x": 23.80242412124556,
-        "y": 3.814686876615221,
-        "z": 19.220216819622383
+        "x": 5.302788429000536,
+        "y": 3.7815797117088947,
+        "z": 32.47767011971706
       },
       "rotation": {
-        "x": -0.02400611696910645,
-        "y": -0.23967861372554208,
-        "z": -0.00225831815761849,
-        "w": 0.9705529139153047
+        "x": -0.020659579648781134,
+        "y": -0.8033170691018171,
+        "z": -0.02384766995972419,
+        "w": 0.5947153996952053
       },
       "scale": {
         "x": 3.0000000000000018,
@@ -2050,7 +2050,7 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758365320274,
+      "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
       "material": {
         "albedoColor": {
@@ -2069,7 +2069,7 @@ export const savedSceneData: SavedSceneData =
       },
       "texts": [
         {
-          "text": "Business as Warfare: The Philosophy of Mass Market Computing",
+          "text": "Innovation in Quality and Efficiency",
           "fontSize": 0.9,
           "font": "sans-serif",
           "textColor": {
@@ -2088,18 +2088,18 @@ export const savedSceneData: SavedSceneData =
       ]
     },
     {
-      "name": "Template_Plane_1758365319326_676",
-      "id": 1758365320242,
+      "name": "Template_Plane_1758420428968_887",
+      "id": 1758420429441,
       "position": {
-        "x": 23.80478634804671,
-        "y": 4.479069471576262,
-        "z": 19.196795504214585
+        "x": 5.3354687210740215,
+        "y": 4.4455713268289845,
+        "z": 32.4800274000205
       },
       "rotation": {
-        "x": -0.02400611696910645,
-        "y": -0.23967861372554208,
-        "z": -0.00225831815761849,
-        "w": 0.9705529139153047
+        "x": -0.020659579648781134,
+        "y": -0.8033170691018171,
+        "z": -0.02384766995972419,
+        "w": 0.5947153996952053
       },
       "scale": {
         "x": 3.0000000000000018,
@@ -2107,7 +2107,7 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758365320274,
+      "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
       "material": {
         "albedoColor": {
@@ -2126,7 +2126,7 @@ export const savedSceneData: SavedSceneData =
       },
       "texts": [
         {
-          "text": " Jack Tramiel's extraordinary journey from Holocaust survivor to technology mogul began in \\n the darkest chapter of human history. Born Idek Trzmiel in Lodz, Poland, in 1928, his \\n childhood was shattered when Nazi forces invaded Poland. From age 12 to 16, he endured \\n the unimaginable horrors of Auschwitz concentration camp, an experience that forged an \\n unbreakable determination and fierce survival instinct that would define his entire approach \\n to business. After liberation and immigration to New York in 1947, Tramiel served in the U.S. Army, \\n where he learned electronics repair—skills that would prove instrumental in his \\n future. In 1954, he founded Commodore International in Toronto as a humble typewriter \\n repair business, but his vision extended far beyond simple repairs. The trauma of his youth \\n had instilled in him a relentless drive to succeed and an unwavering belief that through sheer \\n determination and strategic thinking, any obstacle could be overcome.  ",
+          "text": "Charles Winterble joined Commodore at a crucial moment when the company needed to transition from\\nassembling computers by hand to manufacturing hundreds of thousands of units annually. His\\nbackground in industrial engineering and automation gave him unique insights into how computer\\ndesign decisions affected production efficiency, quality control, and ultimately, the retail price\\nthat consumers would pay. Winterble understood that Jack Tramiel's aggressive pricing strategy could\\nonly succeed if Commodore could manufacture computers faster and more reliably than any competitor.\\nHe pioneered the use of automated assembly equipment in computer manufacturing, designing custom\\nproduction lines that could place components, perform soldering operations, and conduct quality\\ntesting with minimal human intervention.",
           "fontSize": 0.6000000000000001,
           "font": "sans-serif",
           "textColor": {
@@ -2145,18 +2145,18 @@ export const savedSceneData: SavedSceneData =
       ]
     },
     {
-      "name": "Template_Plane_1758365319327_656",
-      "id": 1758365319511,
+      "name": "Template_Plane_1758420428968_359",
+      "id": 1758420429602,
       "position": {
-        "x": 23.822923828832426,
-        "y": 5.103197885375333,
-        "z": 19.161500862226045
+        "x": 5.382198302904083,
+        "y": 5.069022317991246,
+        "z": 32.49539656447075
       },
       "rotation": {
-        "x": -0.02400611696910645,
-        "y": -0.23967861372554208,
-        "z": -0.00225831815761849,
-        "w": 0.9705529139153047
+        "x": -0.020659579648781134,
+        "y": -0.8033170691018171,
+        "z": -0.02384766995972419,
+        "w": 0.5947153996952053
       },
       "scale": {
         "x": 3.0000000000000018,
@@ -2164,7 +2164,7 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758365320274,
+      "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
       "material": {
         "albedoColor": {
@@ -2183,7 +2183,7522 @@ export const savedSceneData: SavedSceneData =
       },
       "texts": [
         {
-          "text": "From Holocaust Survivor to Technology Visionary",
+          "text": "Transforming Vision into Volume Production",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Bil Herd",
+      "id": 1758422209045,
+      "position": {
+        "x": 4.04924747387492,
+        "y": 1.3007610302139523,
+        "z": 39.19323556451689
+      },
+      "rotation": {
+        "x": -0.027431025111763437,
+        "y": -0.7039573962072068,
+        "z": -0.025022249997163362,
+        "w": 0.709271212453827
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758422208997,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Bil Herd",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758422208479_833",
+      "id": 1758422209367,
+      "position": {
+        "x": 4.022735587610448,
+        "y": 1.677262787211747,
+        "z": 42.70056982522551
+      },
+      "rotation": {
+        "x": -0.027431025111763437,
+        "y": -0.7039573962072068,
+        "z": -0.025022249997163362,
+        "w": 0.709271212453827
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758422208997,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Beyond his technical contributions, Herd embodied Commodore's culture of solving real-world problems\\nwith elegant engineering solutions. His detailed engineering notebooks reveal a methodical approach\\nto problem-solving that balanced performance requirements with cost constraints and manufacturing\\nlimitations. After leaving Commodore, Herd's integration philosophy influenced computer design\\nthroughout the industry, particularly in the emerging laptop and embedded systems markets where\\nspace and power constraints demanded the same holistic approach he had pioneered. His mentorship of\\nyounger engineers at Commodore created a generation of system designers who carried his practical,\\nuser-focused engineering philosophy to companies throughout Silicon Valley and beyond.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758422208479_85",
+      "id": 1758422209393,
+      "position": {
+        "x": 4.083106518053902,
+        "y": 2.3546502433874115,
+        "z": 42.69799161643343
+      },
+      "rotation": {
+        "x": -0.027431025111763437,
+        "y": -0.7039573962072068,
+        "z": -0.025022249997163362,
+        "w": 0.709271212453827
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758422208997,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Legacy of Practical Innovation",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758422208479_616",
+      "id": 1758422208997,
+      "position": {
+        "x": 4.117707720795682,
+        "y": 3.0887913995424685,
+        "z": 42.69134953109382
+      },
+      "rotation": {
+        "x": -0.027431025111763437,
+        "y": -0.7039573962072068,
+        "z": -0.025022249997163362,
+        "w": 0.709271212453827
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758422208997,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Herd's greatest technical achievement came with the Commodore 128, where he successfully created a\\ncomputer that was simultaneously a fully compatible C64 and an advanced 16-bit machine capable of\\nrunning CP/M software. This seemingly impossible task required managing multiple processors (8502,\\nZ80), complex memory banking systems, and dual video outputs while maintaining perfect timing\\nsynchronization and avoiding electrical conflicts between different subsystems. His innovative\\napproach to thermal management, power distribution, and signal integrity became the industry\\nstandard for complex computer design. The C128's ability to seamlessly switch between operating\\nmodes with a simple key combination represented a triumph of system integration that few engineers\\ncould have achieved.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758422208479_973",
+      "id": 1758422209047,
+      "position": {
+        "x": 4.167365204178465,
+        "y": 3.7569444023983323,
+        "z": 42.688882020009935
+      },
+      "rotation": {
+        "x": -0.027431025111763437,
+        "y": -0.7039573962072068,
+        "z": -0.025022249997163362,
+        "w": 0.709271212453827
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758422208997,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Engineering Excellence Under Pressure",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758422208479_73",
+      "id": 1758422209420,
+      "position": {
+        "x": 4.206750989153538,
+        "y": 4.420544862097803,
+        "z": 42.68243169055513
+      },
+      "rotation": {
+        "x": -0.027431025111763437,
+        "y": -0.7039573962072068,
+        "z": -0.025022249997163362,
+        "w": 0.709271212453827
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758422208997,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "While brilliant individual chips like the VIC-II and SID captured headlines, it was Bil Herd who\\ntransformed these revolutionary components into manufacturable, reliable computers that could\\nsurvive the rigors of mass production and everyday use. As Commodore's lead hardware engineer, Herd\\npossessed a rare combination of electrical engineering expertise and practical manufacturing insight\\nthat made him indispensable to the company's success. His role went far beyond simple circuit board\\nlayout—he was responsible for solving the countless technical challenges that arose when powerful\\nchips had to coexist in a compact, cost-effective package while meeting strict regulatory\\nrequirements for radio frequency interference and electrical safety.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758422208479_923",
+      "id": 1758422208497,
+      "position": {
+        "x": 4.262975192229702,
+        "y": 5.043398736647074,
+        "z": 42.68413104259416
+      },
+      "rotation": {
+        "x": -0.027431025111763437,
+        "y": -0.7039573962072068,
+        "z": -0.025022249997163362,
+        "w": 0.709271212453827
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758422209422,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The System Architect Behind the Magic",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane_1",
+      "id": 1758422209421,
+      "position": {
+        "x": 4.282526866983915,
+        "y": 3.1048520595231692,
+        "z": 39.127806636732664
+      },
+      "rotation": {
+        "x": -0.030489781871438026,
+        "y": -0.6754200458526611,
+        "z": -0.027969853952527046,
+        "w": 0.7362716197967529
+      },
+      "scale": {
+        "x": 3.7000000000000024,
+        "y": 2.200000000000001,
+        "z": 1
+      },
+      "currentImage": "exhibitions/bil-herd.jpg",
+      "localKnnClusterId": 1758422208997,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_2",
+      "id": 1758422209422,
+      "position": {
+        "x": 4.494973541784062,
+        "y": 3.042664929049142,
+        "z": 46.03029549896744
+      },
+      "rotation": {
+        "x": -0.0006123343482613564,
+        "y": -0.6358580589294434,
+        "z": -0.000504476367495954,
+        "w": 0.7718057036399841
+      },
+      "scale": {
+        "x": 3.200000000000002,
+        "y": 1.4000000000000004,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Bil-Herd-video.png",
+      "localKnnClusterId": 1758422209422,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758423699520_776",
+      "id": 1758423699953,
+      "position": {
+        "x": 7.451450569599734,
+        "y": 3.1749844079764866,
+        "z": 53.83208029395071
+      },
+      "rotation": {
+        "x": -0.03561452102225967,
+        "y": -0.585987531607937,
+        "z": -0.025064773293676748,
+        "w": 0.8091491011856438
+      },
+      "scale": {
+        "x": 2.7000000000000015,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/David-Pleasance.jpg",
+      "localKnnClusterId": 1758423700076,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758423699520_32",
+      "id": 1758423699912,
+      "position": {
+        "x": 7.40115862672324,
+        "y": 1.2806502380891216,
+        "z": 53.860357616053406
+      },
+      "rotation": {
+        "x": -0.03561452102225967,
+        "y": -0.585987531607937,
+        "z": -0.025064773293676748,
+        "w": 0.8091491011856438
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758423700076,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "David Pleasance",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758423699520_98",
+      "id": 1758423700264,
+      "position": {
+        "x": 8.449367029345225,
+        "y": 1.6509758648839217,
+        "z": 57.208188163745575
+      },
+      "rotation": {
+        "x": -0.03561452102225967,
+        "y": -0.585987531607937,
+        "z": -0.025064773293676748,
+        "w": 0.8091491011856438
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758423700076,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The most heartbreaking chapter of Pleasance's Commodore story came in 1994 when he led a desperate\\nattempt to save the company from bankruptcy through a management buyout. Assembling an international\\nconsortium including Chinese investors, Pleasance and his team needed $50 million to purchase\\nCommodore's assets at auction and implement their vision of focusing exclusively on the Amiga line\\nwhile phasing out the aging C64. Their plan was technically sound and financially viable, but just\\n48 hours before the New York auction, the Chinese partners were lured away by competing bidder ESCOM\\nwith \"unqualified promises.\" The failure of this rescue attempt haunted Pleasance, who genuinely\\nbelieved that with proper management, Commodore could have continued thriving well into the 1990s\\nand beyond. Today, through his books \"Commodore: The Inside Story\" and \"From Vultures to Vampires,\"\\nPleasance continues to share the untold stories of computing's most beloved company, ensuring that\\nthe human drama behind the C64's success—and Commodore's tragic demise—is never forgotten.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758423699520_576",
+      "id": 1758423700075,
+      "position": {
+        "x": 8.514797400572775,
+        "y": 2.32753009874565,
+        "z": 57.185864563366934
+      },
+      "rotation": {
+        "x": -0.03561452102225967,
+        "y": -0.585987531607937,
+        "z": -0.025064773293676748,
+        "w": 0.8091491011856438
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758423700076,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Heartbreaking Rescue Attempt and Preserving History",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758423699520_326",
+      "id": 1758423700076,
+      "position": {
+        "x": 8.555177960739936,
+        "y": 3.0611737831046644,
+        "z": 57.16739821767563
+      },
+      "rotation": {
+        "x": -0.03561452102225967,
+        "y": -0.585987531607937,
+        "z": -0.025064773293676748,
+        "w": 0.8091491011856438
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758423700076,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Pleasance's revolutionary approach to computer sales was encapsulated in his famous philosophy: \"We\\ndon't sell computers, we sell dreams.\" While competitors focused on technical specifications and\\nbusiness applications, Pleasance understood that the C64's true value lay in its ability to\\ntransform ordinary households into centers of creativity, learning, and entertainment. Under his\\nleadership, Commodore UK became the company's strongest performing market, with Europe eventually\\noutselling the United States. He pioneered the concept of computer \"bundles\"—packaging the C64 with\\nsoftware, accessories, and compelling narratives about what families could achieve together. His\\nsales strategies moved computers from specialized computer stores into mainstream retailers like\\nDixons, Currys, and even toy stores, making the C64 accessible to millions of families who would\\nnever have considered visiting a traditional computer shop. This democratization of computer retail\\nwas as revolutionary as the technology itself.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758423699520_980",
+      "id": 1758423699546,
+      "position": {
+        "x": 8.610320030575958,
+        "y": 3.7286326150752513,
+        "z": 57.148464288186545
+      },
+      "rotation": {
+        "x": -0.03561452102225967,
+        "y": -0.585987531607937,
+        "z": -0.025064773293676748,
+        "w": 0.8091491011856438
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758423700076,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Selling Dreams: Revolutionary Marketing Philosophy",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758423699520_582",
+      "id": 1758423700280,
+      "position": {
+        "x": 8.654407572645901,
+        "y": 4.391679417784688,
+        "z": 57.12887636536504
+      },
+      "rotation": {
+        "x": -0.03561452102225967,
+        "y": -0.585987531607937,
+        "z": -0.025064773293676748,
+        "w": 0.8091491011856438
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758423700076,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "David John Pleasance's path to becoming one of Commodore's most influential executives began with a\\nserendipitous phone call in 1983. After spending years working in Australia's retail sector,\\nPleasance returned to the UK convinced that home computing would be \"the next big thing.\" What\\nstarted as a 40-minute phone conversation trying to convince a skeptical recruitment agent to even\\ngrant him an interview led to a position selling business computers for a substantial computer\\ncompany—Commodore. Within months of joining as a salesman in June 1983, his natural talent for\\nunderstanding both technology and consumer psychology had earned him promotion to National Accounts\\nManager for the consumer division. This rapid ascent would continue throughout his eleven-year\\ncareer at Commodore, taking him from the sales floor to the executive suite, eventually becoming\\nManaging Director of Commodore UK and Vice President of Commodore USA.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758423699520_44",
+      "id": 1758423700429,
+      "position": {
+        "x": 8.716489961024923,
+        "y": 5.0137504002512046,
+        "z": 57.11200904812308
+      },
+      "rotation": {
+        "x": -0.03561452102225967,
+        "y": -0.585987531607937,
+        "z": -0.025064773293676748,
+        "w": 0.8091491011856438
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758423700076,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "From Retail Intuition to Executive Leadership",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane_3",
+      "id": 1758423700430,
+      "position": {
+        "x": 10.434984905835329,
+        "y": 3.1645627989946776,
+        "z": 60.7637771162439
+      },
+      "rotation": {
+        "x": -0.05005601793527603,
+        "y": -0.45874863862991333,
+        "z": -0.025895042344927788,
+        "w": 0.8867771029472351
+      },
+      "scale": {
+        "x": 2.200000000000001,
+        "y": 1.3000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/David-Pleasance-keynote.jpg",
+      "localKnnClusterId": 1758423700431,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 4.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_4",
+      "id": 1758423700431,
+      "position": {
+        "x": 11.801300073553339,
+        "y": 3.0426903038502067,
+        "z": 62.54950189642473
+      },
+      "rotation": {
+        "x": -0.05005601793527603,
+        "y": -0.45874863862991333,
+        "z": -0.025895042344927788,
+        "w": 0.8867771029472351
+      },
+      "scale": {
+        "x": 1.1,
+        "y": 1.6000000000000005,
+        "z": 1
+      },
+      "currentImage": "exhibitions/commodore-inside-story.jpg",
+      "localKnnClusterId": 1758423700431,
+      "snapParentId": 1758423700430,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_6",
+      "id": 1758423700433,
+      "position": {
+        "x": 12.77049483953892,
+        "y": 3.036244715475757,
+        "z": 63.77994399709653
+      },
+      "rotation": {
+        "x": 0.000733257969841361,
+        "y": -0.4288230240345001,
+        "z": 0.00034806510666385293,
+        "w": 0.9033881425857544
+      },
+      "scale": {
+        "x": 1,
+        "y": 1.5000000000000004,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Vultures-to-Vampires-vol1.png",
+      "localKnnClusterId": 1758423700431,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_7",
+      "id": 1758423700434,
+      "position": {
+        "x": 13.576677563943583,
+        "y": 3.0065694897061928,
+        "z": 64.63150018407897
+      },
+      "rotation": {
+        "x": 0.000733257969841361,
+        "y": -0.4288230240345001,
+        "z": 0.00034806510666385293,
+        "w": 0.9033881425857544
+      },
+      "scale": {
+        "x": 1,
+        "y": 1.5000000000000004,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Vultures-to-Vampires-vol2.png",
+      "localKnnClusterId": 1758423700431,
+      "snapParentId": 1758423700433,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_8",
+      "id": 1758423700435,
+      "position": {
+        "x": 14.363856105586748,
+        "y": 3.006894159492715,
+        "z": 65.45984370355386
+      },
+      "rotation": {
+        "x": 0.000733257969841361,
+        "y": -0.4288230240345001,
+        "z": 0.00034806510666385293,
+        "w": 0.9033881425857544
+      },
+      "scale": {
+        "x": 1,
+        "y": 1.4000000000000004,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Voltures-to-Vampires-vol3.jpg",
+      "localKnnClusterId": 1758423700435,
+      "snapParentId": 1758423700434,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758426500246_370",
+      "id": 1758426501225,
+      "position": {
+        "x": 21.369945713958256,
+        "y": 3.2276297249193133,
+        "z": 68.39309442303302
+      },
+      "rotation": {
+        "x": -0.027066889881654083,
+        "y": -0.27086995000637437,
+        "z": -0.0044526765615723884,
+        "w": 0.962225172780191
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 3.0000000000000018,
+        "z": 1
+      },
+      "currentImage": "exhibitions/MOS-logo.png",
+      "localKnnClusterId": 1758426500361,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758426500246_183",
+      "id": 1758426500795,
+      "position": {
+        "x": 21.45493064691126,
+        "y": 1.4019856728195366,
+        "z": 68.47553970793135
+      },
+      "rotation": {
+        "x": -0.027066889881654083,
+        "y": -0.27086995000637437,
+        "z": -0.0044526765615723884,
+        "w": 0.962225172780191
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.6000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758426500361,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Culture of Innovation at Commodore",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758426500246_640",
+      "id": 1758426500900,
+      "position": {
+        "x": 24.414750495555094,
+        "y": 1.7177781258183766,
+        "z": 70.3555612621413
+      },
+      "rotation": {
+        "x": -0.027066889881654083,
+        "y": -0.27086995000637437,
+        "z": -0.0044526765615723884,
+        "w": 0.962225172780191
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758426500361,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The bonds forged during the C64's development created lasting relationships and a shared pride in\\nachieving the impossible that influenced the entire computer industry for decades. Many of\\nCommodore's technical team went on to successful careers at Apple, IBM, Intel, and countless Silicon\\nValley startups, carrying with them the engineering philosophy and collaborative approaches they had\\nlearned during those intense development years. The \"Commodore way\" of balancing technical\\nexcellence with cost consciousness, treating manufacturing constraints as design challenges rather\\nthan limitations, and fostering open communication between different engineering disciplines became\\nstandard practice throughout the industry. Even today, when former Commodore engineers gather at\\nreunions and conferences, they speak with obvious pride about their role in creating a computer that\\nproved high technology could be both accessible and affordable—a philosophy that continues to drive\\ninnovation in everything from smartphones to electric vehicles.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758426500246_335",
+      "id": 1758426500507,
+      "position": {
+        "x": 24.435758691952067,
+        "y": 2.3962135319941917,
+        "z": 70.31326315685622
+      },
+      "rotation": {
+        "x": -0.027066889881654083,
+        "y": -0.27086995000637437,
+        "z": -0.0044526765615723884,
+        "w": 0.962225172780191
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758426500361,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Legacy of Excellence and Camaraderie",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758426500246_246",
+      "id": 1758426500361,
+      "position": {
+        "x": 24.43898755977304,
+        "y": 3.1308722503519935,
+        "z": 70.29156629340959
+      },
+      "rotation": {
+        "x": -0.027066889881654083,
+        "y": -0.27086995000637437,
+        "z": -0.0044526765615723884,
+        "w": 0.962225172780191
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758426500361,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The intense competitive pressure of the early 1980s personal computer market created a unique\\nenvironment that pushed Commodore's engineers to extraordinary achievements. The combination of\\naggressive cost targets (selling a computer for less than competitors' individual processors),\\nambitious performance goals (creating the best graphics and sound in the industry), and impossibly\\ntight development schedules forced creative solutions that might never have emerged under more\\nrelaxed circumstances. This pressure-cooker environment fostered a culture of rapid prototyping,\\nfearless experimentation, and shared problem-solving that became legendary within the industry.\\nEngineers regularly worked 60-80 hour weeks not because they were forced to, but because they were\\ngenuinely excited about creating something revolutionary that would democratize computing for\\nmillions of people worldwide.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758426500246_369",
+      "id": 1758426501184,
+      "position": {
+        "x": 24.45455311754354,
+        "y": 3.7998642776757476,
+        "z": 70.25828293248762
+      },
+      "rotation": {
+        "x": -0.027066889881654083,
+        "y": -0.27086995000637437,
+        "z": -0.0044526765615723884,
+        "w": 0.962225172780191
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758426500361,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Pressure Cooker Innovation",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758426500246_502",
+      "id": 1758426501162,
+      "position": {
+        "x": 24.461372844749626,
+        "y": 4.464091071913423,
+        "z": 70.23154932611563
+      },
+      "rotation": {
+        "x": -0.027066889881654083,
+        "y": -0.27086995000637437,
+        "z": -0.0044526765615723884,
+        "w": 0.962225172780191
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758426500361,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The exceptional engineering culture that produced the Commodore 64 can be traced directly to Jack\\nTramiel's 1976 acquisition of MOS Technology, which brought far more than just the 6502 processor to\\nCommodore—it imported an entire philosophy of innovation and cost-conscious design. The MOS team had\\nalready demonstrated their ability to challenge industry giants with superior engineering and\\naggressive pricing, having developed the 6502 as a direct response to Motorola's expensive 6800\\nprocessor. This culture of David-versus-Goliath innovation permeated every aspect of C64\\ndevelopment, creating an environment where engineers were expected to achieve the impossible and\\nfind elegant solutions to seemingly intractable problems. The collaborative atmosphere encouraged\\ncross-pollination between different engineering disciplines, with hardware designers working closely\\nwith software developers and manufacturing engineers contributing to design decisions that affected\\nboth performance and production costs.   ",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758426500246_644",
+      "id": 1758426500408,
+      "position": {
+        "x": 24.484522831094548,
+        "y": 5.087934060572357,
+        "z": 70.19419946944376
+      },
+      "rotation": {
+        "x": -0.027066889881654083,
+        "y": -0.27086995000637437,
+        "z": -0.0044526765615723884,
+        "w": 0.962225172780191
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758426500361,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The MOS Technology DNA",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427041878_68",
+      "id": 1758427042483,
+      "position": {
+        "x": 28.682183927593393,
+        "y": 3.209103084388609,
+        "z": 71.34908184005263
+      },
+      "rotation": {
+        "x": -0.03302076054058535,
+        "y": -0.12105382435812732,
+        "z": -0.0018305590862480303,
+        "w": 0.9920949930568944
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 3.6000000000000023,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Culture-of-Inovation.png",
+      "localKnnClusterId": 1758427042134,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758427041878_356",
+      "id": 1758427042237,
+      "position": {
+        "x": 28.779633703477717,
+        "y": 1.3136856788306395,
+        "z": 71.42244542274548
+      },
+      "rotation": {
+        "x": -0.03302076054058535,
+        "y": -0.12105382435812732,
+        "z": -0.0018305590862480303,
+        "w": 0.9920949930568944
+      },
+      "scale": {
+        "x": 3.6000000000000023,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427042134,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": " Software Team Contributions",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427041878_858",
+      "id": 1758427042492,
+      "position": {
+        "x": 32.169908096744514,
+        "y": 1.6940760908650532,
+        "z": 72.31977050818429
+      },
+      "rotation": {
+        "x": -0.03302076054058535,
+        "y": -0.12105382435812732,
+        "z": -0.0018305590862480303,
+        "w": 0.9920949930568944
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427042134,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Perhaps most importantly, the software team created an environment that encouraged third-party\\ndevelopment and user creativity. Their carefully designed memory maps, interrupt structures, and I/O\\nroutines became the foundation for thousands of commercial games, productivity applications, and\\nutilities. The team's decision to include comprehensive programming documentation and example code\\nin the C64's manual transformed users from passive consumers into active creators. Their software\\narchitecture was robust enough to support everything from simple BASIC programs written by children\\nto sophisticated commercial applications that pushed the hardware to its limits. This enabling\\nphilosophy created a vibrant software ecosystem that sustained the C64's popularity for over a\\ndecade and inspired a generation of programmers who would go on to create the modern software\\nindustry.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427041878_27",
+      "id": 1758427041934,
+      "position": {
+        "x": 32.180215006331835,
+        "y": 2.371932721242879,
+        "z": 72.26583348611314
+      },
+      "rotation": {
+        "x": -0.03302076054058535,
+        "y": -0.12105382435812732,
+        "z": -0.0018305590862480303,
+        "w": 0.9920949930568944
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427042134,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Enabling an Ecosystem",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427041878_911",
+      "id": 1758427042134,
+      "position": {
+        "x": 32.18002209726295,
+        "y": 3.106324820772962,
+        "z": 72.23629053749899
+      },
+      "rotation": {
+        "x": -0.03302076054058535,
+        "y": -0.12105382435812732,
+        "z": -0.0018305590862480303,
+        "w": 0.9920949930568944
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427042134,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The software team's most innovative contribution was the Commodore DOS (Disk Operating System),\\nwhich transformed the humble 1541 disk drive into an intelligent peripheral that could operate\\nindependently of the main computer. Unlike simpler disk systems that required the main CPU to manage\\nevery aspect of disk operations, Commodore DOS included its own processor and memory, allowing it to\\nhandle file management, directory operations, and data transfer while freeing the C64's processor\\nfor other tasks. This architecture enabled sophisticated multitasking scenarios where users could\\nload programs from disk while running other software, play music in the background during disk\\noperations, or even use multiple disk drives simultaneously. The system's built-in machine language\\nmonitor also provided advanced debugging capabilities that professional programmers relied on for\\ndeveloping commercial software.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427041879_620",
+      "id": 1758427042463,
+      "position": {
+        "x": 32.18781203543069,
+        "y": 3.774859514286457,
+        "z": 72.19268945616992
+      },
+      "rotation": {
+        "x": -0.03302076054058535,
+        "y": -0.12105382435812732,
+        "z": -0.0018305590862480303,
+        "w": 0.9920949930568944
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427042134,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Intelligent System Design",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427041879_175",
+      "id": 1758427041916,
+      "position": {
+        "x": 32.18921361960577,
+        "y": 4.438752838119492,
+        "z": 72.15801826259776
+      },
+      "rotation": {
+        "x": -0.03302076054058535,
+        "y": -0.12105382435812732,
+        "z": -0.0018305590862480303,
+        "w": 0.9920949930568944
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427042134,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Behind every successful computer system lies sophisticated software that users rarely see but\\ninteract with constantly. The Commodore 64's built-in software—its BASIC interpreter, operating\\nsystem kernel, and device drivers—represented the collective effort of a talented team led by\\nengineers like Leonard Tramiel and Robert Russell. These programmers faced the enormous challenge of\\ncreating software that was simultaneously powerful enough for serious programming, simple enough for\\ncomplete beginners, and compact enough to fit in just 20 kilobytes of ROM memory. Their BASIC\\ninterpreter included advanced features that weren't available on competing systems: sophisticated\\nstring manipulation commands, direct hardware access capabilities, and structured programming\\nelements that made the C64 accessible to both casual users and serious programmers.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427041879_632",
+      "id": 1758427041982,
+      "position": {
+        "x": 32.202810644051574,
+        "y": 5.062048751593051,
+        "z": 72.10874038313491
+      },
+      "rotation": {
+        "x": -0.03302076054058535,
+        "y": -0.12105382435812732,
+        "z": -0.0018305590862480303,
+        "w": 0.9920949930568944
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427042134,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Foundation Layer That Made Everything Work",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427175316_604",
+      "id": 1758427175589,
+      "position": {
+        "x": 36.973656544137484,
+        "y": 3.1444540315997687,
+        "z": 72.22007510782691
+      },
+      "rotation": {
+        "x": -0.0005835983365185329,
+        "y": -0.04687336160451469,
+        "z": 0.007094543261967651,
+        "w": 0.998875577756526
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 2.300000000000001,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Perry-Fractic.jpg",
+      "localKnnClusterId": 1758427176222,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758427175316_912",
+      "id": 1758427176307,
+      "position": {
+        "x": 37.11114278635239,
+        "y": 1.2511739277611176,
+        "z": 72.15624994718544
+      },
+      "rotation": {
+        "x": -0.0005835983365185329,
+        "y": -0.04687336160451469,
+        "z": 0.007094543261967651,
+        "w": 0.998875577756526
+      },
+      "scale": {
+        "x": 4.100000000000002,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427176222,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Christian \"Perry Fractic\" Simpson",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427175316_333",
+      "id": 1758427175966,
+      "position": {
+        "x": 40.59095684599133,
+        "y": 1.6616731717654893,
+        "z": 72.56396751370723
+      },
+      "rotation": {
+        "x": -0.0005835983365185329,
+        "y": -0.04687336160451469,
+        "z": 0.007094543261967651,
+        "w": 0.998875577756526
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427176222,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "What sets Simpson apart from previous Commodore revival attempts is his unique combination of\\nentertainment industry experience, genuine community credibility, and strategic business thinking.\\nHis acquisition strategy involved not just purchasing trademarks, but assembling an unprecedented\\nteam of original Commodore legends including Bil Herd (C128 designer), Al Charpentier (VIC-II\\ncreator), Michael Tomczyk (VIC-20 architect), and David Pleasance (former VP). Simpson's philosophy\\nof \"honoring the past, innovating the future\" represents more than marketing speak—it reflects his\\nunderstanding that successful brand revival requires both authentic historical continuity and\\ncontemporary relevance. His background in entertainment gave him crucial insights into storytelling,\\nbrand management, and audience engagement that purely technical approaches had lacked, while his\\nYouTube credibility ensured community acceptance that previous corporate revivals had never\\nachieved.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427175316_832",
+      "id": 1758427175920,
+      "position": {
+        "x": 40.58229273881898,
+        "y": 2.3416029474316566,
+        "z": 72.55276658553588
+      },
+      "rotation": {
+        "x": -0.0005835983365185329,
+        "y": -0.04687336160451469,
+        "z": 0.007094543261967651,
+        "w": 0.998875577756526
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427176222,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Strategic Vision: Community-Driven Corporate Revival",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427175316_762",
+      "id": 1758427176222,
+      "position": {
+        "x": 40.56599367594653,
+        "y": 3.0761862928854153,
+        "z": 72.57082776404002
+      },
+      "rotation": {
+        "x": -0.0005835983365185329,
+        "y": -0.04687336160451469,
+        "z": 0.007094543261967651,
+        "w": 0.998875577756526
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427176222,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Simpson's transformation from Hollywood professional to retro computing authority began with his\\nYouTube channel \"Retro Recipes,\" where his genuine enthusiasm for vintage technology, particularly\\nCommodore systems, resonated with hundreds of thousands of subscribers. Unlike typical tech\\nreviewers, Simpson brought a storyteller's sensibility to his videos, combining technical knowledge\\nwith nostalgic storytelling that captured both the emotional and practical aspects of retro\\ncomputing. His early projects, including a fully functional Commodore 64 built entirely from LEGO\\nbricks (complete with working keyboard), demonstrated both technical creativity and deep\\nunderstanding of what made these systems special. As his channel grew, Simpson became increasingly\\nvocal about his vision for preserving and celebrating computing history, eventually adopting the\\nprofessional moniker \"Perry Fractic\" and building what he called \"the most common type of Commodore\\nfan\" community.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427175316_906",
+      "id": 1758427176207,
+      "position": {
+        "x": 40.55653434607629,
+        "y": 3.746118656583755,
+        "z": 72.56960103707834
+      },
+      "rotation": {
+        "x": -0.0005835983365185329,
+        "y": -0.04687336160451469,
+        "z": 0.007094543261967651,
+        "w": 0.998875577756526
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427176222,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "The YouTube Pioneer Who Built a Retro Empire",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427175316_750",
+      "id": 1758427175321,
+      "position": {
+        "x": 40.54216772449929,
+        "y": 4.410711902326803,
+        "z": 72.5778352073477
+      },
+      "rotation": {
+        "x": -0.0005835983365185329,
+        "y": -0.04687336160451469,
+        "z": 0.007094543261967651,
+        "w": 0.998875577756526
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427176222,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Christian \"Perry Fractic\" Simpson's journey to becoming Commodore's CEO reads like a script from one\\nof his Hollywood projects. Born in London and relocating to Hollywood in 2009, Simpson built a\\nremarkable entertainment career spanning over 25 years, appearing in four of the top five movie\\nfranchises of all time including Star Wars (Episodes I and III), Avengers: Endgame, Harry Potter,\\nand The Dark Knight trilogy. His work extended beyond acting to include roles as a stand-in for\\nHayden Christensen's Anakin Skywalker, voice work, and writing for the official Star Wars website.\\nYet beneath this successful entertainment career lay a deep passion for retro computing that would\\nultimately drive him to attempt the impossible: purchasing and reviving the legendary Commodore\\nbrand that had been fragmented across 47 different trademarks since its 1994 bankruptcy.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758427175316_983",
+      "id": 1758427176153,
+      "position": {
+        "x": 40.53832140148997,
+        "y": 5.035998953468615,
+        "z": 72.56723908110476
+      },
+      "rotation": {
+        "x": -0.0005835983365185329,
+        "y": -0.04687336160451469,
+        "z": 0.007094543261967651,
+        "w": 0.998875577756526
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427176222,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "From Hollywood to the Heart of Retro Computing",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane_9",
+      "id": 1758427176308,
+      "position": {
+        "x": 43.802746730425895,
+        "y": 3.7154886907040194,
+        "z": 72.85731444440859
+      },
+      "rotation": {
+        "x": -0.01148888748139143,
+        "y": -0.017947692424058914,
+        "z": -0.0002062458370346576,
+        "w": 0.9997729063034058
+      },
+      "scale": {
+        "x": 2.4000000000000012,
+        "y": 1.4000000000000004,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Perry-Fractic-videos.png",
+      "localKnnClusterId": 1758427176309,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_10",
+      "id": 1758427176309,
+      "position": {
+        "x": 43.80868603934272,
+        "y": 2.2112883365504157,
+        "z": 72.87194381392874
+      },
+      "rotation": {
+        "x": -0.01148888748139143,
+        "y": -0.017947692424058914,
+        "z": -0.0002062458370346576,
+        "w": 0.9997729063034058
+      },
+      "scale": {
+        "x": 2.4000000000000012,
+        "y": 1.5000000000000004,
+        "z": 1
+      },
+      "currentImage": "exhibitions/commodore-net.png",
+      "localKnnClusterId": 1758427176309,
+      "snapParentId": 1758427176308,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758430630707_169",
+      "id": 1758430631084,
+      "position": {
+        "x": 51.88274087446386,
+        "y": 3.3815087967279975,
+        "z": 25.715145325867592
+      },
+      "rotation": {
+        "x": -0.010465280429030072,
+        "y": -0.9996877705958295,
+        "z": 0.020709389476254204,
+        "w": -0.009283183915373264
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Commodore_C=.png",
+      "localKnnClusterId": 1758430631492,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 7.300000000000001
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758430630707_651",
+      "id": 1758430630946,
+      "position": {
+        "x": 51.73704648868143,
+        "y": 1.493990481328696,
+        "z": 25.868551687358377
+      },
+      "rotation": {
+        "x": -0.010465280429030072,
+        "y": -0.9996877705958295,
+        "z": 0.020709389476254204,
+        "w": -0.009283183915373264
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758430631492,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Commodore",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758430630707_100",
+      "id": 1758430631065,
+      "position": {
+        "x": 48.239368650764284,
+        "y": 1.9229020559547119,
+        "z": 25.70689143475997
+      },
+      "rotation": {
+        "x": -0.010465280429030072,
+        "y": -0.9996877705958295,
+        "z": 0.020709389476254204,
+        "w": -0.009283183915373264
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758430631492,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Unlike in the United States, where the C64 competed in a fragmented market with strong regional\\npreferences, European consumers embraced the machine as a unified platform for creativity,\\neducation, and entertainment. The C64 became the foundation for Europe's thriving demo scene,\\nsupported a vast magazine culture that created shared communities across language barriers, and\\nestablished programming as a mainstream hobby rather than a specialist pursuit. This cultural\\nintegration meant that the C64's influence extended far beyond its active commercial life, shaping\\nEuropean attitudes toward technology, creativity, and digital culture in ways that continue to\\nresonate in today's tech industries across Germany, the UK, Scandinavia, and beyond.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758430630707_928",
+      "id": 1758430630983,
+      "position": {
+        "x": 48.253677263171596,
+        "y": 2.6025895277435303,
+        "z": 25.688856943590935
+      },
+      "rotation": {
+        "x": -0.010465280429030072,
+        "y": -0.9996877705958295,
+        "z": 0.020709389476254204,
+        "w": -0.009283183915373264
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758430631492,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Cultural Integration and Lasting Impact",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758430630707_860",
+      "id": 1758430631492,
+      "position": {
+        "x": 48.273774600741866,
+        "y": 3.335593636324636,
+        "z": 25.63880053613542
+      },
+      "rotation": {
+        "x": -0.010465280429030072,
+        "y": -0.9996877705958295,
+        "z": 0.020709389476254204,
+        "w": -0.009283183915373264
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758430631492,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Tramiel's revolutionary pricing strategy—selling the C64 for $595 in the US and equivalent prices in\\nEurope—represented more than aggressive marketing; it was a fundamental restructuring of the\\ncomputer market's economics. Traditional computer companies like Apple, Atari, and Texas Instruments\\nhad positioned their machines as premium products for affluent early adopters, but Tramiel\\nunderstood that true market dominance required mass-market pricing that brought computers within\\nreach of ordinary families. The C64's price point made it competitive with high-end game consoles\\nwhile offering the full functionality of a personal computer, creating an entirely new product\\ncategory that competitors couldn't match without losing money on every unit sold.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758430630707_621",
+      "id": 1758430631672,
+      "position": {
+        "x": 48.28805129813891,
+        "y": 4.004872451846639,
+        "z": 25.61118877103514
+      },
+      "rotation": {
+        "x": -0.010465280429030072,
+        "y": -0.9996877705958295,
+        "z": 0.020709389476254204,
+        "w": -0.009283183915373264
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758430631492,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "The Price Revolution That Changed Everything",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758430630707_950",
+      "id": 1758430631198,
+      "position": {
+        "x": 48.306468123432396,
+        "y": 4.668375786265578,
+        "z": 25.574006246752955
+      },
+      "rotation": {
+        "x": -0.010465280429030072,
+        "y": -0.9996877705958295,
+        "z": 0.020709389476254204,
+        "w": -0.009283183915373264
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758430631492,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The Commodore 64's journey from Jack Tramiel's California factory to becoming the world's\\nbest-selling computer is a story of perfect timing, aggressive pricing, and cultural resonance that\\ntranscended national boundaries. While the C64 achieved respectable success in the United States, it\\nwas in Europe where it truly found its spiritual home, becoming not just a computer but a cultural\\nphenomenon that defined an entire generation's relationship with technology. The C64's arrival in\\nEuropean markets between 1983-1984 coincided with a growing middle-class prosperity and government\\ninitiatives promoting computer literacy, creating ideal conditions for mass adoption that would see\\nthe machine achieve market penetration rates unmatched anywhere in the world.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758430630707_624",
+      "id": 1758430631540,
+      "position": {
+        "x": 48.315539550473844,
+        "y": 5.293494415010404,
+        "z": 25.558025411864815
+      },
+      "rotation": {
+        "x": -0.010465280429030072,
+        "y": -0.9996877705958295,
+        "z": 0.020709389476254204,
+        "w": -0.009283183915373264
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758430631492,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "From American Innovation to European Empire",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758431062399_456",
+      "id": 1758431062627,
+      "position": {
+        "x": 61.2022478764344,
+        "y": 3.284476938897212,
+        "z": 25.981701224318467
+      },
+      "rotation": {
+        "x": -0.005482064692141367,
+        "y": -0.9996610161893306,
+        "z": -0.009726134012490277,
+        "w": -0.023524895010582123
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/german-factory.png",
+      "localKnnClusterId": 1758431062709,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758431062399_940",
+      "id": 1758431062568,
+      "position": {
+        "x": 61.07486529342312,
+        "y": 1.3897392993993858,
+        "z": 26.01675437434033
+      },
+      "rotation": {
+        "x": -0.005482064692141367,
+        "y": -0.9996610161893306,
+        "z": -0.009726134012490277,
+        "w": -0.023524895010582123
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431062709,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "German Factory",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758431062399_772",
+      "id": 1758431063010,
+      "position": {
+        "x": 57.57834014314554,
+        "y": 1.7918274237944458,
+        "z": 25.77908551329909
+      },
+      "rotation": {
+        "x": -0.005482064692141367,
+        "y": -0.9996610161893306,
+        "z": -0.009726134012490277,
+        "w": -0.023524895010582123
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431062709,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "In Sweden, Norway, Denmark, and Finland, the C64 achieved the world's highest per-capita adoption\\nrates, becoming so ubiquitous that it was often simply called \"the computer\" in common parlance.\\nScandinavian governments' early commitment to computer literacy and digital democracy made the C64's\\naffordability and educational potential particularly appealing to public institutions and private\\nfamilies alike. Finnish adoption was especially remarkable, with some estimates suggesting that over\\n40% of households owned a C64 by the late 1980s, creating a shared cultural experience that\\ncontributed directly to the region's later emergence as a global technology hub, exemplified by\\ncompanies like Nokia, Spotify, and Supercell, many of whose founders trace their first programming\\nexperiences to childhood C64 ownership.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758431062399_651",
+      "id": 1758431062676,
+      "position": {
+        "x": 57.58501069695455,
+        "y": 2.471469732906146,
+        "z": 25.802470881058568
+      },
+      "rotation": {
+        "x": -0.005482064692141367,
+        "y": -0.9996610161893306,
+        "z": -0.009726134012490277,
+        "w": -0.023524895010582123
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431062709,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Scandinavia: The Democratic Computer",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758431062399_216",
+      "id": 1758431062709,
+      "position": {
+        "x": 57.59774251183185,
+        "y": 3.206327280956173,
+        "z": 25.79728852688845
+      },
+      "rotation": {
+        "x": -0.005482064692141367,
+        "y": -0.9996610161893306,
+        "z": -0.009726134012490277,
+        "w": -0.023524895010582123
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431062709,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "British adoption of the C64 transformed the machine from an American computer into a vehicle for\\ndistinctly European digital creativity. The UK's unique broadcasting environment, where computer\\nprograms could be transmitted over radio waves via \"Datassette,\" created an innovative software\\ndistribution model that made the C64 the center of a new media ecosystem. British software houses\\nlike Ocean Software, Elite Systems, and Codemasters pioneered new approaches to game design that\\nmaximized the C64's audio-visual capabilities, while British magazines like \"Zzap!64\" and \"Commodore\\nFormat\" established the template for computer journalism that combined technical expertise with\\nirreverent humor and cutting-edge graphic design.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758431062399_520",
+      "id": 1758431062845,
+      "position": {
+        "x": 57.60477937369125,
+        "y": 3.8761605242596584,
+        "z": 25.81048991866477
+      },
+      "rotation": {
+        "x": -0.005482064692141367,
+        "y": -0.9996610161893306,
+        "z": -0.009726134012490277,
+        "w": -0.023524895010582123
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431062709,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "United Kingdom: The Creative Revolution",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758431062399_864",
+      "id": 1758431062486,
+      "position": {
+        "x": 57.61629687056934,
+        "y": 4.540851438886005,
+        "z": 25.81391497992555
+      },
+      "rotation": {
+        "x": -0.005482064692141367,
+        "y": -0.9996610161893306,
+        "z": -0.009726134012490277,
+        "w": -0.023524895010582123
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431062709,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "West Germany became the C64's most successful European market, with over 3 million units sold\\nbetween 1983 and 1993, representing the highest absolute sales figures outside North America. German\\nconsumers, already accustomed to high-quality engineering and technical precision, appreciated the\\nC64's sophisticated hardware design and expandability options that allowed for serious computing\\napplications alongside gaming. The German market's emphasis on technical documentation and\\nsystematic learning perfectly matched the C64's capabilities, leading to a thriving ecosystem of\\ntechnical magazines like \"64'er\" and \"Happy Computer\" that provided in-depth programming tutorials,\\nhardware modifications, and software reviews that elevated the platform far beyond its original\\ngaming-focused American marketing.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758431062399_289",
+      "id": 1758431062856,
+      "position": {
+        "x": 57.6183281267199,
+        "y": 5.1658499755564335,
+        "z": 25.835907757977534
+      },
+      "rotation": {
+        "x": -0.005482064692141367,
+        "y": -0.9996610161893306,
+        "z": -0.009726134012490277,
+        "w": -0.023524895010582123
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431062709,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Germany: The Technical Heartland",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758432170475_920",
+      "id": 1758432171129,
+      "position": {
+        "x": 70.11433022902942,
+        "y": 1.3876179524058874,
+        "z": 26.339728889927137
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 3.6000000000000023,
+        "y": 0.5000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Paper Bridge Between Digital Communities",
+          "fontSize": 2.200000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758432170475_780",
+      "id": 1758432171160,
+      "position": {
+        "x": 66.64994710244629,
+        "y": 1.7891267845357894,
+        "z": 25.80992766068736
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The C64 magazine ecosystem represented one of the first examples of specialized media creating and\\nsustaining a global niche market, with combined circulation figures exceeding one million readers\\nmonthly at the platform's peak. Publishers like EMAP (Zzap!64) and Markt & Technik (64'er) built\\nprofitable businesses around single-platform publications, demonstrating the economic viability of\\nspecialized technology media that would later expand to cover the entire computing industry. More\\nimportantly, these magazines created social networks that transcended national boundaries, with\\nreaders in different countries sharing programming techniques, game modifications, and cultural\\ninterpretations of the C64 experience that established the foundation for today's online communities\\nand forums.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758432170475_514",
+      "id": 1758432170778,
+      "position": {
+        "x": 66.65438883013483,
+        "y": 2.468740616509728,
+        "z": 25.834632676546015
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Economic and Social Impact",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758432170475_720",
+      "id": 1758432171185,
+      "position": {
+        "x": 66.66724845669218,
+        "y": 3.2036073014132627,
+        "z": 25.831447956877504
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "European C64 magazines achieved editorial sophistication that rivaled mainstream technology\\npublications, combining rigorous technical analysis with innovative graphic design and irreverent\\nhumor that made complex computing concepts accessible to general audiences. \"Zzap!64\" pioneered the\\nuse of detailed screenshots, numerical rating systems, and extended play-testing that became\\nstandard practice for game journalism, while \"64'er\" published advanced programming tutorials that\\nenabled readers to push the C64's hardware to its absolute limits. These magazines didn't just\\nreport on C64 culture—they actively created it, establishing programming competitions, organizing\\nuser groups, and providing platforms for demo scene artists and musicians to showcase their work to\\ninternational audiences.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758432170475_361",
+      "id": 1758432171133,
+      "position": {
+        "x": 66.67291345524818,
+        "y": 3.87342504994049,
+        "z": 25.846023526924746
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Technical Excellence and Cultural Innovation",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758432170475_370",
+      "id": 1758432170579,
+      "position": {
+        "x": 66.68386565455381,
+        "y": 4.5381139675664235,
+        "z": 25.85122696430831
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The C64's global success was built as much on paper and ink as on silicon and software, with\\nspecialized magazines creating the first truly international computer culture. Publications like\\n\"Zzap!64\" (UK), \"64'er\" (Germany), \"RUN Magazine\" and \"Compute!'s Gazette\" (USA), and dozens of\\nregional equivalents served as more than product catalogs—they were community newspapers for a\\nemerging digital civilization. These magazines provided program listings that readers could type in\\nto create games and utilities, hardware modification guides that turned basic C64s into specialized\\nmachines, and reviews that established critical standards for software quality that influenced\\ndevelopers worldwide. The magazines' letter columns and reader submissions created feedback loops\\nbetween users and developers that shaped software evolution in real-time.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758432170475_853",
+      "id": 1758432170482,
+      "position": {
+        "x": 66.6838208355198,
+        "y": 5.16308466774846,
+        "z": 25.874087198495378
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758432170482,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Paper Bridge Between Digital Communities",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane_11",
+      "id": 1758431063011,
+      "position": {
+        "x": 70.91979198865248,
+        "y": 4.270209085945831,
+        "z": 26.80924391866056
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 1.2000000000000002,
+        "y": 1.7000000000000006,
+        "z": 1
+      },
+      "currentImage": "exhibitions/64er.png",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 1758432171096,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_12",
+      "id": 1758431063012,
+      "position": {
+        "x": 69.4327225659919,
+        "y": 4.287048341773527,
+        "z": 26.613370810710897
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 1.2000000000000002,
+        "y": 1.7000000000000006,
+        "z": 1
+      },
+      "currentImage": "exhibitions/zzap64.png",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 1758432171096,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_13",
+      "id": 1758431063013,
+      "position": {
+        "x": 70.90541729836043,
+        "y": 2.570669154400435,
+        "z": 26.772260127188957
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 1.2000000000000002,
+        "y": 1.6000000000000005,
+        "z": 1
+      },
+      "currentImage": "exhibitions/run.png",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 1758432171096,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_14",
+      "id": 1758431063014,
+      "position": {
+        "x": 69.41834893014091,
+        "y": 2.5875083910910113,
+        "z": 26.576387784026632
+      },
+      "rotation": {
+        "x": -0.0049312588622248375,
+        "y": -0.9977852180783191,
+        "z": -0.01057779894765351,
+        "w": -0.06548783411669565
+      },
+      "scale": {
+        "x": 1.2000000000000002,
+        "y": 1.6000000000000005,
+        "z": 1
+      },
+      "currentImage": "exhibitions/compute-gazette.png",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 1758432171096,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Plane_15",
+      "id": 1758432171186,
+      "position": {
+        "x": 71.75800024571902,
+        "y": 3.136778990391357,
+        "z": 28.186222459174434
+      },
+      "rotation": {
+        "x": 0.003743375320107329,
+        "y": 0.7569029942872788,
+        "z": 0.008029732875845623,
+        "w": 0.6534673463514032
+      },
+      "scale": {
+        "x": 1.9000000000000008,
+        "y": 1.3000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/german-magazine.jpg",
+      "localKnnClusterId": 1758431063014,
+      "snapParentId": 1758431063013,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758434246585_858",
+      "id": 1758434246647,
+      "position": {
+        "x": 49.6457522046815,
+        "y": 3.263535136291877,
+        "z": 35.21773248958679
+      },
+      "rotation": {
+        "x": -0.016276471350911054,
+        "y": -0.03679874552646112,
+        "z": 0.004131980014986915,
+        "w": 0.9991816664817003
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 3.100000000000002,
+        "z": 1
+      },
+      "currentImage": "exhibitions/commodore-education.png",
+      "localKnnClusterId": 1758434247517,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758434246586_180",
+      "id": 1758434247488,
+      "position": {
+        "x": 49.76849853216113,
+        "y": 1.3681814375127754,
+        "z": 35.210456000763706
+      },
+      "rotation": {
+        "x": -0.016276471350911054,
+        "y": -0.03679874552646112,
+        "z": 0.004131980014986915,
+        "w": 0.9991816664817003
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434247517,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Educational Impact",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434246586_387",
+      "id": 1758434246824,
+      "position": {
+        "x": 53.258608879542635,
+        "y": 1.7643157601362753,
+        "z": 35.53611694905366
+      },
+      "rotation": {
+        "x": -0.016276471350911054,
+        "y": -0.03679874552646112,
+        "z": 0.004131980014986915,
+        "w": 0.9991816664817003
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434247517,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Students who learned programming on C64 systems became the foundation of the software industry's\\ngrowth throughout the 1990s and 2000s, with countless technology entrepreneurs, game developers, and\\nsoftware engineers tracing their careers back to childhood C64 programming experiences. Countries\\nwith high C64 adoption rates, particularly in Scandinavia and parts of Germany, subsequently\\ndeveloped thriving technology sectors that continue to lead global innovation in gaming, mobile\\nsoftware, and digital media. The C64's role in democratizing programming education created a\\ngeneration of technologically literate citizens who approached digital technology as creators rather\\nthan mere consumers, establishing cultural attitudes toward innovation and technical experimentation\\nthat continue to influence European and global technology development.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434246586_5",
+      "id": 1758434247036,
+      "position": {
+        "x": 53.25454523271656,
+        "y": 2.4436136867934657,
+        "z": 35.50382472978329
+      },
+      "rotation": {
+        "x": -0.016276471350911054,
+        "y": -0.03679874552646112,
+        "z": 0.004131980014986915,
+        "w": 0.9991816664817003
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434247517,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Long-term Cultural and Economic Impact",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434246586_800",
+      "id": 1758434247517,
+      "position": {
+        "x": 53.243822480153256,
+        "y": 3.178507064786587,
+        "z": 35.499216039474796
+      },
+      "rotation": {
+        "x": -0.016276471350911054,
+        "y": -0.03679874552646112,
+        "z": 0.004131980014986915,
+        "w": 0.9991816664817003
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434247517,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The C64's built-in BASIC interpreter and comprehensive documentation made programming instruction\\npractical on a mass scale for the first time, with millions of students worldwide receiving their\\nfirst exposure to computational thinking through BASIC programming exercises. Educational software\\nlike \"Logo Writer,\" \"Bank Street Writer,\" and specialized BASIC tutorial programs transformed\\nabstract programming concepts into concrete, visual experiences that students could immediately\\nunderstand and build upon. The C64's sophisticated graphics and sound capabilities meant that\\nstudent programs could produce genuinely impressive results even with basic programming skills,\\nproviding motivation and satisfaction that kept students engaged through the challenging process of\\nlearning computational logic and structured thinking.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434246586_146",
+      "id": 1758434247384,
+      "position": {
+        "x": 53.23909276992729,
+        "y": 3.848129416638871,
+        "z": 35.477219688479295
+      },
+      "rotation": {
+        "x": -0.016276471350911054,
+        "y": -0.03679874552646112,
+        "z": 0.004131980014986915,
+        "w": 0.9991816664817003
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434247517,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Programming as Universal Literacy",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434246586_681",
+      "id": 1758434246789,
+      "position": {
+        "x": 53.22960861259661,
+        "y": 4.512747834419668,
+        "z": 35.46494198599737
+      },
+      "rotation": {
+        "x": -0.016276471350911054,
+        "y": -0.03679874552646112,
+        "z": 0.004131980014986915,
+        "w": 0.9991816664817003
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434247517,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Educational adoption of the Commodore 64 represented one of the most successful technology\\nintegration initiatives in modern pedagogical history, with tens of thousands of schools worldwide\\nincorporating C64 systems into curricula ranging from elementary computer literacy to advanced\\nprogramming courses. Unlike expensive \"educational computers\" marketed specifically to schools, the\\nC64's consumer pricing made it accessible to budget-constrained educational institutions while its\\nsophisticated capabilities supported genuine learning rather than simplified \"educational toy\"\\nexperiences. Schools appreciated the C64's reliability, extensive software library, and the fact\\nthat students could afford compatible systems at home, creating unprecedented continuity between\\nclassroom and personal learning environments.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434246586_269",
+      "id": 1758434247365,
+      "position": {
+        "x": 53.229986181643476,
+        "y": 5.137412819689493,
+        "z": 35.434868131309685
+      },
+      "rotation": {
+        "x": -0.016276471350911054,
+        "y": -0.03679874552646112,
+        "z": 0.004131980014986915,
+        "w": 0.9991816664817003
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434247517,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Classroom Revolution",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434266029_998",
+      "id": 1758434266774,
+      "position": {
+        "x": 59.17962603372717,
+        "y": 3.2368653277847184,
+        "z": 36.38077697435735
+      },
+      "rotation": {
+        "x": 0.02333758241248614,
+        "y": -0.18423442870584572,
+        "z": -0.007916635139503796,
+        "w": -0.9825734568971942
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 2.9000000000000017,
+        "z": 1
+      },
+      "currentImage": "exhibitions/commodore-add.png",
+      "localKnnClusterId": 1758434266857,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 4.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758434266029_205",
+      "id": 1758434266192,
+      "position": {
+        "x": 59.29430295631795,
+        "y": 1.3412038328480236,
+        "z": 36.35244654320246
+      },
+      "rotation": {
+        "x": 0.02333758241248614,
+        "y": -0.18423442870584572,
+        "z": -0.007916635139503796,
+        "w": -0.9825734568971942
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434266857,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Cultural Legacy",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434266029_597",
+      "id": 1758434266265,
+      "position": {
+        "x": 62.58421383609775,
+        "y": 1.7296725310266798,
+        "z": 35.14024670507675
+      },
+      "rotation": {
+        "x": 0.02333758241248614,
+        "y": -0.18423442870584572,
+        "z": -0.007916635139503796,
+        "w": -0.9825734568971942
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434266857,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Perhaps the C64's most profound worldwide impact was its role in democratizing access to computing\\npower and programming education, creating the first generation of mass computer literacy that laid\\nthe groundwork for the internet age. Unlike previous computers that required significant technical\\nknowledge to operate effectively, the C64's user-friendly design and comprehensive documentation\\nmade computing accessible to ordinary families, students, and hobbyists worldwide. This\\naccessibility created a shared global experience of technological discovery that influenced\\nattitudes toward innovation, creativity, and digital communication across multiple generations,\\nestablishing the cultural foundation for today's interconnected digital society.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434266029_704",
+      "id": 1758434266040,
+      "position": {
+        "x": 62.56417059544457,
+        "y": 2.4083625209104165,
+        "z": 35.101734047792206
+      },
+      "rotation": {
+        "x": 0.02333758241248614,
+        "y": -0.18423442870584572,
+        "z": -0.007916635139503796,
+        "w": -0.9825734568971942
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434266857,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Educational and Social Transformation ",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434266029_324",
+      "id": 1758434266857,
+      "position": {
+        "x": 62.549805950474244,
+        "y": 3.143117214354382,
+        "z": 35.09016724279655
+      },
+      "rotation": {
+        "x": 0.02333758241248614,
+        "y": -0.18423442870584572,
+        "z": -0.007916635139503796,
+        "w": -0.9825734568971942
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434266857,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The C64's global installed base created economic opportunities for thousands of entrepreneurs,\\nprogrammers, and creative professionals who built careers around the platform's ecosystem.\\nIndependent software developers could reach international markets through magazine mail-order\\nadvertisements and early bulletin board systems, while hardware manufacturers created thriving\\nbusinesses producing memory expansions, disk drives, modems, and specialized peripherals. The\\nplatform's success enabled the emergence of professional game development studios, music production\\ntools, and business software companies that established many of the industry practices and business\\nmodels that continue to shape the technology sector today.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434266029_991",
+      "id": 1758434266246,
+      "position": {
+        "x": 62.533621101237536,
+        "y": 3.812303700353639,
+        "z": 35.06139427534683
+      },
+      "rotation": {
+        "x": 0.02333758241248614,
+        "y": -0.18423442870584572,
+        "z": -0.007916635139503796,
+        "w": -0.9825734568971942
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434266857,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Economic Ecosystem and Industry Foundation ",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434266029_113",
+      "id": 1758434266162,
+      "position": {
+        "x": 62.51733778553398,
+        "y": 4.47666338383379,
+        "z": 35.043520324377994
+      },
+      "rotation": {
+        "x": 0.02333758241248614,
+        "y": -0.18423442870584572,
+        "z": -0.007916635139503796,
+        "w": -0.9825734568971942
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434266857,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The C64's worldwide success created the cultural foundation for the demo scene—an underground\\nartistic movement that treated computers as canvases for audio-visual art rather than mere\\nproductivity tools. European demo scene groups like \"The Judges,\" \"Finnish Gold,\" and \"Ikari +\\nTalent\" pushed the C64's technical capabilities far beyond what commercial software had achieved,\\ncreating real-time generated graphics, complex musical compositions, and innovative programming\\ntechniques that influenced professional software development. These demo productions were\\ndistributed through networks of enthusiasts who gathered at \"copy parties\" and computer shows,\\ncreating the first global underground digital art movement that transcended national and linguistic\\nboundaries while establishing aesthetic and technical standards that continue to influence\\ncontemporary digital media.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758434266029_174",
+      "id": 1758434266336,
+      "position": {
+        "x": 62.50245890945188,
+        "y": 5.1007478919015545,
+        "z": 35.00599512374371
+      },
+      "rotation": {
+        "x": 0.02333758241248614,
+        "y": -0.18423442870584572,
+        "z": -0.007916635139503796,
+        "w": -0.9825734568971942
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758434266857,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Demo Scene Genesis",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane_16",
+      "id": 1758434266858,
+      "position": {
+        "x": 55.86146271420494,
+        "y": 2.561695908259525,
+        "z": 35.67203760493277
+      },
+      "rotation": {
+        "x": -0.016276471350911054,
+        "y": -0.03679874552646112,
+        "z": 0.004131980014986915,
+        "w": 0.9991816664817003
+      },
+      "scale": {
+        "x": 2.000000000000001,
+        "y": 2.300000000000001,
+        "z": 1
+      },
+      "currentImage": "exhibitions/elon-musk.png",
+      "localKnnClusterId": 1758434266857,
+      "snapParentId": 1758434247036,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 4.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758436432216_112",
+      "id": 1758436433159,
+      "position": {
+        "x": 49.058359529335725,
+        "y": 3.2756786870237184,
+        "z": 52.271740560063584
+      },
+      "rotation": {
+        "x": -0.01259369538631925,
+        "y": -0.052008755537131024,
+        "z": 0.004648278180512267,
+        "w": 0.9985564980715753
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Vertical-Integration.jpg",
+      "localKnnClusterId": 1758436432778,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758436432216_352",
+      "id": 1758436432325,
+      "position": {
+        "x": 49.18490104895436,
+        "y": 1.3806419208795249,
+        "z": 52.254175854891415
+      },
+      "rotation": {
+        "x": -0.01259369538631925,
+        "y": -0.052008755537131024,
+        "z": 0.004648278180512267,
+        "w": 0.9985564980715753
+      },
+      "scale": {
+        "x": 3.7000000000000024,
+        "y": 0.5000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436432778,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Vertical Integration: Commodore's Production Revolution",
+          "fontSize": 2.200000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436432216_771",
+      "id": 1758436432695,
+      "position": {
+        "x": 52.66274024254635,
+        "y": 1.7802357273483362,
+        "z": 52.68869662066674
+      },
+      "rotation": {
+        "x": -0.01259369538631925,
+        "y": -0.052008755537131024,
+        "z": 0.004648278180512267,
+        "w": 0.9985564980715753
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436432778,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Commodore's manufacturing strategy leveraged global production capabilities to optimize costs while\\nmaintaining quality standards and meeting regional market demands. Component fabrication occurred at\\nfacilities optimized for high-volume semiconductor and electronics production, while final assembly\\noperations were strategically located to minimize shipping costs and import duties for major\\nmarkets. The company developed sophisticated inventory management systems that balanced component\\navailability against carrying costs, ensuring smooth production flow without excessive capital tied\\nup in parts inventory. Quality control protocols maintained consistent standards across all\\nproduction facilities, while centralized engineering support ensured that process improvements\\ndeveloped at one location could be rapidly implemented throughout the global production network.\\nThis sophisticated approach to international manufacturing operations provided cost advantages that\\nenabled competitive pricing in markets worldwide while maintaining the flexibility to respond\\nquickly to changing market demands.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436432216_224",
+      "id": 1758436432258,
+      "position": {
+        "x": 52.658358273467506,
+        "y": 2.459747667874681,
+        "z": 52.66132250744563
+      },
+      "rotation": {
+        "x": -0.01259369538631925,
+        "y": -0.052008755537131024,
+        "z": 0.004648278180512267,
+        "w": 0.9985564980715753
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436432778,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Global Production Network: Efficiency Through Geographic Optimization",
+          "fontSize": 0.8,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436432216_474",
+      "id": 1758436432778,
+      "position": {
+        "x": 52.646372657239425,
+        "y": 3.194635849736293,
+        "z": 52.66182728441601
+      },
+      "rotation": {
+        "x": -0.01259369538631925,
+        "y": -0.052008755537131024,
+        "z": 0.004648278180512267,
+        "w": 0.9985564980715753
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436432778,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The path to affordable computing required revolutionary advances in manufacturing automation and\\nprocess control that transformed computer assembly from craft production to industrial\\nmanufacturing. Commodore invested heavily in automated component placement systems, wave soldering\\nequipment, and integrated testing stations that could produce hundreds of units per day with\\nconsistent quality. Statistical process control systems monitored key parameters throughout\\nproduction, catching defects early and preventing costly rework or warranty repairs. Worker training\\nprograms emphasized continuous improvement and problem-solving skills, creating a workforce capable\\nof identifying and implementing efficiency improvements. These manufacturing innovations reduced\\nlabor costs per unit while improving quality consistency, making possible the aggressive pricing\\nthat established the C64's market dominance.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436432216_285",
+      "id": 1758436433039,
+      "position": {
+        "x": 52.64103064515282,
+        "y": 3.864394633086985,
+        "z": 52.6446521689277
+      },
+      "rotation": {
+        "x": -0.01259369538631925,
+        "y": -0.052008755537131024,
+        "z": 0.004648278180512267,
+        "w": 0.9985564980715753
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436432778,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Automation and Process Innovation: Manufacturing at Scale",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436432216_755",
+      "id": 1758436432503,
+      "position": {
+        "x": 52.63065068950036,
+        "y": 4.529069156640919,
+        "z": 52.637009403299295
+      },
+      "rotation": {
+        "x": -0.01259369538631925,
+        "y": -0.052008755537131024,
+        "z": 0.004648278180512267,
+        "w": 0.9985564980715753
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436432778,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Commodore's achievement of the revolutionary $199 retail price point required a fundamental\\nreimagining of computer manufacturing that went far beyond simple cost-cutting measures. Jack\\nTramiel's vision of vertical integration meant that Commodore controlled every aspect of production\\nfrom semiconductor fabrication through final assembly and distribution. The company's ownership of\\nMOS Technology provided direct access to processors and custom chips at cost, while in-house plastic\\nmolding operations eliminated external supplier margins on cases and keyboards. This comprehensive\\ncontrol allowed Commodore to optimize the entire production process for cost efficiency rather than\\nsimply assembling components purchased from various suppliers, creating competitive advantages that\\nrivals couldn't replicate without massive capital investments in manufacturing infrastructure.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436432216_104",
+      "id": 1758436432733,
+      "position": {
+        "x": 52.630745138590825,
+        "y": 5.153940719937733,
+        "z": 52.61158336307836
+      },
+      "rotation": {
+        "x": -0.01259369538631925,
+        "y": -0.052008755537131024,
+        "z": 0.004648278180512267,
+        "w": 0.9985564980715753
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436432778,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "From Silicon to Shelf: Complete Control of the Supply Chain",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436788771_188",
+      "id": 1758436789081,
+      "position": {
+        "x": 57.30604925694574,
+        "y": 3.341226188343852,
+        "z": 52.326695917370344
+      },
+      "rotation": {
+        "x": 0.00781645468265443,
+        "y": -0.0382747028490706,
+        "z": 0.008679832603989884,
+        "w": 0.9991990586217879
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 3.300000000000002,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Motherboard-Cronicles.png",
+      "localKnnClusterId": 1758436789304,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758436788771_53",
+      "id": 1758436789306,
+      "position": {
+        "x": 57.44959359838781,
+        "y": 1.4498318170146989,
+        "z": 52.22918892760008
+      },
+      "rotation": {
+        "x": 0.00781645468265443,
+        "y": -0.0382747028490706,
+        "z": 0.008679832603989884,
+        "w": 0.9991990586217879
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436789304,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Circuit Board Evolutions: From Concepts to Mass Production",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436788771_264",
+      "id": 1758436788891,
+      "position": {
+        "x": 60.93437770053602,
+        "y": 1.867761315592819,
+        "z": 52.583395664252826
+      },
+      "rotation": {
+        "x": 0.00781645468265443,
+        "y": -0.0382747028490706,
+        "z": 0.008679832603989884,
+        "w": 0.9991990586217879
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436789304,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The final major motherboard evolution came with the C64C redesign, which transformed the internal\\narchitecture while maintaining complete software compatibility with earlier models. The new compact\\nboards featured extensive use of surface-mount technology, custom integrated circuits that combined\\nmultiple discrete components, and advanced power management systems that reduced heat generation and\\nimproved reliability. Manufacturing innovations included automated optical inspection systems,\\nstatistical process control, and modular assembly techniques that dramatically reduced production\\ncosts while improving quality consistency. The C64C motherboard represented the culmination of six\\nyears of continuous engineering refinement, demonstrating how sustained incremental improvement\\ncould extend a product's competitive lifespan while adapting to evolving manufacturing technologies\\nand market demands.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436788771_892",
+      "id": 1758436788847,
+      "position": {
+        "x": 60.922939145737764,
+        "y": 2.5477422667060314,
+        "z": 52.583596478929586
+      },
+      "rotation": {
+        "x": 0.00781645468265443,
+        "y": -0.0382747028490706,
+        "z": 0.008679832603989884,
+        "w": 0.9991990586217879
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436789304,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The C64C Revolution: \\nModern Manufacturing Meets Classic Architecture (1986-1994)",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436788772_146",
+      "id": 1758436789304,
+      "position": {
+        "x": 60.90416735590006,
+        "y": 3.281855628772419,
+        "z": 52.61408724953773
+      },
+      "rotation": {
+        "x": 0.00781645468265443,
+        "y": -0.0382747028490706,
+        "z": 0.008679832603989884,
+        "w": 0.9991990586217879
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436789304,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "As production volumes soared and component costs stabilized, Commodore engineering teams\\ncontinuously refined the motherboard design to reduce manufacturing costs while improving\\nreliability and performance. The transition to boards like ASSY 250466 introduced selective use of\\nsurface-mount components for non-critical functions, reducing board space requirements and component\\ncosts. Engineers redesigned power supply circuits to eliminate heat-generating voltage regulators,\\nextending component lifespan and reducing warranty costs. Signal routing optimizations reduced\\nelectromagnetic interference while simplifying board layout, and component consolidation eliminated\\nredundant parts without compromising functionality. These mid-life revisions demonstrated how\\nsuccessful products could be continuously improved through incremental engineering refinements that\\ncumulatively delivered significant cost and quality benefits.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436788772_470",
+      "id": 1758436789560,
+      "position": {
+        "x": 60.89214481735747,
+        "y": 3.9516730310885886,
+        "z": 52.624107765382504
+      },
+      "rotation": {
+        "x": 0.00781645468265443,
+        "y": -0.0382747028490706,
+        "z": 0.008679832603989884,
+        "w": 0.9991990586217879
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436789304,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Mid-Life Revisions: Optimization and Cost Reduction (1984-1986)",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436788772_645",
+      "id": 1758436789198,
+      "position": {
+        "x": 60.87540027912016,
+        "y": 4.615976176164017,
+        "z": 52.64358301224643
+      },
+      "rotation": {
+        "x": 0.00781645468265443,
+        "y": -0.0382747028490706,
+        "z": 0.008679832603989884,
+        "w": 0.9991990586217879
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436789304,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The original Commodore 64 motherboard, housed in the distinctive \"breadbin\" case, represented a\\nmasterclass in cost-effective engineering that balanced performance, manufacturability, and\\nreliability. The early ASSY 250407 and 250425 boards featured a spacious layout that prioritized\\nease of assembly and heat dissipation over miniaturization, with generous spacing between components\\nand robust power distribution networks. These boards used traditional through-hole components almost\\nexclusively, allowing Commodore to leverage existing assembly equipment and worker skills while\\nmaintaining high reliability standards. The original design philosophy emphasized redundant power\\nfiltering and careful signal routing to eliminate radio frequency interference that could disrupt\\ntelevision reception—a critical consideration since most users connected their C64 directly to\\ntelevisions rather than dedicated computer monitors.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758436788772_402",
+      "id": 1758436789159,
+      "position": {
+        "x": 60.86899669889335,
+        "y": 5.24133198286802,
+        "z": 52.64340112617794
+      },
+      "rotation": {
+        "x": 0.00781645468265443,
+        "y": -0.0382747028490706,
+        "z": 0.008679832603989884,
+        "w": 0.9991990586217879
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758436789304,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Breadbin Era: Original C64 Design Philosophy (1982-1984)",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437198939_255",
+      "id": 1758437199557,
+      "position": {
+        "x": 65.71658701062535,
+        "y": 3.2930714331482416,
+        "z": 52.749639428655556
+      },
+      "rotation": {
+        "x": 0.005600720473212042,
+        "y": -0.19362746790023522,
+        "z": -0.007335692381045928,
+        "w": -0.9810318097425801
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 3.100000000000002,
+        "z": 1
+      },
+      "currentImage": "exhibitions/MOS-logo.png",
+      "localKnnClusterId": 1758437199115,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758437198939_738",
+      "id": 1758437199164,
+      "position": {
+        "x": 65.81473273192927,
+        "y": 1.3986826087500102,
+        "z": 52.65401542586417
+      },
+      "rotation": {
+        "x": 0.005600720473212042,
+        "y": -0.19362746790023522,
+        "z": -0.007335692381045928,
+        "w": -0.9810318097425801
+      },
+      "scale": {
+        "x": 4.100000000000002,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437199115,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "1981 MOS Technology Development",
+          "fontSize": 2.300000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437198939_192",
+      "id": 1758437199209,
+      "position": {
+        "x": 69.08399744988608,
+        "y": 1.8031973902865563,
+        "z": 51.39222118035059
+      },
+      "rotation": {
+        "x": 0.005600720473212042,
+        "y": -0.19362746790023522,
+        "z": -0.007335692381045928,
+        "w": -0.9810318097425801
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437199115,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The lab recreation emphasizes how the VIC-II's success resulted from unprecedented collaboration\\nbetween different engineering disciplines within the MOS Technology facility. Hardware engineers\\nworked alongside software developers to optimize chip functionality for programming ease, while\\nmanufacturing specialists contributed early feedback on production feasibility and cost\\nimplications. Visitors can explore how this integrated approach differed from traditional\\nsemiconductor development, where design teams often worked in isolation until late in the\\ndevelopment process. The environment showcases communication tools and documentation standards that\\nenabled rapid information sharing between team members, demonstrating how organizational innovation\\nwas as crucial as technical innovation in creating groundbreaking products like the VIC-II that\\nwould define an entire generation of computing hardware.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437198939_240",
+      "id": 1758437199239,
+      "position": {
+        "x": 69.06893702428002,
+        "y": 2.482946937568136,
+        "z": 51.37743102560415
+      },
+      "rotation": {
+        "x": 0.005600720473212042,
+        "y": -0.19362746790023522,
+        "z": -0.007335692381045928,
+        "w": -0.9810318097425801
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437199115,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Collaborative Innovation Environment: Cross-Pollination of Ideas",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437198939_80",
+      "id": 1758437199115,
+      "position": {
+        "x": 69.06054176205157,
+        "y": 3.2177526740052205,
+        "z": 51.39138052343537
+      },
+      "rotation": {
+        "x": 0.005600720473212042,
+        "y": -0.19362746790023522,
+        "z": -0.007335692381045928,
+        "w": -0.9810318097425801
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437199115,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The recreation showcases the remarkable constraint-driven innovation that characterized early\\nsemiconductor development, where engineers worked with limited resources and tight deadlines to\\nachieve seemingly impossible goals. Charpentier's development process required constant iteration\\nbetween theoretical design, circuit simulation, and physical testing on actual television sets to\\nensure compatibility across different broadcast standards. The workspace demonstrates how engineers\\nused innovative testing methodologies, including custom-built pattern generators and specialized\\nmeasurement equipment, to validate graphics performance before expensive chip fabrication runs.\\nInteractive displays show how design decisions were driven by manufacturing constraints, cost\\ntargets, and performance requirements, illustrating the delicate balance between engineering\\nambition and commercial reality that defined successful chip development.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437198939_762",
+      "id": 1758437199387,
+      "position": {
+        "x": 69.04944524362006,
+        "y": 3.8876387871291698,
+        "z": 51.38592125368955
+      },
+      "rotation": {
+        "x": 0.005600720473212042,
+        "y": -0.19362746790023522,
+        "z": -0.007335692381045928,
+        "w": -0.9810318097425801
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437199115,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Development Tools and Methodologies: Engineering Under Pressure",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437198939_796",
+      "id": 1758437199040,
+      "position": {
+        "x": 69.03841821000341,
+        "y": 4.55232595238295,
+        "z": 51.39118869719007
+      },
+      "rotation": {
+        "x": 0.005600720473212042,
+        "y": -0.19362746790023522,
+        "z": -0.007335692381045928,
+        "w": -0.9810318097425801
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437199115,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Step into an authentic recreation of Al Charpentier's 1981 development workspace at MOS Technology,\\nwhere the VIC-II graphics chip took shape through months of intensive design and testing. The\\nworkbench features period-appropriate oscilloscopes, logic analyzers, and prototype boards connected\\nto early television monitors displaying the first sprite animations ever created. Visitors can\\nexamine Charpentier's original engineering notebooks, filled with hand-drawn timing diagrams and\\ncircuit schematics that reveal the meticulous planning required to synchronize graphics generation\\nwith television display standards. The station includes working prototypes of sprite generation\\ncircuits, allowing visitors to understand how hardware sprites moved independently of background\\ngraphics—a concept so revolutionary that it required entirely new programming paradigms and graphic\\ndesign approaches.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437198939_735",
+      "id": 1758437199773,
+      "position": {
+        "x": 69.02808006716826,
+        "y": 5.177430033470256,
+        "z": 51.37541003668587
+      },
+      "rotation": {
+        "x": 0.005600720473212042,
+        "y": -0.19362746790023522,
+        "z": -0.007335692381045928,
+        "w": -0.9810318097425801
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437199115,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Al Charpentier's VIC-II Development Station: \\nWhere Graphics Were Born",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437667037_724",
+      "id": 1758437667389,
+      "position": {
+        "x": 67.15824323927188,
+        "y": 3.2518848148831707,
+        "z": 47.047277856607984
+      },
+      "rotation": {
+        "x": 0.008524335822700787,
+        "y": -0.7988522125480619,
+        "z": -0.018283205992296776,
+        "w": -0.6011891535237316
+      },
+      "scale": {
+        "x": 4.100000000000002,
+        "y": 2.000000000000001,
+        "z": 1
+      },
+      "currentImage": "exhibitions/VIC-II.jpg",
+      "localKnnClusterId": 1758437667415,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758437667037_699",
+      "id": 1758437667952,
+      "position": {
+        "x": 66.82262205000224,
+        "y": 1.3563310813227365,
+        "z": 47.132854184601335
+      },
+      "rotation": {
+        "x": 0.008524335822700787,
+        "y": -0.7988522125480619,
+        "z": -0.018283205992296776,
+        "w": -0.6011891535237316
+      },
+      "scale": {
+        "x": 3.500000000000002,
+        "y": 0.6000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437667415,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "VIC-II Graphics Processor - The Visual Revolution",
+          "fontSize": 2.300000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437667037_833",
+      "id": 1758437667540,
+      "position": {
+        "x": 65.51507811888273,
+        "y": 1.7491282508523895,
+        "z": 43.746717256022
+      },
+      "rotation": {
+        "x": 0.008524335822700787,
+        "y": -0.7988522125480619,
+        "z": -0.018283205992296776,
+        "w": -0.6011891535237316
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437667415,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The VIC-II's development timeline was nothing short of miraculous—Charpentier delivered a fully\\nfunctional graphics chip in just eight months, working under intense pressure as Commodore raced to\\nbeat competitors to market. This achievement required not only brilliant initial design but also\\ninnovative debugging techniques, as traditional chip testing methods couldn't adequately evaluate\\ngraphics performance. Charpentier's background in NASA satellite communications provided crucial\\nexperience with real-time data processing and signal timing that proved essential in creating\\nhardware capable of generating stable video signals. The resulting chip became the template for all\\nfuture graphics processors, establishing concepts like hardware sprites, collision detection, and\\nsmooth scrolling that remain fundamental to computer graphics today.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437667037_644",
+      "id": 1758437667715,
+      "position": {
+        "x": 65.48126623788868,
+        "y": 2.4281839040935265,
+        "z": 43.76237596972221
+      },
+      "rotation": {
+        "x": 0.008524335822700787,
+        "y": -0.7988522125480619,
+        "z": -0.018283205992296776,
+        "w": -0.6011891535237316
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437667415,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Engineering Excellence Under Pressure: \\nThe Eight-Month Miracle",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437667037_668",
+      "id": 1758437667415,
+      "position": {
+        "x": 65.47532497189742,
+        "y": 3.163042051885665,
+        "z": 43.774735217542506
+      },
+      "rotation": {
+        "x": 0.008524335822700787,
+        "y": -0.7988522125480619,
+        "z": -0.018283205992296776,
+        "w": -0.6011891535237316
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437667415,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Charpentier's masterpiece supported multiple display modes simultaneously, giving programmers\\nunprecedented flexibility. The chip offered 320×200 high-resolution mode for detailed text and\\ntechnical graphics, 160×200 multicolor mode for vibrant artistic displays, and various programmable\\ncharacter modes with custom fonts. The VIC-II could display 16 carefully selected colors from its\\npalette, with advanced features like multicolor sprites that effectively doubled color depth through\\nclever pixel sharing. Most impressively, the chip managed smooth pixel-by-pixel scrolling in all\\ndirections while maintaining perfect synchronization with television sets worldwide—a timing\\nchallenge that required precise engineering and defeated many competitors who attempted similar\\nfeatures.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437667037_510",
+      "id": 1758437667212,
+      "position": {
+        "x": 65.451471177836,
+        "y": 3.832497012646124,
+        "z": 43.78743952440037
+      },
+      "rotation": {
+        "x": 0.008524335822700787,
+        "y": -0.7988522125480619,
+        "z": -0.018283205992296776,
+        "w": -0.6011891535237316
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437667415,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Multimode Graphics Architecture: Versatility in Silicon",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437667037_851",
+      "id": 1758437667280,
+      "position": {
+        "x": 65.43841770594565,
+        "y": 4.4970252952069485,
+        "z": 43.80122879629757
+      },
+      "rotation": {
+        "x": 0.008524335822700787,
+        "y": -0.7988522125480619,
+        "z": -0.018283205992296776,
+        "w": -0.6011891535237316
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437667415,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The Video Interface Controller II represented a quantum leap in computer graphics technology when Al\\nCharpentier designed it in 1981. Unlike competing systems that required software to painstakingly\\nmove graphics pixel by pixel, the VIC-II introduced eight independent hardware sprites—24×21 pixel\\nobjects that could move smoothly across the screen without affecting the background. Each sprite\\nsupported up to four colors simultaneously and could detect collisions with other sprites or\\nbackground elements automatically. This revolutionary approach meant that games could feature\\nfast-moving characters, projectiles, and enemies without consuming precious CPU cycles for graphics\\nmanagement, fundamentally changing what was possible in home computer entertainment.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758437667037_195",
+      "id": 1758437667645,
+      "position": {
+        "x": 65.40554334204597,
+        "y": 5.121458122645789,
+        "z": 43.81190031836836
+      },
+      "rotation": {
+        "x": 0.008524335822700787,
+        "y": -0.7988522125480619,
+        "z": -0.018283205992296776,
+        "w": -0.6011891535237316
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758437667415,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "From Sprites to Scrolling: Hardware Graphics Born",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438269911_374",
+      "id": 1758438270749,
+      "position": {
+        "x": 60.11806587640502,
+        "y": 3.2655562611581557,
+        "z": 42.91426719112062
+      },
+      "rotation": {
+        "x": -0.004595590943404653,
+        "y": -0.999761376793789,
+        "z": -0.015553769126206464,
+        "w": -0.014641852196301514
+      },
+      "scale": {
+        "x": 3.8000000000000025,
+        "y": 3.100000000000002,
+        "z": 1
+      },
+      "currentImage": "exhibitions/SID.jpg",
+      "localKnnClusterId": 1758438270091,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758438269911_604",
+      "id": 1758438270227,
+      "position": {
+        "x": 59.99533461083202,
+        "y": 1.3702474627731651,
+        "z": 42.92934932534134
+      },
+      "rotation": {
+        "x": -0.004595590943404653,
+        "y": -0.999761376793789,
+        "z": -0.015553769126206464,
+        "w": -0.014641852196301514
+      },
+      "scale": {
+        "x": 3.8000000000000025,
+        "y": 0.6000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438270091,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "SID Audio chip - The synthesizer on silicon",
+          "fontSize": 2.4000000000000012,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438269911_834",
+      "id": 1758438270138,
+      "position": {
+        "x": 56.49430788411128,
+        "y": 1.7669589392869518,
+        "z": 42.758230340588625
+      },
+      "rotation": {
+        "x": -0.004595590943404653,
+        "y": -0.999761376793789,
+        "z": -0.015553769126206464,
+        "w": -0.014641852196301514
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438270091,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Yannes' creation sparked an entirely new musical movement that continues to influence electronic\\nmusic today. Legendary composers like Rob Hubbard, Martin Galway, and David Whittaker pushed the SID\\nto its limits, creating complex compositions that rivaled professional synthesizer music of the era.\\nThe chip's unique analog filter character became so distinctive that modern electronic music\\nproducers still seek out original SID chips for their irreplaceable warm, organic sound quality. The\\nSID established chiptune as a legitimate musical genre, with its influence extending from 1980s\\nvideo game soundtracks to contemporary electronic dance music. Modern synthesizer manufacturers\\ncontinue attempting to recreate the SID's distinctive filter characteristics, testament to Yannes'\\nachievement in creating not just a computer audio chip, but a genuine musical instrument that\\ndefined the sound of an era.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438269911_446",
+      "id": 1758438270740,
+      "position": {
+        "x": 56.49995252344963,
+        "y": 2.446295273560591,
+        "z": 42.78946072291412
+      },
+      "rotation": {
+        "x": -0.004595590943404653,
+        "y": -0.999761376793789,
+        "z": -0.015553769126206464,
+        "w": -0.014641852196301514
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438270091,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Cultural Impact and Musical Legacy: The Birth of Chiptune",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438269911_377",
+      "id": 1758438270091,
+      "position": {
+        "x": 56.511035057177324,
+        "y": 3.181190820935472,
+        "z": 42.79267005077744
+      },
+      "rotation": {
+        "x": -0.004595590943404653,
+        "y": -0.999761376793789,
+        "z": -0.015553769126206464,
+        "w": -0.014641852196301514
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438270091,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The SID's sophistication extended far beyond simple tone generation, incorporating professional\\nsynthesizer features that had never been attempted in a computer chip. Each voice included complete\\nADSR (Attack, Decay, Sustain, Release) envelope generators, allowing sounds to evolve naturally over\\ntime like acoustic instruments. The chip's crown jewel was its analog multimode filter—a 24dB/octave\\nfilter with low-pass, high-pass, and band-pass settings that could be dynamically controlled and\\nmodulated. Advanced features included ring modulation between oscillators for metallic, bell-like\\ntones, oscillator synchronization for complex harmonic effects, and the ability to modulate filters\\nwith oscillator outputs. Two analog-to-digital converters enabled paddle controller input, making\\nthe SID a complete audio interface system.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438269911_79",
+      "id": 1758438270397,
+      "position": {
+        "x": 56.516886498430296,
+        "y": 3.850838633868417,
+        "z": 42.813597272733894
+      },
+      "rotation": {
+        "x": -0.004595590943404653,
+        "y": -0.999761376793789,
+        "z": -0.015553769126206464,
+        "w": -0.014641852196301514
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438270091,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Advanced Synthesis Features: Professional Music Production Power",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438269911_192",
+      "id": 1758438270033,
+      "position": {
+        "x": 56.52705575013276,
+        "y": 4.515469129096429,
+        "z": 42.824610902357705
+      },
+      "rotation": {
+        "x": -0.004595590943404653,
+        "y": -0.999761376793789,
+        "z": -0.015553769126206464,
+        "w": -0.014641852196301514
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438270091,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Bob Yannes arrived at MOS Technology with a unique combination of electrical engineering expertise\\nand deep musical knowledge, having worked extensively with pipe organs and analog synthesizers.\\nFrustrated by the primitive beeps and buzzes that passed for computer audio in 1981, Yannes set out\\nto create something unprecedented—a complete analog synthesizer implemented on a single silicon\\nchip. The Sound Interface Device (SID) featured three independent oscillators, each capable of\\ngenerating four distinct waveforms: sawtooth, triangle, variable pulse width square waves, and white\\nnoise. This gave the C64 more sophisticated audio capabilities than synthesizers costing thousands\\nof dollars, democratizing electronic music creation and establishing entirely new genres of\\ncomputer-generated sound.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438269911_579",
+      "id": 1758438270629,
+      "position": {
+        "x": 56.52815285631976,
+        "y": 5.140171059418839,
+        "z": 42.853890338228766
+      },
+      "rotation": {
+        "x": -0.004595590943404653,
+        "y": -0.999761376793789,
+        "z": -0.015553769126206464,
+        "w": -0.014641852196301514
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "Analog Music Meets Digital Control: Revolutionary Sound Architecture",
+      "localKnnClusterId": 1758438270091,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Analog Music Meets Digital Control: Revolutionary Sound Architecture",
+          "fontSize": 0.8,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438334134_242",
+      "id": 1758438334643,
+      "position": {
+        "x": 52.45439597874357,
+        "y": 3.316774430222589,
+        "z": 42.55736648906593
+      },
+      "rotation": {
+        "x": -0.007238519734471693,
+        "y": -0.9955087556527898,
+        "z": -0.00019744049476801834,
+        "w": -0.09439311473847317
+      },
+      "scale": {
+        "x": 3.8000000000000025,
+        "y": 1.2000000000000002,
+        "z": 1
+      },
+      "currentImage": "exhibitions/MOS_6502.jpg",
+      "localKnnClusterId": 1758438334175,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758438334134_903",
+      "id": 1758438335054,
+      "position": {
+        "x": 52.210524961002726,
+        "y": 1.4236381343656754,
+        "z": 42.81048493367217
+      },
+      "rotation": {
+        "x": 0.005501019838488525,
+        "y": 0.9955197860481352,
+        "z": 0.00003269315362138447,
+        "w": 0.09439329053788326
+      },
+      "scale": {
+        "x": 3.500000000000002,
+        "y": 0.7000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438334175,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "6502 CPU - The Democratic Processor",
+          "fontSize": 2.4000000000000012,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438334134_589",
+      "id": 1758438334183,
+      "position": {
+        "x": 48.785485199911356,
+        "y": 1.8347946868833196,
+        "z": 42.2729882343812
+      },
+      "rotation": {
+        "x": -0.007238519734471693,
+        "y": -0.9955087556527898,
+        "z": -0.00019744049476801834,
+        "w": -0.09439311473847317
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438334175,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Peddle's democratic processor became the foundation for an entire generation of computers that\\ndefined the personal computing revolution. Beyond powering Commodore's line from the PET through the\\nC64, the 6502 made possible the Apple II (launching Apple Computer), the BBC Micro (educating\\nBritish programmers), Atari's computers and game systems, and countless embedded applications. When\\nNintendo needed a processor for the Famicom/NES, they chose a 6502 variant, making Peddle's design\\nthe foundation of the modern video game industry. The processor's emphasis on low cost and high\\nintegration became the template for all future microprocessor development, while Peddle's holistic\\napproach to system design—considering everything from chip architecture to manufacturing costs to\\nuser experience—established the standard methodology for the personal computer industry that\\ncontinues today.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438334134_536",
+      "id": 1758438334434,
+      "position": {
+        "x": 48.793380710507094,
+        "y": 2.5147367896287136,
+        "z": 42.28400640527653
+      },
+      "rotation": {
+        "x": -0.007238519734471693,
+        "y": -0.9955087556527898,
+        "z": -0.00019744049476801834,
+        "w": -0.09439311473847317
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438334175,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Foundation of the Computing Revolution: Ubiquitous Impact",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438334134_554",
+      "id": 1758438334175,
+      "position": {
+        "x": 48.81168740610909,
+        "y": 3.249287320090056,
+        "z": 42.26654471024141
+      },
+      "rotation": {
+        "x": -0.007238519734471693,
+        "y": -0.9955087556527898,
+        "z": -0.00019744049476801834,
+        "w": -0.09439311473847317
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438334175,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The 6502's architecture achieved its cost breakthrough through sophisticated design choices that\\nprioritized practical efficiency over theoretical completeness. While competitors like the Intel\\n8080 and Motorola 6800 required multiple power supplies and complex support chips, Peddle's\\nprocessor operated from a single +5V supply with integrated clock generation. Rather than\\nimplementing multiple index registers like more complex processors, the 6502 featured an elegant\\ninstruction set that made efficient use of its limited registers through sophisticated addressing\\nmodes. The processor's zero-page addressing effectively provided programmers with 256 additional\\nhigh-speed registers, while its decimal mode performed binary-coded decimal arithmetic directly in\\nhardware—simplifying business applications and mathematical calculations while maintaining blazing\\nspeed for common operations.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438334134_620",
+      "id": 1758438334410,
+      "position": {
+        "x": 48.82131847559986,
+        "y": 3.9192173044548033,
+        "z": 42.26772364209338
+      },
+      "rotation": {
+        "x": -0.007238519734471693,
+        "y": -0.9955087556527898,
+        "z": -0.00019744049476801834,
+        "w": -0.09439311473847317
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438334175,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Elegant Simplicity: Maximum Performance, Minimum Complexity",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438334134_126",
+      "id": 1758438334982,
+      "position": {
+        "x": 48.836731993120644,
+        "y": 4.5837927274512404,
+        "z": 42.25995896010819
+      },
+      "rotation": {
+        "x": -0.007238519734471693,
+        "y": -0.9955087556527898,
+        "z": -0.00019744049476801834,
+        "w": -0.09439311473847317
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438334175,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Chuck Peddle's frustration with Motorola's $175 price tag for the 6800 processor led to one of the\\nmost significant cost breakthroughs in computing history. When Motorola rejected his proposals for\\nan affordable processor, Peddle and seven colleagues made the bold decision to leave and join MOS\\nTechnology with a revolutionary goal: create a processor that could sell for just $25—less than\\none-sixth the price of competing chips. This wasn't simply about accepting reduced performance for\\nlower cost; Peddle aimed to achieve this price point through brilliant design simplification rather\\nthan feature reduction. His approach focused on eliminating expensive support requirements while\\nmaintaining or improving performance, challenging the entire industry's assumptions about\\nmicroprocessor economics and accessibility.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758438334134_263",
+      "id": 1758438334194,
+      "position": {
+        "x": 48.83986208266586,
+        "y": 5.209093020219878,
+        "z": 42.26999357912909
+      },
+      "rotation": {
+        "x": -0.007238519734471693,
+        "y": -0.9955087556527898,
+        "z": -0.00019744049476801834,
+        "w": -0.09439311473847317
+      },
+      "scale": {
+        "x": 3.100000000000002,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438334175,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Breaking the Price Barrier: Microprocessors for the Masses",
           "fontSize": 1,
           "font": "sans-serif",
           "textColor": {
