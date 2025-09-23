@@ -1,5 +1,15 @@
-import {Vector3} from '@dcl/sdk/math'
-import { engine } from '@dcl/sdk/ecs'
+import {
+  Vector3,
+  Color3,
+  Color4,
+  Quaternion
+} from '@dcl/sdk/math'
+import { engine,Entity,Transform,TransformTypeWithOptionals,
+  Material,PBMaterial,PBMaterial_PbrMaterial,Texture,TextureUnion,
+  TextShape, Font,
+  MeshCollider, MeshRenderer, GltfContainer,
+  pointerEventsSystem,InputAction, inputSystem
+ } from '@dcl/sdk/ecs'
 
 import { changeColorSystem, circularSystem, planeSelectionSystem } from './games-directory/games-systems'
 import { createSingleCurvedGrid } from './games-directory/games-factory'
@@ -15,8 +25,15 @@ import { createTeleporter, teleporterSystem, teleporterRippleSystem, teleporterA
 import { setupCombinedUI } from './ui-manager'
 
 
+//Elevator
+import {addNamedEntity, spawnEntity, spawnBoxX} from './Elevator/SpawnerFunctions'
+import { initializeElevator, ElevatorInfo, ElevatorEventTypes } from './Elevator'
+
 // Export utilities for reuse in other projects
 // export { logPlayerTransformValues } from './plane-positioner'
+
+
+let testIndicator:Entity | null = null
 
 export async function main() {
   // Setup combined UI first
@@ -67,6 +84,152 @@ export async function main() {
 
   // Initialize the plane positioner system
   await initializePlanePositioner()
+
+
+
+  
+  // debugLog1("\n========= Elevator Demo =========")
+  
+  // Scene setup
+  let scene = spawnEntity(0,0,0, 0,0,0, 1,1,1, "scene")
+  
+  // // Simple Ground Plane
+  // const groundPlane = spawnBoxX(8,0,8,    0,0,0,    16,0.038,16, "groundPlane", scene)
+  // Material.setPbrMaterial(groundPlane,{
+  //   albedoColor: Color4.create(0.282, 0.437, 0.300),
+  //   roughness: 1,
+  //   metallic: 0
+  // })
+  
+  // Elevator configuration
+  let elevatorInfo:ElevatorInfo = {
+      elevatorId:"main",
+      elevatorMessageBusChannel:"a95ba95c-19c4-11ed-861d-0242ac120002",
+      floors:[{elevation:0},{elevation:5.35},{elevation:10.5}],
+      doorOpenPeriod:5,
+      maxSpeed:2,
+      groundFloorIsOne:false,
+      syncPlayers:true,
+      sceneStartupDelay:6,
+      startupSyncTimeout:5,
+      testMode:true
+  }
+
+  // Building floors
+  let floorMtl:PBMaterial_PbrMaterial = {
+    albedoColor: Color4.create(0,0,.6),
+    roughness: 1,
+    metallic: 0
+  }
+
+  //Floors
+  for (let i=0; i<elevatorInfo.floors.length; i++) {
+      let floor = spawnBoxX(42.5,elevatorInfo.floors[i].elevation,39,  0,0,0, 9,0.01,49,"floor")
+      Material.setPbrMaterial(floor, floorMtl)
+  }    
+
+
+
+
+  // Initialize the elevator using the new function
+  const { elevator, eventManager } = initializeElevator({
+    elevatorInfo,
+    scene,
+    position: { x: 48, y: elevatorInfo.floors[0].elevation, z: 39.15 },
+    rotation: { x: 0, y: 90, z: 0 },
+    scale: { x: 1, y: 1, z: 1 },
+    onTestingStarted: (data) => {
+      if (!testIndicator) {
+        testIndicator = spawnEntity(8,2,7.5,  0,0,0,  1,1,1, "testIndicator", scene)
+        TextShape.create(testIndicator,{
+          text: "Elevator Closed for Testing",
+          fontSize: 4,
+          textColor: Color4.Red()
+        })
+      }
+    },
+    onTestingEnded: (data) => {
+      if (testIndicator) {
+        engine.removeEntity(testIndicator)
+        testIndicator = null
+      }
+    }
+  })
+
+  // Call buttons for each floor
+  let buttonMtl:PBMaterial_PbrMaterial = {
+    emissiveColor: Color4.White(),
+    emissiveIntensity: 1
+  }
+  
+  for (let i=0; i<elevatorInfo.floors.length; i++) {
+      if (i < elevatorInfo.floors.length-1) {
+        let buttonUp = spawnBoxX(46.2,elevatorInfo.floors[i].elevation+1.7,38,  0,90,0, 0.2,0.2,0.05)
+        Material.setPbrMaterial(buttonUp, buttonMtl)
+        pointerEventsSystem.onPointerDown(
+          { 
+            entity:buttonUp,
+            opts: {
+              button: InputAction.IA_POINTER,
+              hoverText: "Call to go up",
+              maxDistance: 8,
+              showFeedback: true
+            }
+          },
+          ()=>{
+            elevator.elevatorManager.requestCall(i,true)
+          }
+        )
+
+        let textUp = addNamedEntity("textUp"+i)
+        Transform.create(textUp,{
+          parent:buttonUp,
+          position:Vector3.create(0,-0.07,-0.6),
+          rotation:Quaternion.fromEulerDegrees(0,0,0),
+          scale:Vector3.create(1,1,1)
+        })
+        TextShape.create(textUp,{
+          text: "^",
+          fontSize: 8,
+          textColor: Color4.Black()
+        })
+      }
+      
+      if (i > 0) {
+        let buttonDown = spawnBoxX(46.2,elevatorInfo.floors[i].elevation+1.5,38,  0,90,0, 0.2,0.2,0.05)
+          Material.setPbrMaterial(buttonDown,buttonMtl)
+          pointerEventsSystem.onPointerDown(
+            { 
+              entity:buttonDown,
+              opts: {
+                button: InputAction.IA_POINTER,
+                hoverText: "Call to go down",
+                maxDistance: 8,
+                showFeedback: true
+              }
+            },
+            ()=>{
+              elevator.elevatorManager.requestCall(i,false)
+            }
+          )
+          
+          let textDown = addNamedEntity("textDown"+i)
+          Transform.create(textDown,{
+            parent:buttonDown,
+            position:Vector3.create(0,0,-0.6),
+            rotation:Quaternion.fromEulerDegrees(0,0,0),
+            scale:Vector3.create(1,1,1)
+          })
+          TextShape.create(textDown,{
+            text: "v",
+            fontSize: 5,
+            textColor: Color4.Black()
+          })
+      }
+  }
+
+
+
 }
 
 

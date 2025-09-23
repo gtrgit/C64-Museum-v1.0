@@ -9,7 +9,7 @@ import { SavedSceneData } from '../src/utils'
 export const savedSceneData: SavedSceneData = 
 {
   "version": "1.0.0",
-  "timestamp": "2025-09-21T07:21:36.465Z",
+  "timestamp": "2025-09-23T05:25:14.385Z",
   "planes": [
     {
       "name": "Template_Plane_1758255860422_768",
@@ -9705,6 +9705,63 @@ export const savedSceneData: SavedSceneData =
             "r": 0,
             "g": 0,
             "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane_17",
+      "id": 1758438335055,
+      "position": {
+        "x": 46.36603567822192,
+        "y": 2.857473333301612,
+        "z": 39.04496616013058
+      },
+      "rotation": {
+        "x": 0.19742402441428664,
+        "y": -0.6587125868843986,
+        "z": -0.18525031813629028,
+        "w": -0.7019998590416768
+      },
+      "scale": {
+        "x": 2.000000000000001,
+        "y": 0.5000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758438335055,
+      "snapParentId": 0,
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 0
+      },
+      "texts": [
+        {
+          "text": "Elevator",
+          "fontSize": 3.500000000000002,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
             "a": 1
           },
           "outlineColor": {
