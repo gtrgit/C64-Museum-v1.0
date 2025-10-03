@@ -8,7 +8,7 @@ import { uiComponent as planeUI } from './plane-positioner/plane-ui'
 import { AudioControlUI } from './audio/audio-ui'
 
 // Developer mode state
-let developerMode = false
+let developerMode = true
 let showDeveloperToggle = true
 
 // Toggle developer mode
