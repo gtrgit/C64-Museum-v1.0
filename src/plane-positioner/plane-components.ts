@@ -31,7 +31,8 @@ export const PlacedPlane = engine.defineComponent('placed-plane', {
   id: Schemas.Number, // Unique ID for clustering and references
   currentImage: Schemas.String,
   localKnnClusterId: Schemas.Number, // References the ID of the cluster center plane
-  snapParentId: Schemas.Number // ID of the plane this was snapped to (0 if not snapped)
+  snapParentId: Schemas.Number, // ID of the plane this was snapped to (0 if not snapped)
+  url: Schemas.String // URL that opens when plane is clicked (if not in developer mode)
 })
 
 // Component to track text on planes

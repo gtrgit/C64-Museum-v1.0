@@ -9,10 +9,7 @@ import {
 import { Vector3, Color4 } from '@dcl/sdk/math'
 import { Plane, PlaneData } from './games-components'
 import { getCachedTexture } from './games-factory'
-import gamesDataImport from '../../data/c64_software_cleaned'
-
-// Convert readonly array to mutable for internal use
-const gamesData = [...gamesDataImport]
+import { getGamesDataSync } from './games-data-loader'
 import { getCurrentHoveredEntity, getCurrentPageGames } from './games-state'
 
 // Configuration
@@ -26,7 +23,6 @@ let lastPlayerPosition = Vector3.create(0, 0, 0)
 let lastUpdateTime = 0
 let highQualityPlanes = new Set<Entity>() // Entities with high-quality materials
 let highQualityMaterials: Entity[] = [] // Array of entities that have high-quality materials to share
-let gameDataArray = gamesData
 let isInitialized = false
 let temporaryIdentifiersAssigned = false // Flag to track if temporaryIdentifiers have been assigned
 let forceUpdateHighQuality = false // Flag to force update high-quality materials
@@ -414,11 +410,11 @@ function updateMaterialAssignments() {
     }
   }
 
-  console.log(`🎯 KNN UPDATE: ${updatedPlanes} planes updated`)
-  console.log(`   Reference: ${referenceType} at (${referencePos.x.toFixed(1)}, ${referencePos.y.toFixed(1)}, ${referencePos.z.toFixed(1)})`)
-  console.log(`   High-quality: ${newHighQualityPlanes.size} planes (from ${populatedPlanes} with data, ${emptyPlanes} empty)`)
-  console.log(`   Unique textures: ${uniqueTexturesCount} (${newHighQualityPlanes.size} high + ${temporaryIdentifiersInUse.size} temp)`)
-  console.log(`   Planes with materials: ${planesWithMaterialsCount}`)
+  // console.log(`🎯 KNN UPDATE: ${updatedPlanes} planes updated`)
+  // console.log(`   Reference: ${referenceType} at (${referencePos.x.toFixed(1)}, ${referencePos.y.toFixed(1)}, ${referencePos.z.toFixed(1)})`)
+  // console.log(`   High-quality: ${newHighQualityPlanes.size} planes (from ${populatedPlanes} with data, ${emptyPlanes} empty)`)
+  // console.log(`   Unique textures: ${uniqueTexturesCount} (${newHighQualityPlanes.size} high + ${temporaryIdentifiersInUse.size} temp)`)
+  // console.log(`   Planes with materials: ${planesWithMaterialsCount}`)
 }
 
 // Main KNN material system - called every frame
@@ -467,7 +463,8 @@ export function knnMaterialSystem(dt: number) {
 // Initialize the system - call this once at startup
 export function initializeKNNMaterialSystem() {
   console.log('🎯 Initializing KNN Material System')
-  console.log(`   Dataset: ${gameDataArray.length} games`)
+  const gamesData = getGamesDataSync()
+  console.log(`   Dataset: ${gamesData.length} games`)
   console.log(`   Max high-quality materials: ${MAX_HIGH_QUALITY_MATERIALS}`)
   console.log(`   Low-quality materials: Created as needed`)
   

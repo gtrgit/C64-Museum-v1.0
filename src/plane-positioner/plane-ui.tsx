@@ -14,6 +14,19 @@ import { PreviewPlane } from './plane-components'
 let currentTab: 'plane' | 'edit' | 'text' | 'image' | 'delete' | 'template' = 'plane'
 let currentEditTab: 'plane' | 'color' = 'plane'
 let templateName: string = ''
+let textInputValue: string = ''
+let renameInputValue: string = ''
+let imageInputValue: string = ''
+let textUrlInputValue: string = ''
+let imageUrlInputValue: string = ''
+
+// Helper to handle input submission properly
+const handleInputSubmit = (value: string, handler: (value: string) => void) => {
+  if (value.trim()) {
+    handler(value.trim())
+  }
+  return '' // Clear input after submit
+}
 
 export function setupUi() {
   ReactEcsRenderer.setUiRenderer(uiComponent)
@@ -397,14 +410,31 @@ export const uiComponent = () => {
                       color={Color4.Black()}
                     />
                     <Input
-                      uiTransform={{ width: 200, height: 35 }}
+                      uiTransform={{ width: 150, height: 35 }}
                       placeholder='Enter new Name here...'
                       fontSize={12}
-                      value=''
+                      value={renameInputValue}
                       onChange={(value) => {
+                        renameInputValue = value
+                      }}
+                      onSubmit={(value) => {
                         const entity = getHoveredPlaneEntity()
                         if (entity && value.trim()) {
                           renamePlane(entity, value.trim())
+                          renameInputValue = '' // Clear after submit
+                        }
+                      }}
+                    />
+                    <Button
+                      uiTransform={{ width: 45, height: 35, margin: '0 0 0 5px' }}
+                      value='Set'
+                      variant='primary'
+                      fontSize={10}
+                      onMouseDown={() => {
+                        const entity = getHoveredPlaneEntity()
+                        if (entity && renameInputValue.trim()) {
+                          renamePlane(entity, renameInputValue.trim())
+                          renameInputValue = '' // Clear after submit
                         }
                       }}
                     />
@@ -434,6 +464,9 @@ export const uiComponent = () => {
                         fontSize={12}
                         value={getTemplateName()}
                         onChange={(value) => {
+                          setTemplateName(value)
+                        }}
+                        onSubmit={(value) => {
                           setTemplateName(value)
                         }}
                       />
@@ -515,6 +548,9 @@ export const uiComponent = () => {
                           fontSize={10}
                           value={templateName}
                           onChange={(value) => {
+                            templateName = value
+                          }}
+                          onSubmit={(value) => {
                             templateName = value
                           }}
                         />
@@ -1318,24 +1354,43 @@ export const uiComponent = () => {
                   color={Color4.Black()}
                 />
                 <Input
-                  uiTransform={{ width: '80%', height: 44 }}
+                  uiTransform={{ width: '60%', height: 44 }}
                   placeholder='Enter Text here...'
                   fontSize={12}
-                  value='Enter Text here...'
+                  value={textInputValue}
                   color={Color4.Black()}
                   onChange={(value) => {
+                    textInputValue = value
+                  }}
+                  onSubmit={(value) => {
+                    console.log('text submit!')
                     const entity = getHoveredPlaneEntity()
-                    if (entity) {
+                    if (entity && value.trim()) {
                       const existingTextEntities = getTextEntitiesForPlane(entity)
-                      if (value.trim()) {
-                        if (existingTextEntities.length > 0) {
-                          updatePlaneText(existingTextEntities[0], value)
-                        } else {
-                          addTextToPlane(entity, value)
-                        }
-                      } else if (existingTextEntities.length > 0) {
-                        engine.removeEntity(existingTextEntities[0])
+                      if (existingTextEntities.length > 0) {
+                        updatePlaneText(existingTextEntities[0], value)
+                      } else {
+                        addTextToPlane(entity, value)
                       }
+                      textInputValue = '' // Clear input after submit
+                    }
+                  }}
+                />
+                <Button
+                  uiTransform={{ width: 45, height: 35, margin: '0 0 0 5px' }}
+                  value='Set'
+                  variant='primary'
+                  fontSize={10}
+                  onMouseDown={() => {
+                    const entity = getHoveredPlaneEntity()
+                    if (entity && textInputValue.trim()) {
+                      const existingTextEntities = getTextEntitiesForPlane(entity)
+                      if (existingTextEntities.length > 0) {
+                        updatePlaneText(existingTextEntities[0], textInputValue)
+                      } else {
+                        addTextToPlane(entity, textInputValue)
+                      }
+                      textInputValue = '' // Clear input after submit
                     }
                   }}
                 />
@@ -1437,6 +1492,34 @@ export const uiComponent = () => {
                 />
               </UiEntity>
 
+              {/* Display current URL if exists */}
+              {(() => {
+                const entity = getHoveredPlaneEntity()
+                if (entity && PlacedPlane.has(entity)) {
+                  const planeComponent = PlacedPlane.get(entity)
+                  if (planeComponent.url) {
+                    return (
+                      <UiEntity
+                        uiTransform={{
+                          width: '100%',
+                          height: 25,
+                          margin: '0 0 5px 0'
+                        }}
+                      >
+                        <Label
+                          value={`Current URL: ${planeComponent.url}`}
+                          fontSize={11}
+                          uiTransform={{ width: '100%', height: 25 }}
+                          textAlign='middle-left'
+                          color={Color4.create(0.2, 0.6, 0.2, 1)}
+                        />
+                      </UiEntity>
+                    )
+                  }
+                }
+                return null
+              })()}
+
               <UiEntity
                 uiTransform={{
                   width: '100%',
@@ -1454,10 +1537,35 @@ export const uiComponent = () => {
                   color={Color4.Black()}
                 />
                 <Input
-                  uiTransform={{ width: '80%', height: 44 }}
-                  placeholder='www.'
+                  uiTransform={{ width: '60%', height: 44 }}
+                  placeholder='https://...'
                   fontSize={12}
-                  value='www.'
+                  value={textUrlInputValue}
+                  onChange={(value) => {
+                    textUrlInputValue = value
+                  }}
+                  onSubmit={(value) => {
+                    const entity = getHoveredPlaneEntity()
+                    if (entity && value.trim()) {
+                      const planeComponent = PlacedPlane.getMutable(entity)
+                      planeComponent.url = value.trim()
+                      textUrlInputValue = '' // Clear after submit
+                    }
+                  }}
+                />
+                <Button
+                  uiTransform={{ width: 45, height: 35, margin: '0 0 0 5px' }}
+                  value='Set'
+                  variant='primary'
+                  fontSize={10}
+                  onMouseDown={() => {
+                    const entity = getHoveredPlaneEntity()
+                    if (entity && textUrlInputValue.trim()) {
+                      const planeComponent = PlacedPlane.getMutable(entity)
+                      planeComponent.url = textUrlInputValue.trim()
+                      textUrlInputValue = '' // Clear after submit
+                    }
+                  }}
                 />
               </UiEntity>
 
@@ -1574,35 +1682,81 @@ export const uiComponent = () => {
                 uiTransform={{
                   width: '100%',
                   height: 50,
-                  flexDirection: 'column',
+                  flexDirection: 'row',
+                  alignItems: 'center',
                   margin: '0 0 15px 0'
                 }}
               >
                 <Label
                   value='/images/'
                   fontSize={12}
-                  uiTransform={{ width: '100%', height: 20, margin: '0 0 0px 0' }}
+                  uiTransform={{ width: 70, height: 44, margin: '0 10px 0 0' }}
                   textAlign='middle-left'
                   color={Color4.Black()}
                 />
                 <Input
-                  uiTransform={{ width: '100%', height: 45 }}
+                  uiTransform={{ width: '60%', height: 44 }}
                   placeholder='name.png'
                   fontSize={12}
-                  value=''
+                  value={imageInputValue}
+                  onChange={(value) => {
+                    imageInputValue = value
+                  }}
                   onSubmit={(value) => {
                     const entity = getHoveredPlaneEntity()
                     if (entity && value.trim()) {
                       setPlaneTexture(entity, value.trim())
+                      imageInputValue = '' // Clear after submit
+                    }
+                  }}
+                />
+                <Button
+                  uiTransform={{ width: 45, height: 35, margin: '0 0 0 5px' }}
+                  value='Set'
+                  variant='primary'
+                  fontSize={10}
+                  onMouseDown={() => {
+                    const entity = getHoveredPlaneEntity()
+                    if (entity && imageInputValue.trim()) {
+                      setPlaneTexture(entity, imageInputValue.trim())
+                      imageInputValue = '' // Clear after submit
                     }
                   }}
                 />
               </UiEntity>
 
+              {/* Display current URL if exists */}
+              {(() => {
+                const entity = getHoveredPlaneEntity()
+                if (entity && PlacedPlane.has(entity)) {
+                  const planeComponent = PlacedPlane.get(entity)
+                  if (planeComponent.url) {
+                    return (
+                      <UiEntity
+                        uiTransform={{
+                          width: '100%',
+                          height: 25,
+                          margin: '10px 0 5px 0'
+                        }}
+                      >
+                        <Label
+                          value={`Current URL: ${planeComponent.url}`}
+                          fontSize={11}
+                          uiTransform={{ width: '100%', height: 25 }}
+                          textAlign='middle-left'
+                          color={Color4.create(0.2, 0.6, 0.2, 1)}
+                        />
+                      </UiEntity>
+                    )
+                  }
+                }
+                return null
+              })()}
+
               <UiEntity
                 uiTransform={{
                   width: '100%',
-                  height: 50,
+                  height: 70,
                   flexDirection: 'column'
                 }}
               >
@@ -1613,12 +1767,46 @@ export const uiComponent = () => {
                   textAlign='middle-left'
                   color={Color4.Black()}
                 />
-                <Input
-                  uiTransform={{ width: '100%', height: 45 }}
-                  placeholder='www.'
-                  fontSize={12}
-                  value=''
-                />
+                <UiEntity
+                  uiTransform={{
+                    width: '100%',
+                    height: 45,
+                    flexDirection: 'row',
+                    alignItems: 'center'
+                  }}
+                >
+                  <Input
+                    uiTransform={{ width: '80%', height: 45 }}
+                    placeholder='https://...'
+                    fontSize={12}
+                    value={imageUrlInputValue}
+                    onChange={(value) => {
+                      imageUrlInputValue = value
+                    }}
+                    onSubmit={(value) => {
+                      const entity = getHoveredPlaneEntity()
+                      if (entity && value.trim()) {
+                        const planeComponent = PlacedPlane.getMutable(entity)
+                        planeComponent.url = value.trim()
+                        imageUrlInputValue = '' // Clear after submit
+                      }
+                    }}
+                  />
+                  <Button
+                    uiTransform={{ width: 45, height: 35, margin: '0 0 0 5px' }}
+                    value='Set'
+                    variant='primary'
+                    fontSize={10}
+                    onMouseDown={() => {
+                      const entity = getHoveredPlaneEntity()
+                      if (entity && imageUrlInputValue.trim()) {
+                        const planeComponent = PlacedPlane.getMutable(entity)
+                        planeComponent.url = imageUrlInputValue.trim()
+                        imageUrlInputValue = '' // Clear after submit
+                      }
+                    }}
+                  />
+                </UiEntity>
               </UiEntity>
             </UiEntity>
           )}

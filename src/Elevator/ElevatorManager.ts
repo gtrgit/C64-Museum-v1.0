@@ -358,7 +358,7 @@ export class ElevatorManager {
      * So it stops waiting, and assumes that its initial values for the elevator state are correct.
      */
     assumeAuthority() {
-        debugLog1("*** THIS ELEVATOR IS ASSUMING AUTHORITY ***")
+        // debugLog1("*** THIS ELEVATOR IS ASSUMING AUTHORITY ***")
         // debugLog2("*** ASSUMING AUTHORITY *** at "+Date.now().toString().substr(8,2)+"."+Date.now().toString().substr(10,3))
         this.starting = false
         if (this.startupTimer) {

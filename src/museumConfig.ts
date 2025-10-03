@@ -11,7 +11,8 @@ export const MUSEUM_CONFIG = {
   
   // Option 2: Specify exact rows and columns
   CUSTOM_GRID_ROWS: 3,     // Number of rows (vertical)
-  CUSTOM_GRID_COLS: 190,     // Number of columns (horizontal)
+  // CUSTOM_GRID_COLS: 190,     // Number of columns (horizontal)
+  CUSTOM_GRID_COLS: 100,     // Number of columns (horizontal)
   // Total planes = CUSTOM_GRID_ROWS × CUSTOM_GRID_COLS = 570
   
   // Set both to null to use automatic sizing

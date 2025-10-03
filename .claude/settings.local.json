@@ -7,7 +7,16 @@
       "WebFetch(domain:docs.decentraland.org)",
       "Bash(npm start)",
       "Bash(npm run build:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(awk:*)",
+      "Bash(sed:*)",
+      "Bash(node:*)",
+      "Bash(mv:*)",
+      "Bash(rm:*)",
+      "Bash(npm install)",
+      "Bash(cp:*)",
+      "Bash(curl:*)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }

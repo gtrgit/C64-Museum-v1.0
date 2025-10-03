@@ -5,7 +5,7 @@ import { TemplateData } from '../src/utils'
 // 1. Use the "Save" button in the UI
 // 2. Copy the template JSON from console logs
 // 3. Replace the data below with your saved template data
-export const savedTemplateData: TemplateData[] = [
+ export const savedTemplateData: TemplateData[] = [
   {
     "id": 4,
     "name": "hero_v2",
@@ -895,6 +895,279 @@ export const savedTemplateData: TemplateData[] = [
       }
     ],
     "createdAt": "2025-09-20T06:14:58.857Z"
+  },
+  {
+    "id": 6,
+    "name": "Games-devTemplate Name",
+    "planes": [
+      {
+        "name": "Template_Plane_1758772751130_291",
+        "id": 1758772751843,
+        "position": {
+          "x": 2.1725986723218256,
+          "y": 0.24709171350140124,
+          "z": 4.26495188720336
+        },
+        "rotation": {
+          "x": -0.04583924955553732,
+          "y": -0.681216426054355,
+          "z": 0.022917559316830476,
+          "w": -0.7302862116605653
+        },
+        "scale": {
+          "x": 4.000000000000003,
+          "y": 4.000000000000003,
+          "z": 1
+        },
+        "currentImage": "exhibitions/ocean.png",
+        "localKnnClusterId": 1758772751907,
+        "snapParentId": 0,
+        "material": {
+          "albedoColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 0.9
+          },
+          "emissiveColor": {
+            "r": 0.2,
+            "g": 0.2,
+            "b": 0.3,
+            "a": 1
+          },
+          "emissiveIntensity": 1.3
+        },
+        "texts": []
+      },
+      {
+        "name": "Template_Plane_1758772751130_297",
+        "id": 1758772752104,
+        "position": {
+          "x": 2.4936475543589935,
+          "y": 0.8978895063141019,
+          "z": 0.6880017442999744
+        },
+        "rotation": {
+          "x": -0.04583924955553732,
+          "y": -0.681216426054355,
+          "z": 0.022917559316830476,
+          "w": -0.7302862116605653
+        },
+        "scale": {
+          "x": 3.0000000000000018,
+          "y": 0.20000000000000015,
+          "z": 1
+        },
+        "currentImage": "",
+        "localKnnClusterId": 1758772751907,
+        "snapParentId": 0,
+        "material": {
+          "albedoColor": {
+            "r": 0,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "emissiveColor": {
+            "r": 0,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "emissiveIntensity": 1.2999999999999998
+        },
+        "texts": [
+          {
+            "text": "Ocean Software",
+            "fontSize": 0.9,
+            "font": "sans-serif",
+            "textColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "outlineColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Template_Plane_1758772751130_817",
+        "id": 1758772751907,
+        "position": {
+          "x": 2.429377327754999,
+          "y": 0.23140867725869008,
+          "z": 0.6640640563496731
+        },
+        "rotation": {
+          "x": -0.04583924955553732,
+          "y": -0.681216426054355,
+          "z": 0.022917559316830476,
+          "w": -0.7302862116605653
+        },
+        "scale": {
+          "x": 3.0000000000000018,
+          "y": 1.1,
+          "z": 1
+        },
+        "currentImage": "",
+        "localKnnClusterId": 1758772751907,
+        "snapParentId": 0,
+        "material": {
+          "albedoColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "emissiveColor": {
+            "r": 0.2,
+            "g": 0.2,
+            "b": 0.3,
+            "a": 1
+          },
+          "emissiveIntensity": 2.3
+        },
+        "texts": [
+          {
+            "text": "Ocean Software emerged from Manchester in 1983 to become Europe's most successful\\nsoftware publisher, masterfully transforming movie and TV licenses into compelling\\ninteractive experiences. Founded by David Ward and Jon Woods, Ocean recognized that\\nthe C64 market demanded both technical excellence and mainstream appeal, leading them\\nto develop sophisticated arcade conversions like \"Gryzor\" and cinematic adventures\\nlike \"RoboCop\" that pushed the hardware to its absolute limits. Their innovative\\napproach to licensed entertainment, combined with cutting-edge graphics and sound\\ndesign, established Ocean as the benchmark for professional game development and\\nhelped legitimize video games as mainstream entertainment products worthy of major\\nmedia properties.",
+            "fontSize": 0.7000000000000001,
+            "font": "sans-serif",
+            "textColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "outlineColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Template_Plane_1758772751130_503",
+        "id": 1758772751773,
+        "position": {
+          "x": 2.339455181414529,
+          "y": -0.49736827534742023,
+          "z": 0.6323980540996175
+        },
+        "rotation": {
+          "x": -0.04583924955553732,
+          "y": -0.681216426054355,
+          "z": 0.022917559316830476,
+          "w": -0.7302862116605653
+        },
+        "scale": {
+          "x": 3.0000000000000018,
+          "y": 0.30000000000000016,
+          "z": 1
+        },
+        "currentImage": "",
+        "localKnnClusterId": 1758772751907,
+        "snapParentId": 0,
+        "material": {
+          "albedoColor": {
+            "r": 0,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "emissiveColor": {
+            "r": 0,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "emissiveIntensity": 1.3
+        },
+        "texts": [
+          {
+            "text": "Key Games",
+            "fontSize": 1.5000000000000004,
+            "font": "sans-serif",
+            "textColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "outlineColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      },
+      {
+        "name": "Template_Plane_1758772751130_590",
+        "id": 1758772751480,
+        "position": {
+          "x": 2.284153849930874,
+          "y": -1.174781725801333,
+          "z": 0.6087797893826163
+        },
+        "rotation": {
+          "x": -0.04583924955553732,
+          "y": -0.681216426054355,
+          "z": 0.022917559316830476,
+          "w": -0.7302862116605653
+        },
+        "scale": {
+          "x": 3.0000000000000018,
+          "y": 1,
+          "z": 1
+        },
+        "currentImage": "",
+        "localKnnClusterId": 1758772751907,
+        "snapParentId": 0,
+        "material": {
+          "albedoColor": {
+            "r": 1,
+            "g": 1,
+            "b": 1,
+            "a": 1
+          },
+          "emissiveColor": {
+            "r": 0.2,
+            "g": 0.2,
+            "b": 0.3,
+            "a": 1
+          },
+          "emissiveIntensity": 2.3
+        },
+        "texts": [
+          {
+            "text": "RoboCop, Rambo: First Blood Part II, Gryzor, \\nGreen Beret, Batman: The Movie, Short Circuit, Daley\\nThompson's Decathlon, Head Over Heels, \\nOperation Wolf",
+            "fontSize": 1,
+            "font": "sans-serif",
+            "textColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            },
+            "outlineColor": {
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 1
+            }
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-09-26T06:51:30.488Z"
   }
 ]
-

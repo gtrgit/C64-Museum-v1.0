@@ -33,6 +33,7 @@ export interface SavedPlaneData {
   localKnnClusterId?: number // Optional for new format
   localKnnCluster?: string // Optional for backwards compatibility  
   snapParentId?: number // Optional - ID of plane this was snapped to (0 if not snapped)
+  url?: string // Optional - URL that opens when plane is clicked (if not in developer mode)
   material: SavedMaterialData
   texts: SavedTextData[]
 }
@@ -299,6 +300,7 @@ export function finishTemplateCreation(name: string): void {
       currentImage: planeComponent.currentImage || '',
       localKnnClusterId: planeComponent.localKnnClusterId,
       snapParentId: planeComponent.snapParentId,
+      url: planeComponent.url || '',
       material: savedMaterial,
       texts: savedTexts
     })
@@ -528,7 +530,8 @@ export function placeTemplate(): void {
       id: newId,
       currentImage: planeData.currentImage,
       localKnnClusterId: 0, // Will be assigned by clustering
-      snapParentId: 0 // Template planes are not snapped
+      snapParentId: 0, // Template planes are not snapped
+      url: planeData.url || ''
     })
     
     // Set transform
@@ -1466,6 +1469,7 @@ export async function saveSceneState(): Promise<void> {
       currentImage: planeComponent.currentImage || '',
       localKnnClusterId: planeComponent.localKnnClusterId,
       snapParentId: planeComponent.snapParentId,
+      url: planeComponent.url || '',
       material: savedMaterial,
       texts: savedTexts
     }
@@ -1584,7 +1588,8 @@ export async function loadSceneState(): Promise<void> {
         id: planeId,
         currentImage: planeData.currentImage,
         localKnnClusterId: clusterId,
-        snapParentId: planeData.snapParentId || 0
+        snapParentId: planeData.snapParentId || 0,
+        url: planeData.url || ''
       })
       
       // Set transform

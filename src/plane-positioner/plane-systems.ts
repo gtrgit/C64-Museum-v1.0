@@ -7,10 +7,13 @@ import {
   PointerEventType,
   Material,
   TextureWrapMode,
+  PointerEvents as PointerEventsComponent
 } from '@dcl/sdk/ecs'
 import { Color4, Quaternion, Vector3 } from '@dcl/sdk/math'
 import { Cube, Spinner, PreviewPlane, PlacedPlane, TemplatePreview, TemplatePreviewParent, OriginalEmission } from './plane-components'
 import { getRandomHexColor, setHoveredPlaneName, setHoveredPlaneEntity, getSnappingEnabled, setHoveredSnapTarget, getHoveredSnapTarget, calculateDistance, getTemplates, TemplateData, isCreatingTemplate, addPlaneToTemplate, removePlaneFromTemplate, templateCreationState, isDeletingPlanes, addPlaneToDelete, removePlaneFromDelete, deleteModeState } from './plane-utils'
+import { isDeveloperMode } from '../ui-manager'
+import { openExternalUrl } from '~system/RestrictedActions'
 
 
 /**
@@ -184,10 +187,20 @@ export function planeSelectionSystem() {
           console.log(`Added plane to delete selection: ${plane.name}`)
         }
       } else {
-        // Normal plane selection
-        setHoveredPlaneName(plane.name)
-        setHoveredPlaneEntity(entity)
-        console.log(`Selected plane: ${plane.name}`)
+        // Check if not in developer mode and plane has URL
+        if (!isDeveloperMode() && plane.url && plane.url.trim() !== '') {
+          // Open the URL in a new tab/window
+          openExternalUrl({ url: plane.url })
+          console.log(`Opening URL: ${plane.url}`)
+        } else if (isDeveloperMode()) {
+          // Only select plane in developer mode
+          setHoveredPlaneName(plane.name)
+          setHoveredPlaneEntity(entity)
+          console.log(`Selected plane: ${plane.name} (Developer Mode)`)
+        } else {
+          // Not in developer mode but no URL - do nothing
+          console.log(`Clicked plane: ${plane.name} (No URL set)`)
+        }
       }
     }
     
@@ -202,6 +215,30 @@ export function planeSelectionSystem() {
       if (plane.localKnnClusterId > 0) {
         loadTexturesForCluster(plane.localKnnClusterId)
         console.log(`Hover-loaded textures for cluster ID: ${plane.localKnnClusterId}`)
+      }
+      
+      // Update hover text based on mode and URL
+      const pointerEvents = PointerEvents.getMutable(entity)
+      if (pointerEvents && pointerEvents.pointerEvents.length > 0) {
+        if (!isDeveloperMode() && plane.url && plane.url.trim() !== '') {
+          // Show URL hover text when not in developer mode
+          pointerEvents.pointerEvents[0].eventInfo = {
+            button: InputAction.IA_POINTER,
+            hoverText: `Open: ${plane.url}`
+          }
+        } else if (isDeveloperMode()) {
+          // Show selection hover text in developer mode
+          pointerEvents.pointerEvents[0].eventInfo = {
+            button: InputAction.IA_POINTER,
+            hoverText: `Click to select ${plane.name}`
+          }
+        } else {
+          // No URL and not in developer mode
+          pointerEvents.pointerEvents[0].eventInfo = {
+            button: InputAction.IA_POINTER,
+            hoverText: plane.name
+          }
+        }
       }
     }
     

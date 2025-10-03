@@ -15,7 +15,7 @@ import { changeColorSystem, circularSystem, planeSelectionSystem } from './games
 import { createSingleCurvedGrid } from './games-directory/games-factory'
 import { MUSEUM_CONFIG, applyCustomGridSize } from './games-directory/games-museum-config'
 import { knnMaterialSystem, initializeKNNMaterialSystem } from './games-directory/games-knn-material-system'
-import { initializeFiltering } from './games-directory/games-state'
+import { initializeFiltering, initializeGamesData } from './games-directory/games-state'
 
 import {} from '@dcl/sdk/math'
 
@@ -28,6 +28,7 @@ import { setupCombinedUI } from './ui-manager'
 //Elevator
 import {addNamedEntity, spawnEntity, spawnBoxX} from './Elevator/SpawnerFunctions'
 import { initializeElevator, ElevatorInfo, ElevatorEventTypes } from './Elevator'
+import { setupAudioStream } from './audio'
 
 // Export utilities for reuse in other projects
 // export { logPlayerTransformValues } from './plane-positioner'
@@ -36,8 +37,21 @@ import { initializeElevator, ElevatorInfo, ElevatorEventTypes } from './Elevator
 let testIndicator:Entity | null = null
 
 export async function main() {
+  // Load games data first
+  const dataLoaded = await initializeGamesData()
+  
+  if (!dataLoaded) {
+    console.error('❌ Failed to load games data. Scene cannot initialize properly.')
+    // Still setup UI to show error state
+    setupCombinedUI()
+    return
+  }
+  
   // Setup combined UI first
   setupCombinedUI()
+  
+  // Setup audio stream
+  setupAudioStream()
 
   engine.addSystem(planeSelectionSystem)
   engine.addSystem(knnMaterialSystem) // Add KNN material management system
@@ -56,31 +70,31 @@ export async function main() {
   // Create curved grid of planes with automatic sizing based on scene limits
   // Grid dimensions are now calculated automatically from scene.json parcel count
   
-  engine.addSystem(teleporterSystem)
-  engine.addSystem(teleporterRippleSystem)
-  engine.addSystem(teleporterAnimationSystem)
+  // engine.addSystem(teleporterSystem)
+  // engine.addSystem(teleporterRippleSystem)
+  // engine.addSystem(teleporterAnimationSystem)
 
   // // // Create test teleporter
-  createTeleporter(
-    { x: 36, y: 0.01, z: 36 },    // teleporter position
-    { x: 16, y: 7.5, z: 24 },    // destination
-    'images/teleporter-pad.png',
-    'images/joystick-icon.png',
-    'Games!'
-  )
+  // createTeleporter(
+  //   { x: 36, y: 0.01, z: 36 },    // teleporter position
+  //   { x: 16, y: 7.5, z: 24 },    // destination
+  //   'images/teleporter-pad.png',
+  //   'images/joystick-icon.png',
+  //   'Games!'
+  // )
 
   
 
-   createTeleporter(
-    { x: 36, y: 0.01, z: 39 },    // teleporter position
-    { x: 36, y: 0, z: 10 },    // destination
-    'images/teleporter-pad.png',
-    'images/joystick-icon.png',
-    'History'
-  )
+  //  createTeleporter(
+  //   { x: 36, y: 0.01, z: 39 },    // teleporter position
+  //   { x: 36, y: 0, z: 10 },    // destination
+  //   'images/teleporter-pad.png',
+  //   'images/joystick-icon.png',
+  //   'History'
+  // )
 
   //game 3d ui
-  initializeScene()
+  await initializeScene()
 
   // Initialize the plane positioner system
   await initializePlanePositioner()
@@ -241,6 +255,10 @@ async function initializeScene() {
   console.log('🚀 INITIALIZING C64 Museum Scene...')
   
   try {
+    // Initialize scene configuration first
+    const { initializeSceneConfig } = await import('./games-directory/games-state')
+    await initializeSceneConfig()
+    
     // Define the center position for the entire curved grid display
     const gridCenterPosition = Vector3.create(34, 7.2,38)
     

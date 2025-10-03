@@ -6,10 +6,10 @@ import { SavedSceneData } from '../src/utils'
 // 2. Copy the JSON from console logs
 // 3. Replace the data below with your saved data
 
-export const savedSceneData: SavedSceneData = 
-{
+export const savedSceneData: SavedSceneData =  
+ {
   "version": "1.0.0",
-  "timestamp": "2025-09-23T05:25:14.385Z",
+  "timestamp": "2025-10-02T14:01:23.529Z",
   "planes": [
     {
       "name": "Template_Plane_1758255860422_768",
@@ -33,6 +33,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Jack-Tramiel.png",
       "localKnnClusterId": 1758255860638,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -72,6 +73,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255860638,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -129,6 +131,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255860638,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -186,6 +189,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255860638,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -243,6 +247,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255860638,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -300,6 +305,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255860638,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -357,6 +363,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255860638,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -414,6 +421,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255860638,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -471,6 +479,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Al-Charpentier.jpg",
       "localKnnClusterId": 1758255966101,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -510,6 +519,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255966101,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -567,6 +577,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255966101,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -624,6 +635,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255966101,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -681,6 +693,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255966101,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -738,6 +751,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255966101,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -795,6 +809,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255966101,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -852,6 +867,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255966101,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -909,6 +925,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Bob-Yannes.jpg",
       "localKnnClusterId": 1758255992295,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -948,6 +965,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255992295,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1005,6 +1023,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255992295,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1062,6 +1081,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255992295,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1119,6 +1139,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255992295,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1176,6 +1197,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255992295,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1233,6 +1255,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255992295,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1290,6 +1313,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758255992295,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1347,6 +1371,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Chuck-Peddle.jpg",
       "localKnnClusterId": 1758256009566,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1386,6 +1411,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758256009566,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1443,6 +1469,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758256009566,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1500,6 +1527,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758256009566,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1557,6 +1585,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758256009566,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1614,6 +1643,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758256009566,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1671,6 +1701,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758256009566,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1728,6 +1759,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758256009566,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1785,6 +1817,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Charles-Winterble.jpg",
       "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1824,6 +1857,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "Charles Winterble",
       "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1881,6 +1915,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1938,6 +1973,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -1995,6 +2031,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2052,6 +2089,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2109,6 +2147,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2166,6 +2205,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758420429565,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2223,6 +2263,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758422208997,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2280,6 +2321,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758422208997,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2337,6 +2379,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758422208997,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2394,6 +2437,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758422208997,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2451,6 +2495,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758422208997,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2508,6 +2553,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758422208997,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2565,6 +2611,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758422209422,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2622,6 +2669,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/bil-herd.jpg",
       "localKnnClusterId": 1758422208997,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2661,6 +2709,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Bil-Herd-video.png",
       "localKnnClusterId": 1758422209422,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2700,6 +2749,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/David-Pleasance.jpg",
       "localKnnClusterId": 1758423700076,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2739,6 +2789,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758423700076,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2796,6 +2847,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758423700076,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2853,6 +2905,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758423700076,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2910,6 +2963,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758423700076,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -2967,6 +3021,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758423700076,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3024,6 +3079,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758423700076,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3081,6 +3137,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758423700076,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3138,6 +3195,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/David-Pleasance-keynote.jpg",
       "localKnnClusterId": 1758423700431,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3177,6 +3235,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/commodore-inside-story.jpg",
       "localKnnClusterId": 1758423700431,
       "snapParentId": 1758423700430,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3216,6 +3275,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Vultures-to-Vampires-vol1.png",
       "localKnnClusterId": 1758423700431,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3255,6 +3315,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Vultures-to-Vampires-vol2.png",
       "localKnnClusterId": 1758423700431,
       "snapParentId": 1758423700433,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3294,6 +3355,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Voltures-to-Vampires-vol3.jpg",
       "localKnnClusterId": 1758423700435,
       "snapParentId": 1758423700434,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3333,6 +3395,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/MOS-logo.png",
       "localKnnClusterId": 1758426500361,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3372,6 +3435,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758426500361,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3429,6 +3493,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758426500361,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3486,6 +3551,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758426500361,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3543,6 +3609,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758426500361,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3600,6 +3667,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758426500361,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3657,6 +3725,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758426500361,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3714,6 +3783,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758426500361,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3771,6 +3841,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Culture-of-Inovation.png",
       "localKnnClusterId": 1758427042134,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3810,6 +3881,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758427042134,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3867,6 +3939,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758427042134,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3924,6 +3997,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758427042134,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -3981,6 +4055,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758427042134,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4038,6 +4113,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758427042134,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4095,6 +4171,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758427042134,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4152,6 +4229,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758427042134,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4207,8 +4285,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "exhibitions/Perry-Fractic.jpg",
-      "localKnnClusterId": 1758427176222,
+      "localKnnClusterId": 1758427176207,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4246,8 +4325,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758427176222,
+      "localKnnClusterId": 1758427176207,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4303,8 +4383,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758427176222,
+      "localKnnClusterId": 1758427176207,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4360,8 +4441,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758427176222,
+      "localKnnClusterId": 1758427176207,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4417,8 +4499,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758427176222,
+      "localKnnClusterId": 1758427176207,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4474,8 +4557,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758427176222,
+      "localKnnClusterId": 1758427176207,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4531,8 +4615,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758427176222,
+      "localKnnClusterId": 1758427176207,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4588,8 +4673,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758427176222,
+      "localKnnClusterId": 1758427176207,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4645,8 +4731,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "exhibitions/Perry-Fractic-videos.png",
-      "localKnnClusterId": 1758427176309,
+      "localKnnClusterId": 1758427176308,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4684,8 +4771,9 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "exhibitions/commodore-net.png",
-      "localKnnClusterId": 1758427176309,
+      "localKnnClusterId": 1758427176308,
       "snapParentId": 1758427176308,
+      "url": "https://www.commodore.net",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4725,6 +4813,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Commodore_C=.png",
       "localKnnClusterId": 1758430631492,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4764,6 +4853,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758430631492,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4821,6 +4911,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758430631492,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4878,6 +4969,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758430631492,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4935,6 +5027,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758430631492,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -4992,6 +5085,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758430631492,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5049,6 +5143,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758430631492,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5106,6 +5201,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758430631492,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5163,6 +5259,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/german-factory.png",
       "localKnnClusterId": 1758431062709,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5202,6 +5299,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431062709,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5259,6 +5357,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431062709,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5316,6 +5415,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431062709,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5373,6 +5473,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431062709,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5430,6 +5531,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431062709,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5487,6 +5589,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431062709,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5544,6 +5647,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431062709,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5601,6 +5705,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5658,6 +5763,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5715,6 +5821,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5772,6 +5879,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5829,6 +5937,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5886,6 +5995,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -5943,6 +6053,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758432170482,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6000,6 +6111,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/64er.png",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 1758432171096,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6039,6 +6151,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/zzap64.png",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 1758432171096,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6078,6 +6191,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/run.png",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 1758432171096,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6117,6 +6231,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/compute-gazette.png",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 1758432171096,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6156,6 +6271,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/german-magazine.jpg",
       "localKnnClusterId": 1758431063014,
       "snapParentId": 1758431063013,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6195,6 +6311,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/commodore-education.png",
       "localKnnClusterId": 1758434247517,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6234,6 +6351,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434247517,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6291,6 +6409,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434247517,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6348,6 +6467,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434247517,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6405,6 +6525,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434247517,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6462,6 +6583,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434247517,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6519,6 +6641,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434247517,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6576,6 +6699,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434247517,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6633,6 +6757,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/commodore-add.png",
       "localKnnClusterId": 1758434266857,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6672,6 +6797,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434266857,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6729,6 +6855,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434266857,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6786,6 +6913,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434266857,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6843,6 +6971,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434266857,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6900,6 +7029,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434266857,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -6957,6 +7087,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434266857,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7014,6 +7145,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758434266857,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7071,6 +7203,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/elon-musk.png",
       "localKnnClusterId": 1758434266857,
       "snapParentId": 1758434247036,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7110,6 +7243,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Vertical-Integration.jpg",
       "localKnnClusterId": 1758436432778,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7149,6 +7283,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436432778,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7206,6 +7341,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436432778,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7263,6 +7399,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436432778,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7320,6 +7457,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436432778,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7377,6 +7515,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436432778,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7434,6 +7573,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436432778,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7491,6 +7631,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436432778,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7548,6 +7689,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/Motherboard-Cronicles.png",
       "localKnnClusterId": 1758436789304,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7587,6 +7729,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436789304,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7644,6 +7787,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436789304,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7701,6 +7845,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436789304,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7758,6 +7903,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436789304,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7815,6 +7961,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436789304,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7872,6 +8019,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436789304,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7929,6 +8077,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758436789304,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -7986,6 +8135,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/MOS-logo.png",
       "localKnnClusterId": 1758437199115,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8025,6 +8175,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437199115,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8082,6 +8233,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437199115,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8139,6 +8291,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437199115,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8196,6 +8349,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437199115,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8253,6 +8407,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437199115,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8310,6 +8465,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437199115,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8367,6 +8523,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437199115,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8424,6 +8581,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/VIC-II.jpg",
       "localKnnClusterId": 1758437667415,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8463,6 +8621,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437667415,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8520,6 +8679,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437667415,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8577,6 +8737,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437667415,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8634,6 +8795,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437667415,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8691,6 +8853,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437667415,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8748,6 +8911,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437667415,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8805,6 +8969,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758437667415,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8862,6 +9027,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/SID.jpg",
       "localKnnClusterId": 1758438270091,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8901,6 +9067,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438270091,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -8958,6 +9125,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438270091,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9015,6 +9183,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438270091,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9072,6 +9241,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438270091,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9129,6 +9299,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438270091,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9186,6 +9357,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438270091,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9243,6 +9415,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "Analog Music Meets Digital Control: Revolutionary Sound Architecture",
       "localKnnClusterId": 1758438270091,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9300,6 +9473,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "exhibitions/MOS_6502.jpg",
       "localKnnClusterId": 1758438334175,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9339,6 +9513,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438334175,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9396,6 +9571,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438334175,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9453,6 +9629,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438334175,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9510,6 +9687,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438334175,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9567,6 +9745,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438334175,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9624,6 +9803,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438334175,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9681,6 +9861,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438334175,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 1,
@@ -9738,6 +9919,7 @@ export const savedSceneData: SavedSceneData =
       "currentImage": "",
       "localKnnClusterId": 1758438335055,
       "snapParentId": 0,
+      "url": "",
       "material": {
         "albedoColor": {
           "r": 0,
@@ -9772,6 +9954,4990 @@ export const savedSceneData: SavedSceneData =
           }
         }
       ]
+    },
+    {
+      "name": "Template_Plane_1758772751130_291",
+      "id": 1758772751843,
+      "position": {
+        "x": 43.4240246773309,
+        "y": 7.616384789864127,
+        "z": 63.714038386241484
+      },
+      "rotation": {
+        "x": -0.04583924955553732,
+        "y": -0.681216426054355,
+        "z": 0.022917559316830476,
+        "w": -0.7302862116605653
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/ocean.png",
+      "localKnnClusterId": 1758772751907,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758772751130_590",
+      "id": 1758772751480,
+      "position": {
+        "x": 43.53557985493995,
+        "y": 6.194511350561393,
+        "z": 60.05786628842074
+      },
+      "rotation": {
+        "x": -0.04583924955553732,
+        "y": -0.681216426054355,
+        "z": 0.022917559316830476,
+        "w": -0.7302862116605653
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758772751907,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "RoboCop, Rambo: First Blood Part II, Gryzor, \\nGreen Beret, Batman: The Movie, Short Circuit, Daley\\nThompson's Decathlon, Head Over Heels, \\nOperation Wolf",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758772751130_503",
+      "id": 1758772751773,
+      "position": {
+        "x": 43.5908811864236,
+        "y": 6.871924801015306,
+        "z": 60.08148455313774
+      },
+      "rotation": {
+        "x": -0.04583924955553732,
+        "y": -0.681216426054355,
+        "z": 0.022917559316830476,
+        "w": -0.7302862116605653
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758772751907,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758772751130_817",
+      "id": 1758772751907,
+      "position": {
+        "x": 43.68080333276407,
+        "y": 7.600701753621416,
+        "z": 60.1131505553878
+      },
+      "rotation": {
+        "x": -0.04583924955553732,
+        "y": -0.681216426054355,
+        "z": 0.022917559316830476,
+        "w": -0.7302862116605653
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758772751907,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Ocean Software emerged from Manchester in 1983 to become Europe's most successful\\nsoftware publisher, masterfully transforming movie and TV licenses into compelling\\ninteractive experiences. Founded by David Ward and Jon Woods, Ocean recognized that\\nthe C64 market demanded both technical excellence and mainstream appeal, leading them\\nto develop sophisticated arcade conversions like \"Gryzor\" and cinematic adventures\\nlike \"RoboCop\" that pushed the hardware to its absolute limits. Their innovative\\napproach to licensed entertainment, combined with cutting-edge graphics and sound\\ndesign, established Ocean as the benchmark for professional game development and\\nhelped legitimize video games as mainstream entertainment products worthy of major\\nmedia properties.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758772751130_297",
+      "id": 1758772752104,
+      "position": {
+        "x": 43.745073559368066,
+        "y": 8.267182582676828,
+        "z": 60.1370882433381
+      },
+      "rotation": {
+        "x": -0.04583924955553732,
+        "y": -0.681216426054355,
+        "z": 0.022917559316830476,
+        "w": -0.7302862116605653
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758772751907,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Ocean Software - The British Gaming Empire",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758868214525_174",
+      "id": 1758868215372,
+      "position": {
+        "x": 38.98700987599941,
+        "y": 7.679750751553254,
+        "z": 72.45138438348775
+      },
+      "rotation": {
+        "x": -0.039145366033393254,
+        "y": -0.3348630462354515,
+        "z": 0.0004444306114671035,
+        "w": -0.941453357627033
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/electronic-arts.png",
+      "localKnnClusterId": 1758427176207,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 4
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758868214525_748",
+      "id": 1758868214585,
+      "position": {
+        "x": 41.749376350035135,
+        "y": 6.241585325472497,
+        "z": 70.06333594714371
+      },
+      "rotation": {
+        "x": -0.039145366033393254,
+        "y": -0.3348630462354515,
+        "z": 0.0004444306114671035,
+        "w": -0.941453357627033
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427176308,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Archon, M.U.L.E., Seven Cities of Gold, One on\\nOne: Dr. J vs. Larry Bird, Mail Order Monsters,\\nRacing Destruction Set, Skate or Die, Adventure\\nConstruction Set",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758868214525_404",
+      "id": 1758868214831,
+      "position": {
+        "x": 41.761468128883244,
+        "y": 6.9202447935656615,
+        "z": 70.10552808408157
+      },
+      "rotation": {
+        "x": -0.039145366033393254,
+        "y": -0.3348630462354515,
+        "z": 0.0004444306114671035,
+        "w": -0.941453357627033
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758427176308,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758868214525_320",
+      "id": 1758868215246,
+      "position": {
+        "x": 41.79070854556048,
+        "y": 7.6511242559935315,
+        "z": 70.1773946683344
+      },
+      "rotation": {
+        "x": -0.039145366033393254,
+        "y": -0.3348630462354515,
+        "z": 0.0004444306114671035,
+        "w": -0.941453357627033
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758868215246,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Electronic Arts revolutionized the software industry in 1982 by treating game\\ndevelopers as artists and creating innovative experiences that merged multiple genres\\ninto sophisticated entertainment products. Founded by Trip Hawkins with the radical\\nphilosophy that computer games deserved the same creative respect as music and film,\\nEA pioneered groundbreaking titles like \"Archon\" (chess meets real-time combat),\\n\"M.U.L.E.\" (multiplayer economic strategy), and \"Seven Cities of Gold\" (open-world\\nexploration) that established entirely new gaming categories. Their emphasis on\\nelegant design, comprehensive documentation, and developer recognition transformed\\nvideo games from simple software into legitimate interactive art, setting creative\\nand commercial standards that influenced the entire industry's evolution toward\\nmainstream entertainment.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758868214525_837",
+      "id": 1758868215199,
+      "position": {
+        "x": 41.80883441885889,
+        "y": 8.319070917478577,
+        "z": 70.2265790015167
+      },
+      "rotation": {
+        "x": -0.039145366033393254,
+        "y": -0.3348630462354515,
+        "z": 0.0004444306114671035,
+        "w": -0.941453357627033
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758868215246,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Electronic Arts - Treating Games as Art",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758869789956_468",
+      "id": 1758869790619,
+      "position": {
+        "x": 34.08260478577317,
+        "y": 7.622694113403153,
+        "z": 64.55675988430733
+      },
+      "rotation": {
+        "x": -0.019673594429886518,
+        "y": -0.9985805219928736,
+        "z": 0.04946050211285584,
+        "w": -0.001945469774892683
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 2.100000000000001,
+        "z": 1
+      },
+      "currentImage": "exhibitions/System3_logo.jpg",
+      "localKnnClusterId": 1758869790928,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758869789956_970",
+      "id": 1758869789993,
+      "position": {
+        "x": 30.499120052857805,
+        "y": 8.709764459630996,
+        "z": 64.46870105977958
+      },
+      "rotation": {
+        "x": -0.019673594429886518,
+        "y": -0.9985805219928736,
+        "z": 0.04946050211285584,
+        "w": -0.001945469774892683
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758869790928,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "System3 - Masters of Cinematic Gaming",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "System3",
+      "id": 1758869790928,
+      "position": {
+        "x": 30.472665929090677,
+        "y": 8.04356092108013,
+        "z": 64.53483280339327
+      },
+      "rotation": {
+        "x": -0.019673594429886518,
+        "y": -0.9985805219928736,
+        "z": 0.04946050211285584,
+        "w": -0.001945469774892683
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758869790928,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "System 3 elevated video game presentation to cinematic levels through their\\nmeticulous attention to visual storytelling, atmospheric design, and character\\ndevelopment that rivaled television and film production values. Founded by Mark Cale\\nand the Darling brothers in 1983, the company created the legendary \"Last Ninja\"\\ntrilogy, which transported players into richly detailed worlds where every screen was\\ncomposed like a movie set, complete with sophisticated puzzle design, fluid martial\\narts combat, and Ben Daglish's unforgettable musical scores. Their innovative\\napproach to environmental storytelling and character animation demonstrated that\\nvideo games could convey complex narratives and emotional depth, establishing System\\n3 as pioneers of interactive cinema who influenced countless subsequent adventure and\\naction games.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758869789956_314",
+      "id": 1758869790642,
+      "position": {
+        "x": 30.43953846629603,
+        "y": 7.315142909556999,
+        "z": 64.6271061013762
+      },
+      "rotation": {
+        "x": -0.019673594429886518,
+        "y": -0.9985805219928736,
+        "z": 0.04946050211285584,
+        "w": -0.001945469774892683
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758869790928,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758869789956_140",
+      "id": 1758869790314,
+      "position": {
+        "x": 30.412708737044607,
+        "y": 6.638004070486986,
+        "z": 64.68427439419331
+      },
+      "rotation": {
+        "x": -0.019673594429886518,
+        "y": -0.9985805219928736,
+        "z": 0.04946050211285584,
+        "w": -0.001945469774892683
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758869790928,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The Last Ninja, Last Ninja 2: Back with a\\nVengeance, Last Ninja 3, Myth: History in the\\nMaking, Flimbo's Quest, Turbo Outrun,\\nInternational Karate +",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758870406352_757",
+      "id": 1758870406965,
+      "position": {
+        "x": 26.338725891636603,
+        "y": 7.728657471502929,
+        "z": 63.68350437511896
+      },
+      "rotation": {
+        "x": -0.020176212264808313,
+        "y": -0.9834952334762925,
+        "z": 0.04616139632810809,
+        "w": -0.17377975994322498
+      },
+      "scale": {
+        "x": 2.4000000000000012,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/epyx.jpg",
+      "localKnnClusterId": 1758870407025,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758870406352_368",
+      "id": 1758870406483,
+      "position": {
+        "x": 23.286534469372675,
+        "y": 8.360299088225956,
+        "z": 62.385419504985556
+      },
+      "rotation": {
+        "x": -0.020176212264808313,
+        "y": -0.9834952334762925,
+        "z": 0.04616139632810809,
+        "w": -0.17377975994322498
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758870407025,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Epyx - The Sports and Action Specialists",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758870406352_854",
+      "id": 1758870407025,
+      "position": {
+        "x": 23.249195202138594,
+        "y": 7.693699664912798,
+        "z": 62.44155656112403
+      },
+      "rotation": {
+        "x": -0.020176212264808313,
+        "y": -0.9834952334762925,
+        "z": 0.04616139632810809,
+        "w": -0.17377975994322498
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758870407025,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Epyx dominated sports gaming throughout the 1980s by creating authentic athletic\\nsimulations that captured both the competitive excitement and physical demands of\\nreal-world sports competition. Their \"Summer Games\" series, launched to coincide with\\nthe 1984 Los Angeles Olympics, revolutionized the genre by requiring genuine skill\\ndevelopment rather than simple pattern memorization, while \"California Games\"\\nintroduced mainstream audiences to alternative sports like skateboarding and BMX\\nracing years before they gained widespread recognition. Epyx's sophisticated control\\nschemes, detailed animation systems, and comprehensive tournament structures\\nestablished the fundamental principles that continue to define sports gaming today,\\nproving that computer simulations could deliver the drama and personal achievement\\nthat made athletic competition compelling entertainment.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758870406352_208",
+      "id": 1758870407326,
+      "position": {
+        "x": 23.197659584158735,
+        "y": 6.9647636413355825,
+        "z": 62.52030261635487
+      },
+      "rotation": {
+        "x": -0.020176212264808313,
+        "y": -0.9834952334762925,
+        "z": 0.04616139632810809,
+        "w": -0.17377975994322498
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758870407025,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758870406352_477",
+      "id": 1758870406764,
+      "position": {
+        "x": 23.16316234597893,
+        "y": 6.287233462941634,
+        "z": 62.56792458056765
+      },
+      "rotation": {
+        "x": -0.020176212264808313,
+        "y": -0.9834952334762925,
+        "z": 0.04616139632810809,
+        "w": -0.17377975994322498
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758870407025,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Summer Games, Summer Games II, Winter Games, World\\nGames, California Games, Impossible Mission,\\nJumpman, Temple of Apshai",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871130861_383",
+      "id": 1758871131429,
+      "position": {
+        "x": 19.637326766880822,
+        "y": 7.6450002981567735,
+        "z": 58.68599171318284
+      },
+      "rotation": {
+        "x": -0.013040963454529611,
+        "y": -0.883209281648734,
+        "z": 0.04672044272669707,
+        "w": -0.4664641384491172
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 3.6000000000000023,
+        "z": 1
+      },
+      "currentImage": "exhibitions/thalamus.png",
+      "localKnnClusterId": 1758871131685,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758871130861_431",
+      "id": 1758871131258,
+      "position": {
+        "x": 17.647802598630797,
+        "y": 8.417432266400844,
+        "z": 55.66278380861307
+      },
+      "rotation": {
+        "x": -0.013040963454529611,
+        "y": -0.883209281648734,
+        "z": 0.04672044272669707,
+        "w": -0.4664641384491172
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871131685,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Thalamus- The Technical Innovators",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871130861_397",
+      "id": 1758871131685,
+      "position": {
+        "x": 17.60316542247944,
+        "y": 7.7505847856054935,
+        "z": 55.70992609971772
+      },
+      "rotation": {
+        "x": -0.013040963454529611,
+        "y": -0.883209281648734,
+        "z": 0.04672044272669707,
+        "w": -0.4664641384491172
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871131685,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Thalamus established themselves as the premier showcase for cutting-edge C64\\ntechnical achievements, publishing games that demonstrated programming techniques so\\nadvanced they seemed impossible on 8-bit hardware. Founded in 1988 by Mel Croucher\\nand John Rowe, Thalamus specialized in working with elite programmers like Stavros\\nFasoulas (\"Sanxion,\" \"Delta\") and Martin Walker (\"Armalyte\") who pushed\\nsprite-handling, sound synthesis, and visual effects far beyond what competitors\\nthought achievable. Their games consistently featured the most sophisticated graphics\\nengines, innovative gameplay mechanics, and boundary-pushing audio design available\\non the C64, earning them a reputation as the label that serious gamers and\\nprogrammers followed to experience the absolute pinnacle of what the machine could\\naccomplish.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871130861_400",
+      "id": 1758871131003,
+      "position": {
+        "x": 17.5355594474362,
+        "y": 7.021134338613786,
+        "z": 55.769391475157384
+      },
+      "rotation": {
+        "x": -0.013040963454529611,
+        "y": -0.883209281648734,
+        "z": 0.04672044272669707,
+        "w": -0.4664641384491172
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871131685,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871130861_765",
+      "id": 1758871131654,
+      "position": {
+        "x": 17.498483185444506,
+        "y": 6.343383570687163,
+        "z": 55.811633127789484
+      },
+      "rotation": {
+        "x": -0.013040963454529611,
+        "y": -0.883209281648734,
+        "z": 0.04672044272669707,
+        "w": -0.4664641384491172
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871131685,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Armalyte, Sanxion, Delta, Hunter's Moon, Creatures, \\nQuedex, Super Car, Nobby the Aardvark",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871180020_55",
+      "id": 1758871180707,
+      "position": {
+        "x": 15.381942525636083,
+        "y": 7.882147104794523,
+        "z": 51.59044256177907
+      },
+      "rotation": {
+        "x": -0.022261603345395703,
+        "y": -0.8450432930275127,
+        "z": 0.04254829859416516,
+        "w": -0.5325374904251385
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/GremlinGraphics_1989.png",
+      "localKnnClusterId": 1758871180674,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758871180020_566",
+      "id": 1758871180913,
+      "position": {
+        "x": 13.881027591150785,
+        "y": 8.401011093723552,
+        "z": 48.30422610132359
+      },
+      "rotation": {
+        "x": -0.022261603345395703,
+        "y": -0.8450432930275127,
+        "z": 0.04254829859416516,
+        "w": -0.5325374904251385
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871180674,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Gremlin Graphics - British Humor and Innovatio",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871180020_802",
+      "id": 1758871180674,
+      "position": {
+        "x": 13.825456984710996,
+        "y": 7.734100734597401,
+        "z": 48.336520154632886
+      },
+      "rotation": {
+        "x": -0.022261603345395703,
+        "y": -0.8450432930275127,
+        "z": 0.04254829859416516,
+        "w": -0.5325374904251385
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871180674,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Gremlin Graphics brought distinctly British humor and irreverent creativity to the\\nC64 software scene, developing beloved characters and innovative gameplay concepts\\nthat combined technical excellence with genuine comedic entertainment. Founded in\\nSheffield by Ian Stewart in 1984, Gremlin created the iconic \"Monty Mole\" series,\\nfeaturing a striking coal miner who became one of the C64's most recognizable mascots\\nthrough games like \"Wanted: Monty Mole\" and \"Monty on the Run,\" which combined\\nchallenging platforming with satirical political commentary and Rob Hubbard's\\nmemorable musical scores. Their diverse catalog ranged from the physics-based puzzle\\nchallenges of \"Thing on a Spring\" to the strategic depth of \"Bounder,\" establishing\\nGremlin as masters of accessible gameplay concepts that appealed to both casual\\nplayers and dedicated gaming enthusiasts.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871180020_272",
+      "id": 1758871180418,
+      "position": {
+        "x": 13.744904962753289,
+        "y": 7.004652251825568,
+        "z": 48.376780848959406
+      },
+      "rotation": {
+        "x": -0.022261603345395703,
+        "y": -0.8450432930275127,
+        "z": 0.04254829859416516,
+        "w": -0.5325374904251385
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871180674,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871180020_460",
+      "id": 1758871180326,
+      "position": {
+        "x": 13.697485896709036,
+        "y": 6.326828402796229,
+        "z": 48.40526524699732
+      },
+      "rotation": {
+        "x": -0.022261603345395703,
+        "y": -0.8450432930275127,
+        "z": 0.04254829859416516,
+        "w": -0.5325374904251385
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871180674,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Wanted: Monty Mole, Monty on the Run, Auf\\nWiedersehen Monty, Thing on a Spring, Bounder,\\nJack the Nipper, Trailblazer, Future Knight",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871209741_394",
+      "id": 1758871210696,
+      "position": {
+        "x": 12.97349027870929,
+        "y": 7.904056452167465,
+        "z": 29.637038308170037
+      },
+      "rotation": {
+        "x": -0.03555592749220546,
+        "y": -0.5667300888696318,
+        "z": 0.0340127422939436,
+        "w": -0.8224329247735854
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 1.6000000000000005,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Hewson_Consultants.png",
+      "localKnnClusterId": 1758871209860,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758871209741_442",
+      "id": 1758871210530,
+      "position": {
+        "x": 14.331745682920099,
+        "y": 8.40675170461303,
+        "z": 26.286870727997993
+      },
+      "rotation": {
+        "x": -0.03588287717317484,
+        "y": -0.5652501318636395,
+        "z": 0.03202059256636431,
+        "w": -0.8235166258574717
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871209860,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Hewson Consultants - Technical Showcases",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871209741_545",
+      "id": 1758871209860,
+      "position": {
+        "x": 14.269231571545392,
+        "y": 7.739850701227741,
+        "z": 26.27152705950905
+      },
+      "rotation": {
+        "x": -0.03588287717317484,
+        "y": -0.5652501318636395,
+        "z": 0.03202059256636431,
+        "w": -0.8235166258574717
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871209860,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Hewson Consultants earned legendary status by publishing the most technically\\naccomplished and innovative action games available on the C64, working exclusively\\nwith elite programmers who treated each release as a demonstration of programming\\nartistry. Founded by Andrew Hewson in 1980, the company discovered and nurtured\\nexceptional talent like Andrew Braybrook, whose masterpieces \"Paradroid\" and\\n\"Uridium\" featured revolutionary gameplay mechanics, silky-smooth animation, and\\ningenious design concepts that influenced action game development for decades.\\nHewson's commitment to quality over quantity meant that every release represented\\nmonths of meticulous programming refinement, resulting in games that not only pushed\\ntechnical boundaries but also delivered deeply satisfying gameplay experiences that\\nremained engaging long after their initial novelty wore off.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871209741_474",
+      "id": 1758871209834,
+      "position": {
+        "x": 14.183687067845439,
+        "y": 7.010387803680833,
+        "z": 26.24376705209117
+      },
+      "rotation": {
+        "x": -0.03588287717317484,
+        "y": -0.5652501318636395,
+        "z": 0.03202059256636431,
+        "w": -0.8235166258574717
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871209860,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871209741_558",
+      "id": 1758871210561,
+      "position": {
+        "x": 14.129526318398842,
+        "y": 6.332576659964364,
+        "z": 26.23177830729221
+      },
+      "rotation": {
+        "x": -0.03588287717317484,
+        "y": -0.5652501318636395,
+        "z": 0.03202059256636431,
+        "w": -0.8235166258574717
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871209860,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Paradroid, Uridium, Nebulus, Gribbly's Day Out,\\nZynaps, Cybernoid, Cybernoid II, Exolon",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871219599_315",
+      "id": 1758871219939,
+      "position": {
+        "x": 16.3989131657506,
+        "y": 7.917205737412312,
+        "z": 21.244227313470688
+      },
+      "rotation": {
+        "x": -0.03660108795852663,
+        "y": -0.5247234774772421,
+        "z": 0.03134109235502001,
+        "w": -0.8499079993430352
+      },
+      "scale": {
+        "x": 3.7000000000000024,
+        "y": 1.9000000000000008,
+        "z": 1
+      },
+      "currentImage": "exhibitions/RAINBOW_ARTS.png",
+      "localKnnClusterId": 1758871219739,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758871219599_7",
+      "id": 1758871220521,
+      "position": {
+        "x": 18.074847287547648,
+        "y": 8.41018854506452,
+        "z": 18.039637524890455
+      },
+      "rotation": {
+        "x": -0.03660108795852663,
+        "y": -0.5247234774772421,
+        "z": 0.03134109235502001,
+        "w": -0.8499079993430352
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871219739,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Rainbow Arts - German Precision",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871219599_945",
+      "id": 1758871219739,
+      "position": {
+        "x": 18.01341830269938,
+        "y": 7.743299611074864,
+        "z": 18.0199902434782
+      },
+      "rotation": {
+        "x": -0.03660108795852663,
+        "y": -0.5247234774772421,
+        "z": 0.03134109235502001,
+        "w": -0.8499079993430352
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871219739,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Rainbow Arts brought German engineering precision to C64 game development, creating\\ntechnically sophisticated action games and strategy simulations that showcased\\nmeticulous attention to detail and polished gameplay mechanics. Founded in Gütersloh\\nby Marc Ulrich and Thomas Meiertoberens, Rainbow Arts developed acclaimed shooters\\nlike \"Katakis\" (later redesigned as R-Type for home computers) and \"X-Out\" that\\nfeatured pixel-perfect collision detection, elaborate weapon upgrade systems, and\\nsome of the most impressive visual effects ever achieved on the platform. Their\\ndiverse catalog also included innovative strategy games, arcade conversions, and\\noriginal action concepts that demonstrated how European developers could match and\\noften exceed the technical achievements of their American and Japanese competitors\\nwhile maintaining distinctly regional creative perspectives.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871219599_56",
+      "id": 1758871220439,
+      "position": {
+        "x": 17.930200937540135,
+        "y": 7.013835116574976,
+        "z": 17.985916572755116
+      },
+      "rotation": {
+        "x": -0.03660108795852663,
+        "y": -0.5247234774772421,
+        "z": 0.03134109235502001,
+        "w": -0.8499079993430352
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871219739,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871219599_954",
+      "id": 1758871219697,
+      "position": {
+        "x": 17.876751038405672,
+        "y": 6.336038158870049,
+        "z": 17.970442364349392
+      },
+      "rotation": {
+        "x": -0.03660108795852663,
+        "y": -0.5247234774772421,
+        "z": 0.03134109235502001,
+        "w": -0.8499079993430352
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871219739,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Katakis, X-Out, R-Type, Turrican, Turrican II,\\nGreat Giana Sisters, Mad TV, Gem'X",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871265797_238",
+      "id": 1758871265954,
+      "position": {
+        "x": 31.388393918471337,
+        "y": 7.9309561869231775,
+        "z": 11.088487647743756
+      },
+      "rotation": {
+        "x": -0.0467047883061006,
+        "y": -0.07527945459422347,
+        "z": 0.012403981168931785,
+        "w": -0.9959910036166222
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Melbourne_house.jpg",
+      "localKnnClusterId": 1758871266489,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758871265797_200",
+      "id": 1758871266613,
+      "position": {
+        "x": 34.97381816987188,
+        "y": 8.413775714042657,
+        "z": 10.605991994793863
+      },
+      "rotation": {
+        "x": -0.0467047883061006,
+        "y": -0.07527945459422347,
+        "z": 0.012403981168931785,
+        "w": -0.9959910036166222
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871266489,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Melbourne House - Literary Gaming",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871265797_947",
+      "id": 1758871266489,
+      "position": {
+        "x": 34.95255212492996,
+        "y": 7.746904569860624,
+        "z": 10.54490969073967
+      },
+      "rotation": {
+        "x": -0.0467047883061006,
+        "y": -0.07527945459422347,
+        "z": 0.012403981168931785,
+        "w": -0.9959910036166222
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871266489,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Melbourne House distinguished themselves by creating some of the most sophisticated\\ninteractive fiction and licensed adaptations available on the C64, bringing literary\\ndepth and narrative complexity to computer gaming. Founded by Alfred Milgrom in\\nAustralia, the company achieved international recognition with \"The Hobbit,\" an\\nambitious text adventure that featured advanced natural language parsing and allowed\\nplayers to interact with Tolkien's Middle-earth using full sentences rather than\\nsimple verb-noun commands. Their technical innovations extended to action games like\\n\"War in Middle Earth\" and \"Shadows of Mordor,\" which combined real-time strategy\\nelements with detailed narrative frameworks, proving that computer games could\\nsuccessfully adapt complex literary properties while respecting both the source\\nmaterial and the interactive medium's unique storytelling capabilities.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871265797_114",
+      "id": 1758871266264,
+      "position": {
+        "x": 34.930310437111196,
+        "y": 7.017444054454011,
+        "z": 10.457747240411154
+      },
+      "rotation": {
+        "x": -0.0467047883061006,
+        "y": -0.07527945459422347,
+        "z": 0.012403981168931785,
+        "w": -0.9959910036166222
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871266489,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871265797_987",
+      "id": 1758871266508,
+      "position": {
+        "x": 34.9102148455885,
+        "y": 6.339667185072379,
+        "z": 10.405595811916829
+      },
+      "rotation": {
+        "x": -0.0467047883061006,
+        "y": -0.07527945459422347,
+        "z": 0.012403981168931785,
+        "w": -0.9959910036166222
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871266489,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The Hobbit, War in Middle Earth, Shadows of\\nMordor, The Way of the Exploding Fist, Fist II:\\nThe Legend Continues, Sherlock, Fighting Warrior",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871279914_260",
+      "id": 1758871280739,
+      "position": {
+        "x": 45.31950360849858,
+        "y": 7.7661871604516435,
+        "z": 9.983720343324613
+      },
+      "rotation": {
+        "x": -0.031428664396598985,
+        "y": -0.7096482555402821,
+        "z": 0.03630464171338524,
+        "w": -0.7029181056195652
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/U.S_Gold.jpg",
+      "localKnnClusterId": 1758871280336,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758871279914_398",
+      "id": 1758871280336,
+      "position": {
+        "x": 45.34934895627093,
+        "y": 8.289601036862534,
+        "z": 6.371749734326028
+      },
+      "rotation": {
+        "x": -0.031428664396598985,
+        "y": -0.7096482555402821,
+        "z": 0.03630464171338524,
+        "w": -0.7029181056195652
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871280336,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "U.S. Gold - Arcade Masters",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871279914_171",
+      "id": 1758871280800,
+      "position": {
+        "x": 45.28526678724823,
+        "y": 7.622690468180833,
+        "z": 6.376669895150711
+      },
+      "rotation": {
+        "x": -0.031428664396598985,
+        "y": -0.7096482555402821,
+        "z": 0.03630464171338524,
+        "w": -0.7029181056195652
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871280336,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "U.S. Gold specialized in bringing authentic arcade experiences to the C64, developing\\nconversion techniques that preserved the gameplay excitement and visual impact of\\ncoin-operated classics despite significant hardware limitations. Founded by Geoff\\nBrown in 1984, the company secured licenses for major arcade hits and worked with\\nskilled programming teams to create home versions that captured the essential\\nelements of games like \"Street Fighter,\" \"Gauntlet,\" and \"OutRun\" while adapting\\ncontrol schemes and visual presentation for home computer audiences. Their success in\\nmaintaining arcade game integrity during the conversion process helped establish the\\nhome computer market as a legitimate platform for serious gaming, proving that\\ndedicated programming effort could overcome hardware constraints to deliver\\nsatisfying interactive entertainment experiences.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871279914_342",
+      "id": 1758871280448,
+      "position": {
+        "x": 45.19517171408939,
+        "y": 6.893248694975138,
+        "z": 6.378164735695545
+      },
+      "rotation": {
+        "x": -0.031428664396598985,
+        "y": -0.7096482555402821,
+        "z": 0.03630464171338524,
+        "w": -0.7029181056195652
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871280336,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758871279914_358",
+      "id": 1758871280824,
+      "position": {
+        "x": 45.14008626877523,
+        "y": 6.2154237331049735,
+        "z": 6.383066568415974
+      },
+      "rotation": {
+        "x": -0.031428664396598985,
+        "y": -0.7096482555402821,
+        "z": 0.03630464171338524,
+        "w": -0.7029181056195652
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871280336,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Street Fighter, Gauntlet, OutRun, Impossible\\nMission II, Raid on Bungeling Bay, Beach Head,\\nBeach Head II, Spy vs. Spy",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758872310218_620",
+      "id": 1758872310413,
+      "position": {
+        "x": 20.581900046438676,
+        "y": 7.247113117946065,
+        "z": 15.305989996158289
+      },
+      "rotation": {
+        "x": -0.04296571151392922,
+        "y": -0.3446470763559777,
+        "z": 0.02153027954154641,
+        "w": -0.9375014762952061
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 2.8000000000000016,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Firebird_Software.png",
+      "localKnnClusterId": 1758872311035,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1758872310218_278",
+      "id": 1758872310953,
+      "position": {
+        "x": 23.376211534949647,
+        "y": 8.404934330539648,
+        "z": 13.013584350747815
+      },
+      "rotation": {
+        "x": -0.04296571151392922,
+        "y": -0.3446470763559777,
+        "z": 0.02153027954154641,
+        "w": -0.9375014762952061
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758872311035,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Firebird/Rainbird - Budget Excellence",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758872310218_220",
+      "id": 1758872311010,
+      "position": {
+        "x": 23.32932131185094,
+        "y": 7.738028922163365,
+        "z": 12.969551840569562
+      },
+      "rotation": {
+        "x": -0.04296571151392922,
+        "y": -0.3446470763559777,
+        "z": 0.02153027954154641,
+        "w": -0.9375014762952061
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758872311035,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Firebird revolutionized the C64 software market by proving that budget-priced games\\ncould deliver premium experiences, making quality gaming accessible to players who\\ncouldn't afford full-price releases. Founded by Jeremy Heath-Smith and Rob Toone in\\n1984, Firebird's innovative pricing strategy offered games at £2.50 (Silver range)\\nand £9.95 (Gold range), dramatically expanding the potential audience for computer\\ngames while maintaining high production standards through careful developer selection\\nand efficient distribution methods. Their success with games like \"Elite\" (published\\nunder their premium Rainbird label) and numerous arcade conversions demonstrated that\\ncreative marketing and smart business models could make exceptional software\\nprofitable at any price point, influencing the entire industry's approach to market\\nsegmentation and consumer accessibility.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758872310218_769",
+      "id": 1758872311035,
+      "position": {
+        "x": 23.26820459379592,
+        "y": 7.008569018916238,
+        "z": 12.903539864180468
+      },
+      "rotation": {
+        "x": -0.04296571151392922,
+        "y": -0.3446470763559777,
+        "z": 0.02153027954154641,
+        "w": -0.9375014762952061
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758872311035,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Key Games",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1758872310218_380",
+      "id": 1758872310297,
+      "position": {
+        "x": 23.227057827260534,
+        "y": 6.330752384977557,
+        "z": 12.866437230526385
+      },
+      "rotation": {
+        "x": -0.04296571151392922,
+        "y": -0.3446470763559777,
+        "z": 0.02153027954154641,
+        "w": -0.9375014762952061
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758872311035,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Elite, Thrust, Revs, Starglider, Tetris, Bobby\\nBearing, Wizball, Xenon, Sidewize",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759207659631_148",
+      "id": 1759207660448,
+      "position": {
+        "x": 44.27171806022878,
+        "y": 13.16471043920854,
+        "z": 14.107060870146542
+      },
+      "rotation": {
+        "x": -0.061876423239604406,
+        "y": -0.7962212523642178,
+        "z": 0.05092657940271642,
+        "w": -0.5996746502499335
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/edge_of_disgrace.png",
+      "localKnnClusterId": 1759207660039,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759207659631_2",
+      "id": 1759207660230,
+      "position": {
+        "x": 43.867477134708736,
+        "y": 11.510046800696333,
+        "z": 14.041505317845168
+      },
+      "rotation": {
+        "x": -0.061876423239604406,
+        "y": -0.7962212523642178,
+        "z": 0.05092657940271642,
+        "w": -0.5996746502499335
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 0.6000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759207660039,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Birth of Digital Art: From Software Pirates to Creative Pioneers",
+          "fontSize": 2.300000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759207659631_305",
+      "id": 1759207659957,
+      "position": {
+        "x": 43.04298940076636,
+        "y": 11.784936025648035,
+        "z": 10.644661394492422
+      },
+      "rotation": {
+        "x": -0.061876423239604406,
+        "y": -0.7962212523642178,
+        "z": 0.05092657940271642,
+        "w": -0.5996746502499335
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758871280336,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The Commodore 64 became the ideal platform for this digital art revolution due to its unique\\ncombination of accessible price point, standardized hardware, and surprisingly sophisticated\\ncapabilities that rewarded creative programming. Unlike more expensive computers that varied in\\nconfiguration, every C64 had identical specifications—the same VIC-II graphics chip, SID sound chip,\\nand 64KB of RAM—creating a level playing field where artistic vision and programming skill mattered\\nmore than hardware budget. The machine's limitations became creative catalysts: the 16-color palette\\nforced artists to master careful color selection, the three-voice SID chip encouraged innovative\\nmusical arrangements, and the tight memory constraints demanded elegant, efficient code. Most\\nimportantly, the C64's widespread adoption meant that demos could reach massive audiences, while the\\nmachine's copy-friendly disk drives enabled easy distribution through bulletin board systems and\\nmail trading networks. The platform's balance of capability and constraint created the perfect\\nenvironment for programmers to push beyond conventional software development and explore code as a\\nform of artistic expression, establishing principles and techniques that continue to influence\\ndigital art and creative coding today.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759207659631_185",
+      "id": 1759207660373,
+      "position": {
+        "x": 43.14204082031799,
+        "y": 12.457758517467159,
+        "z": 10.642734642173293
+      },
+      "rotation": {
+        "x": -0.061876423239604406,
+        "y": -0.7962212523642178,
+        "z": 0.05092657940271642,
+        "w": -0.5996746502499335
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759207660039,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Perfect Canvas: Why the C64 Sparked a Revolution",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759207659631_833",
+      "id": 1759207660039,
+      "position": {
+        "x": 43.27928025367222,
+        "y": 13.17978770281658,
+        "z": 10.636122505965446
+      },
+      "rotation": {
+        "x": -0.061876423239604406,
+        "y": -0.7962212523642178,
+        "z": 0.05092657940271642,
+        "w": -0.5996746502499335
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759207660039,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "By the mid-1980s, a remarkable transformation occurred as many talented programmers,\\nartists, and musicians began creating \"demos\"—standalone programs with no commercial\\nsoftware attached, existing purely as artistic statements. This shift marked the\\nbirth of the demoscene proper, where the focus moved from illegal software\\ndistribution to legitimate creative expression. Pioneering groups like The Judges\\nwith their groundbreaking \"Crack Intro\" demos and Fairlight's artistic masterpieces\\nestablished new conventions: demos should tell a story, evoke emotions, and\\ndemonstrate technical mastery simultaneously. The scene developed its own culture,\\ncomplete with specialized terminology (coders, graphicians, musicians), underground\\nmagazines (diskmags), and eventually physical gatherings called \"demoparties\" where\\ngroups would compete in real-time coding competitions. This transition from\\nutilitarian crack intros to pure art represented one of the first instances of\\nprogrammers viewing code as a medium for creative expression rather than merely a\\ntool for problem-solving.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759207659631_201",
+      "id": 1759207660484,
+      "position": {
+        "x": 43.38622127349217,
+        "y": 13.841182185693274,
+        "z": 10.631508724985466
+      },
+      "rotation": {
+        "x": -0.061876423239604406,
+        "y": -0.7962212523642178,
+        "z": 0.05092657940271642,
+        "w": -0.5996746502499335
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759207660039,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "The Great Transformation: Art for Art's Sake",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759207659631_206",
+      "id": 1759207660595,
+      "position": {
+        "x": 43.50280056654752,
+        "y": 14.495671445386135,
+        "z": 10.62812695161435
+      },
+      "rotation": {
+        "x": -0.061876423239604406,
+        "y": -0.7962212523642178,
+        "z": 0.05092657940271642,
+        "w": -0.5996746502499335
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759207660039,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The demoscene emerged from the shadowy world of software piracy in the early 1980s,\\nwhere skilled programmers known as \"crackers\" removed copy protection from commercial\\nsoftware. These underground groups competed not just to crack games first, but to\\nshowcase their technical prowess through elaborate \"crack intros\"—short programs that\\ndisplayed before the pirated game began. What started as simple text screens\\nannouncing \"CRACKED BY [GROUP NAME]\" quickly evolved into increasingly sophisticated\\ndisplays featuring scrolling text, custom graphics, and original music. Groups like\\n1001 Crew, The Judges, and Fairlight began treating these intros as canvases for\\nartistic expression, pushing the boundaries of what the C64's limited hardware could\\nachieve. The competitive nature of the cracking scene created an arms race of\\ncreativity, where groups vied to create the most technically impressive and visually\\nstunning introductions, inadvertently laying the foundation for an entirely new form\\nof digital art.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759207659631_609",
+      "id": 1759207659760,
+      "position": {
+        "x": 43.59212431294814,
+        "y": 15.114623744507853,
+        "z": 10.62262546587468
+      },
+      "rotation": {
+        "x": -0.061876423239604406,
+        "y": -0.7962212523642178,
+        "z": 0.05092657940271642,
+        "w": -0.5996746502499335
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759207660039,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Underground Origins: When Hackers Became Artists",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane_18",
+      "id": 1759207660596,
+      "position": {
+        "x": 45.009756166905845,
+        "y": 0.20525633716531644,
+        "z": 39.20471640780547
+      },
+      "rotation": {
+        "x": 0.5005132555961609,
+        "y": 0.49948516488075256,
+        "z": -0.4990852475166321,
+        "w": 0.5009142756462097
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "exhibitions/elevator-icon.jpg",
+      "localKnnClusterId": 1758438335055,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 5.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759385577450_506",
+      "id": 1759385578403,
+      "position": {
+        "x": 42.395997274829234,
+        "y": 12.579053909392279,
+        "z": 6.61971793858795
+      },
+      "rotation": {
+        "x": -0.02272934280165513,
+        "y": -0.9833410822623947,
+        "z": 0.04587805231481143,
+        "w": -0.17441076891069474
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 3.0000000000000018,
+        "z": 1
+      },
+      "currentImage": "exhibitions/DemoceneCompos.png",
+      "localKnnClusterId": 1759385577490,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759385577450_52",
+      "id": 1759385578213,
+      "position": {
+        "x": 39.04893195355805,
+        "y": 13.728839997449146,
+        "z": 5.317368450146316
+      },
+      "rotation": {
+        "x": -0.02272934280165513,
+        "y": -0.9833410822623947,
+        "z": 0.04587805231481143,
+        "w": -0.17441076891069474
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759385577490,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Assembly (Finland) - The Nordic Giant",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759385577450_275",
+      "id": 1759385577490,
+      "position": {
+        "x": 39.00825984037815,
+        "y": 13.062352426236519,
+        "z": 5.372508861711966
+      },
+      "rotation": {
+        "x": -0.02272934280165513,
+        "y": -0.9833410822623947,
+        "z": 0.04587805231481143,
+        "w": -0.17441076891069474
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759385577490,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Assembly, held annually in Helsinki since 1992, stands as one of the world's largest\\nand most prestigious demoparties, attracting thousands of participants from across\\nthe globe. What began as a small gathering of Finnish sceners has evolved into a\\nmassive event featuring competitions across multiple platforms including C64, Amiga,\\nPC, and modern systems. Assembly's C64 demo competitions remain highly competitive,\\nwith groups like Fairlight, Censor Design, and Offence regularly unveiling their\\nlatest masterpieces. The event's summer location at the Messukeskus exhibition center\\nprovides space for both intense coding sessions and large-scale presentations on\\nmassive screens. Assembly's influence extends beyond the demoscene, as major\\ntechnology companies now sponsor events and recruit talent directly from the\\ncompetitions.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "assembly.org",
+      "id": 1759385578437,
+      "position": {
+        "x": 38.91518282210499,
+        "y": 11.65614644648596,
+        "z": 5.4967628769009895
+      },
+      "rotation": {
+        "x": -0.02272934280165513,
+        "y": -0.9833410822623947,
+        "z": 0.04587805231481143,
+        "w": -0.17441076891069474
+      },
+      "scale": {
+        "x": 2.200000000000001,
+        "y": 1.5000000000000004,
+        "z": 1
+      },
+      "currentImage": "exhibitions/assembly.png",
+      "localKnnClusterId": 1759385577490,
+      "snapParentId": 0,
+      "url": "https://assembly.org/en",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": ".",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759410064795_115",
+      "id": 1759410065508,
+      "position": {
+        "x": 35.59921947943705,
+        "y": 12.513120551916334,
+        "z": 4.8976007447658185
+      },
+      "rotation": {
+        "x": -0.01745721791554074,
+        "y": -0.9976369865297006,
+        "z": 0.048457244844779,
+        "w": -0.04547343124801062
+      },
+      "scale": {
+        "x": 3.200000000000002,
+        "y": 2.6000000000000014,
+        "z": 1
+      },
+      "currentImage": "exhibitions/revision-site.png",
+      "localKnnClusterId": 1759410065333,
+      "snapParentId": 0,
+      "url": "https://2025.revision-party.net/",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759410064796_876",
+      "id": 1759410065587,
+      "position": {
+        "x": 32.53101158606005,
+        "y": 13.76910079990024,
+        "z": 4.4991467916624215
+      },
+      "rotation": {
+        "x": -0.01745721791554074,
+        "y": -0.9976369865297006,
+        "z": 0.048457244844779,
+        "w": -0.04547343124801062
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759410065333,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Revision (Germany) - Easter Excellence",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759410064796_977",
+      "id": 1759410065333,
+      "position": {
+        "x": 32.50472148768669,
+        "y": 12.902655338747376,
+        "z": 4.5628623560253425
+      },
+      "rotation": {
+        "x": -0.01745721791554074,
+        "y": -0.9976369865297006,
+        "z": 0.048457244844779,
+        "w": -0.04547343124801062
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.3000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Revision.png",
+      "localKnnClusterId": 1759410065333,
+      "snapParentId": 0,
+      "url": "http://www.youtube.com/@revisionparty",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": [
+        {
+          "text": ".",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759410064796_232",
+      "id": 1759410064944,
+      "position": {
+        "x": 32.44426659350825,
+        "y": 11.696546482091323,
+        "z": 4.706809767835587
+      },
+      "rotation": {
+        "x": -0.01745721791554074,
+        "y": -0.9976369865297006,
+        "z": 0.048457244844779,
+        "w": -0.04547343124801062
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759410065333,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Revision, held annually during Easter weekend in Saarbrücken, Germany, represents the\\nspiritual successor to the legendary Breakpoint party and has become the premier\\nEuropean demoscene gathering. Since 2011, Revision has maintained the highest\\ntechnical and artistic standards, with C64 competitions that regularly feature\\ngroundbreaking demos pushing the platform to its absolute limits. The event's\\ntechnical infrastructure is legendary among sceners, featuring massive projection\\nsystems, professional audio equipment, and live streaming that brings the experience\\nto global audiences. Revision's organizing committee includes veteran sceners who\\nensure that both classic platforms like the C64 and cutting-edge technologies receive\\nequal respect and showcase opportunities.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "id": 1759385578403,
+      "position": {
+        "x": 42.395997274829234,
+        "y": 12.579053909392279,
+        "z": 6.61971793858795
+      },
+      "rotation": {
+        "x": -0.02272934280165513,
+        "y": -0.9833410822623947,
+        "z": 0.04587805231481143,
+        "w": -0.17441076891069474
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 3.0000000000000018,
+        "z": 1
+      },
+      "currentImage": "exhibitions/DemoceneCompos.png",
+      "localKnnClusterId": 1759385577490,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Revision",
+      "id": 1759410065508,
+      "position": {
+        "x": 35.59921947943705,
+        "y": 12.513120551916334,
+        "z": 4.8976007447658185
+      },
+      "rotation": {
+        "x": -0.01745721791554074,
+        "y": -0.9976369865297006,
+        "z": 0.048457244844779,
+        "w": -0.04547343124801062
+      },
+      "scale": {
+        "x": 3.200000000000002,
+        "y": 2.6000000000000014,
+        "z": 1
+      },
+      "currentImage": "exhibitions/revision-site.png",
+      "localKnnClusterId": 1759410065333,
+      "snapParentId": 0,
+      "url": "https://2025.revision-party.net/",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759410760617_483",
+      "id": 1759410761251,
+      "position": {
+        "x": 28.376868009473625,
+        "y": 12.714646079976749,
+        "z": 5.07129871049856
+      },
+      "rotation": {
+        "x": 0.00956712649801894,
+        "y": -0.9927980895650946,
+        "z": 0.04706447492458878,
+        "w": 0.10975265960893776
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 3.0000000000000018,
+        "z": 1
+      },
+      "currentImage": "exhibitions/evoke.png",
+      "localKnnClusterId": 1759410761599,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759410760618_332",
+      "id": 1759410761018,
+      "position": {
+        "x": 25.13748076783365,
+        "y": 13.820001554096581,
+        "z": 5.798162474023085
+      },
+      "rotation": {
+        "x": 0.00956712649801894,
+        "y": -0.9927980895650946,
+        "z": 0.04706447492458878,
+        "w": 0.10975265960893776
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759410761599,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Evoke (Germany) - Intimate Innovation",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759410760618_857",
+      "id": 1759410761599,
+      "position": {
+        "x": 25.15713011943162,
+        "y": 13.153092073272344,
+        "z": 5.859367680338881
+      },
+      "rotation": {
+        "x": 0.00956712649801894,
+        "y": -0.9927980895650946,
+        "z": 0.04706447492458878,
+        "w": 0.10975265960893776
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759410761599,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Evoke in Cologne represents the more intimate side of the demoscene, focusing on\\nartistic quality over scale while maintaining strong connections to the C64\\ncommunity. Known for its relaxed atmosphere and emphasis on creative collaboration,\\nEvoke regularly features special C64 seminars, live music performances of SID tunes,\\nand workshops where experienced coders share advanced techniques with newcomers. The\\nevent's smaller scale allows for meaningful interactions between legendary figures\\nlike Rob Hubbard and emerging talent, creating an environment where knowledge\\ntransfer and artistic inspiration flourish naturally.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759411143072_302",
+      "id": 1759411143173,
+      "position": {
+        "x": 21.98256826268652,
+        "y": 12.580939034633273,
+        "z": 7.159616849991828
+      },
+      "rotation": {
+        "x": 0.011379859786196652,
+        "y": -0.9698818235093729,
+        "z": 0.04678498137354517,
+        "w": 0.2387699974635636
+      },
+      "scale": {
+        "x": 2.9000000000000017,
+        "y": 2.9000000000000017,
+        "z": 1
+      },
+      "currentImage": "exhibitions/x-party.png",
+      "localKnnClusterId": 1759411143395,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759411143072_273",
+      "id": 1759411143644,
+      "position": {
+        "x": 19.056500972378757,
+        "y": 13.808504266061012,
+        "z": 8.246355553217896
+      },
+      "rotation": {
+        "x": 0.011379859786196652,
+        "y": -0.9698818235093729,
+        "z": 0.04678498137354517,
+        "w": 0.2387699974635636
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759411143395,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "X-Party and C64 Gatherings",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759411143072_264",
+      "id": 1759411143395,
+      "position": {
+        "x": 19.086259682852322,
+        "y": 13.141610577443952,
+        "z": 8.30351828161943
+      },
+      "rotation": {
+        "x": 0.011379859786196652,
+        "y": -0.9698818235093729,
+        "z": 0.04678498137354517,
+        "w": 0.2387699974635636
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759411143395,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Various specialized C64-only events occur throughout Europe and North America, often\\norganized by specific user groups or in conjunction with vintage computing festivals.\\nThese intimate gatherings focus exclusively on 8-bit platforms, featuring\\ncompetitions, workshops, and social events that celebrate the ongoing creativity\\nwithin the C64 community. Events like the Dutch X-Party series and various HVSC (High\\nVoltage SID Collection) meetings provide focused environments where C64 enthusiasts\\ncan deep-dive into technical discussions, collaborative coding sessions, and live\\nperformances of classic SID compositions.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "https://csdb.dk/",
+      "id": 1759411809461,
+      "position": {
+        "x": 16.378611711450645,
+        "y": 12.706303577936835,
+        "z": 10.449635540420374
+      },
+      "rotation": {
+        "x": 0.011257171771612583,
+        "y": -0.9383641515105122,
+        "z": 0.04756394369134564,
+        "w": 0.342175187845839
+      },
+      "scale": {
+        "x": 2.8000000000000016,
+        "y": 2.8000000000000016,
+        "z": 1
+      },
+      "currentImage": "exhibitions/csdb.png",
+      "localKnnClusterId": 1759411809856,
+      "snapParentId": 0,
+      "url": "https://csdb.dk/",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 3.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759411809124_881",
+      "id": 1759411810053,
+      "position": {
+        "x": 13.87863600182234,
+        "y": 13.794033542218209,
+        "z": 12.215886017756313
+      },
+      "rotation": {
+        "x": 0.011257171771612583,
+        "y": -0.9383641515105122,
+        "z": 0.04756394369134564,
+        "w": 0.342175187845839
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759411809856,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "CSDb (C64 Scene Database) - The Complete Record",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759411809124_662",
+      "id": 1759411809856,
+      "position": {
+        "x": 13.914599664624223,
+        "y": 13.127234618392212,
+        "z": 12.270531738434986
+      },
+      "rotation": {
+        "x": 0.011257171771612583,
+        "y": -0.9383641515105122,
+        "z": 0.04756394369134564,
+        "w": 0.342175187845839
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759411809856,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "CSDb.dk serves as the definitive online archive and community hub for the C64\\ndemoscene, containing detailed information about thousands of demos, music tracks,\\ngraphics, and scene personalities dating back to the 1980s. Beyond its archival\\nfunction, CSDb operates as an active community where sceners discuss new releases,\\nshare technical insights, and organize online competitions. The platform's\\ncomprehensive tagging and cross-referencing system allows researchers and enthusiasts\\nto trace the evolution of techniques, track group memberships, and understand the\\ncomplex web of influences that shaped C64 culture. CSDb's comment system and user\\nratings provide ongoing community curation, ensuring that significant works receive\\nrecognition while maintaining historical accuracy.",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plane_19",
+      "id": 1759410065588,
+      "position": {
+        "x": 31.237260873805823,
+        "y": 14.737316041072331,
+        "z": 4.745077634836356
+      },
+      "rotation": {
+        "x": -0.0005848409491591156,
+        "y": -0.9949511289596558,
+        "z": -0.005807811394333839,
+        "w": 0.10019060969352722
+      },
+      "scale": {
+        "x": 5.699999999999997,
+        "y": 0.8,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759410065333,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.8
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 0.3
+      },
+      "texts": [
+        {
+          "text": "Notable Demoscene Venues and Conferences",
+          "fontSize": 3.100000000000002,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "https://www.scene.org/",
+      "id": 1759412435197,
+      "position": {
+        "x": 10.918096699714859,
+        "y": 12.835621940289647,
+        "z": 15.301968919509521
+      },
+      "rotation": {
+        "x": 0.02641380352453876,
+        "y": -0.9105437862462405,
+        "z": 0.040308480391786555,
+        "w": 0.4105945569927609
+      },
+      "scale": {
+        "x": 2.8000000000000016,
+        "y": 2.8000000000000016,
+        "z": 1
+      },
+      "currentImage": "exhibitions/scene-org.png",
+      "localKnnClusterId": 1759412435021,
+      "snapParentId": 0,
+      "url": "https://www.scene.org/",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759412434674_644",
+      "id": 1759412435473,
+      "position": {
+        "x": 8.97741730571024,
+        "y": 13.828107217380596,
+        "z": 17.47062550496738
+      },
+      "rotation": {
+        "x": 0.02641380352453876,
+        "y": -0.9105437862462405,
+        "z": 0.040308480391786555,
+        "w": 0.4105945569927609
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759412435021,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Scene.org - The Global Archive",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759412434674_95",
+      "id": 1759412435021,
+      "position": {
+        "x": 9.031823177820222,
+        "y": 13.161218964888826,
+        "z": 17.505274260304674
+      },
+      "rotation": {
+        "x": 0.02641380352453876,
+        "y": -0.9105437862462405,
+        "z": 0.040308480391786555,
+        "w": 0.4105945569927609
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759412435021,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Scene.org functions as the central repository for demoscene productions across all\\nplatforms, with extensive C64 collections that preserve both legendary classics and\\nobscure releases that might otherwise be lost to time. The platform's FTP-style\\norganization and mirror network ensure global accessibility while maintaining the\\ndistributed, grassroots character that defines demoscene culture. Beyond simple file\\nhosting, Scene.org provides essential metadata, group information, and technical\\nspecifications that help preserve the context surrounding each release. ",
+          "fontSize": 0.7000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "https://demozoo.org/",
+      "id": 1759412880368,
+      "position": {
+        "x": 6.7235914239239545,
+        "y": 12.573984241808228,
+        "z": 20.75581695236876
+      },
+      "rotation": {
+        "x": 0.025300147060551448,
+        "y": -0.862162878902091,
+        "z": 0.04087244740355359,
+        "w": 0.5043459449277308
+      },
+      "scale": {
+        "x": 2.8000000000000016,
+        "y": 2.8000000000000016,
+        "z": 1
+      },
+      "currentImage": "exhibitions/demozoo.png",
+      "localKnnClusterId": 1759412880639,
+      "snapParentId": 0,
+      "url": "https://demozoo.org/",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 0.9
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759412880071_133",
+      "id": 1759412880572,
+      "position": {
+        "x": 5.297907867713495,
+        "y": 13.811943294643983,
+        "z": 23.370084862446866
+      },
+      "rotation": {
+        "x": 0.025300147060551448,
+        "y": -0.862162878902091,
+        "z": 0.04087244740355359,
+        "w": 0.5043459449277308
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759412880639,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "www.pouet.net",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "https://www.pouet.net/",
+      "id": 1759412880722,
+      "position": {
+        "x": 5.3547596872004455,
+        "y": 13.145039234497155,
+        "z": 23.400206297287976
+      },
+      "rotation": {
+        "x": 0.025300147060551448,
+        "y": -0.862162878902091,
+        "z": 0.04087244740355359,
+        "w": 0.5043459449277308
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "exhibitions/pouet.png",
+      "localKnnClusterId": 1759412880639,
+      "snapParentId": 0,
+      "url": "https://www.pouet.net/",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759412880071_45",
+      "id": 1759412880639,
+      "position": {
+        "x": 5.432345524662903,
+        "y": 12.415626770703414,
+        "z": 23.446494230905497
+      },
+      "rotation": {
+        "x": 0.025300147060551448,
+        "y": -0.862162878902091,
+        "z": 0.04087244740355359,
+        "w": 0.5043459449277308
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759412880639,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "www.demoparty.net",
+          "fontSize": 1.5000000000000004,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "https://www.demoparty.net/",
+      "id": 1759412880578,
+      "position": {
+        "x": 5.481370420079774,
+        "y": 11.737805546081246,
+        "z": 23.47218620314631
+      },
+      "rotation": {
+        "x": 0.025300147060551448,
+        "y": -0.862162878902091,
+        "z": 0.04087244740355359,
+        "w": 0.5043459449277308
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "exhibitions/demoparty-net.png",
+      "localKnnClusterId": 1759412880639,
+      "snapParentId": 0,
+      "url": "https://www.demoparty.net/",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": []
+    },
+    {
+      "name": "https://transmission64.com/",
+      "id": 1759413342356,
+      "position": {
+        "x": 3.931090304285103,
+        "y": 13.112824363644997,
+        "z": 26.464520276158826
+      },
+      "rotation": {
+        "x": 0.01851493118309439,
+        "y": -0.8217011296668884,
+        "z": 0.046681482094441444,
+        "w": 0.5677020599667684
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "exhibitions/transmission64.png",
+      "localKnnClusterId": 1759413342587,
+      "snapParentId": 0,
+      "url": "https://transmission64.com/",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": []
+    },
+    {
+      "name": "c64.ch",
+      "id": 1759413342587,
+      "position": {
+        "x": 4.056867908579851,
+        "y": 11.806307686844871,
+        "z": 26.550595595528996
+      },
+      "rotation": {
+        "x": 0.01851493118309439,
+        "y": -0.8217011296668884,
+        "z": 0.046681482094441444,
+        "w": 0.5677020599667684
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "exhibitions/c64-ch.png",
+      "localKnnClusterId": 1759413342587,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": []
     }
   ]
 }

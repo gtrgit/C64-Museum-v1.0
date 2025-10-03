@@ -31,5 +31,5 @@ export enum EntityNames {
   Tile_7 = "Tile 7",
   Tile_8 = "Tile 8",
   Tile_9 = "Tile 9",
-  commodore_museum_v1_glb = "commodore-museum-v1.glb",
+  commodore_museum_04_glb = "commodore-museum_04.glb",
 } 

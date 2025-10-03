@@ -18,6 +18,8 @@ import {
 import { setupUi } from './plane-ui'
 import { loadSceneState } from './plane-utils'
 
+// import { inputHandlerSystem } from './input-handler' // DISABLED - was causing player movement issues
+
 export async function initializePlanePositioner() {
   // Add all plane positioner systems
   engine.addSystem(circularSystem)
@@ -26,6 +28,7 @@ export async function initializePlanePositioner() {
   engine.addSystem(planeSelectionSystem)
   engine.addSystem(textureStreamingSystem)
   engine.addSystem(templatePreviewSystem)
+  // engine.addSystem(inputHandlerSystem) // DISABLED - was causing player movement issues
 
   // UI is now handled by ui-manager.tsx
   // setupUi() - removed

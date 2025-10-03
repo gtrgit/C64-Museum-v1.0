@@ -1,9 +1,9 @@
 import { Entity } from '@dcl/sdk/ecs'
-import gamesDataImport, { GameData } from '../../data/c64_software_cleaned'
-
-// Convert readonly array to mutable for internal use
-const gamesData = [...gamesDataImport] as GameData[]
+import { GameData, loadGamesData, getGamesDataSync } from './games-data-loader'
 import { loadSceneConfig, getCurrentPlanesPerPage } from './games-scene-config'
+
+// Initialize with empty array, will be populated after loading
+let gamesData: GameData[] = []
 
 // Global state for UI updates
 export let selectedPlaneId: string = 'None'
@@ -133,15 +133,10 @@ export function getCurrentPageGames(): GameData[] {
   const endIndex = startIndex + itemsPerPage
   const games = filteredGames.slice(startIndex, endIndex)
   
-  // Debug logging to see what's happening
-  if (games.length !== itemsPerPage && games.length !== filteredGames.length) {
-    console.log(`🔍 DEBUG getCurrentPageGames:`)
-    console.log(`   currentPage: ${currentPage}`)
-    console.log(`   itemsPerPage: ${itemsPerPage}`)
-    console.log(`   startIndex: ${startIndex}, endIndex: ${endIndex}`)
-    console.log(`   games returned: ${games.length}`)
-    console.log(`   total games: ${filteredGames.length}`)
-  }
+  // console.log(`🔍 getCurrentPageGames called:`)
+  // console.log(`   currentPage: ${currentPage}, itemsPerPage: ${itemsPerPage}`)
+  // console.log(`   filteredGames.length: ${filteredGames.length}`)
+  // console.log(`   games returned: ${games.length}`)
   
   return games
 }
@@ -438,6 +433,33 @@ export function updatePaginationForNewPageSize() {
 export function updateItemsPerPage(newItemsPerPage: number) {
   itemsPerPage = newItemsPerPage
   updatePaginationForNewPageSize()
+}
+
+// Initialize games data from external JSON
+export async function initializeGamesData() {
+  console.log('🎮 Loading games data from external JSON...')
+  gamesData = await loadGamesData()
+  
+  if (gamesData.length === 0) {
+    console.error('❌ No games data loaded!')
+    return false
+  }
+  
+  console.log(`✅ Loaded ${gamesData.length} games`)
+  console.log(`🎮 Sample game titles: ${gamesData.slice(0, 5).map(g => g.title).join(', ')}`)
+  console.log(`🎮 First game ID: ${gamesData[0]?.identifier}`)
+  console.log(`🎮 Total games available: ${gamesData.length}`)
+  
+  // Initialize filtered games
+  filteredGames = gamesData
+  
+  // Recalculate total pages
+  totalPages = Math.ceil(gamesData.length / itemsPerPage)
+  
+  // Initialize filtering
+  initializeFiltering()
+  
+  return true
 }
 
 // Initialize filters and calculate counts on startup

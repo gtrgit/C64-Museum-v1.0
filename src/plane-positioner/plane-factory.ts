@@ -104,7 +104,8 @@ export function createPlane(transform: StoredTransform, snapParentId?: number): 
     id: planeId,
     currentImage: '', 
     localKnnClusterId: 0, // 0 means no cluster assigned yet
-    snapParentId: snapParentId || 0 // 0 means not snapped to any plane
+    snapParentId: snapParentId || 0, // 0 means not snapped to any plane
+    url: '' // Empty URL by default
   })
 
   // Set transform with default scale of 1

@@ -203,6 +203,7 @@ export async function createCurvedGrid(
   
   // Get current page games from pagination state
   const games = getCurrentPageGames()
+  console.log(`📊 Games available for display: ${games.length}`)
   
   // Calculate angle steps based on dynamic grid dimensions and optimal ranges
   const hAngleStep = (angularRanges.horizontalRangeEnd - angularRanges.horizontalRangeStart) / (gridDims.cols - 1)
@@ -223,9 +224,9 @@ export async function createCurvedGrid(
       Plane.create(entity, { angle: hAngle })
       
       // Get game data for this plane
-      const game = games[gameIndex % games.length]
+      const game = games.length > 0 ? games[gameIndex % games.length] : null
       const planeId = `r${v}-c${h}`
-      const planeTitle = game ? (game.title || `Game ${gameIndex}`) : `Test ${planeId}`
+      const planeTitle = game ? (game.title || `Game ${gameIndex}`) : `Loading...`
       const thumbnailPath = game ? `thumbnails/${game.identifier}/__ia_thumb.jpg` : null
       
       // Handle description properly - could be string or array

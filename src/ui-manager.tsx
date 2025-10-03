@@ -5,9 +5,10 @@ import { engine } from '@dcl/sdk/ecs'
 // Import both UI components
 import { combinedUIComponent as gamesUI } from './games-directory/games-ui'
 import { uiComponent as planeUI } from './plane-positioner/plane-ui'
+import { AudioControlUI } from './audio/audio-ui'
 
 // Developer mode state
-let developerMode = true
+let developerMode = false
 let showDeveloperToggle = true
 
 // Toggle developer mode
@@ -19,6 +20,7 @@ export function toggleDeveloperMode() {
 export function isDeveloperMode() {
   return developerMode
 }
+
 
 // Set whether to show developer toggle
 export function setShowDeveloperToggle(show: boolean) {
@@ -37,6 +39,9 @@ const combinedUIManager = () => {
     >
       {/* Games UI - Always visible */}
       {gamesUI()}
+      
+      {/* Audio Control UI - Always visible */}
+      <AudioControlUI />
       
       {/* Plane Positioner UI - Only visible in developer mode */}
       {developerMode && planeUI()}
