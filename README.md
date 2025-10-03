@@ -2,10 +2,11 @@
 
 ## Overview
 
-The Commodore 64 Museum is an immersive 3D virtual experience built on Decentraland that showcases the rich history of Commodore 64 software. This multi-parcel scene spans a 5×5 grid and features an extensive collection of 570 C64 games and applications displayed in an innovative curved gallery format.
+The Commodore 64 Museum is an immersive 3D virtual experience built on Decentraland that showcases the rich history of Commodore 64 software. This multi-parcel scene spans a 5×5 grid and features an extensive collection of 10k+ C64 games and applications displayed in an innovative curved gallery format.
 
 ### Key Features
-- **570 Game Covers**: Displayed in a curved grid formation (3 rows × 190 columns)
+- **10k+ Games Collection**: Accessible through pagination system
+- **570 Display Planes**: Visible at any time in a curved grid formation (3 rows × 190 columns)
 - **Interactive Gallery**: Hover effects, selection capabilities, and detailed information panels
 - **External Links**: Direct links to Internet Archive, Wikipedia, and eBay for each title
 - **Performance Optimized**: Advanced texture caching and resource management for smooth experience
@@ -19,7 +20,7 @@ The Commodore 64 Museum is an immersive 3D virtual experience built on Decentral
 The heart of the museum functionality, managing the display and interaction with the game collection.
 
 - **games-factory.ts**: Creates the curved grid of game cover planes with precise positioning
-  - Generates 570 planes in a 3×190 configuration
+  - Generates 570 display planes in a 3×190 configuration
   - Implements 32-meter radius curved layout
   - Handles initial entity creation and positioning
 
@@ -32,7 +33,7 @@ The heart of the museum functionality, managing the display and interaction with
 - **games-state.ts**: Global state management
   - Maintains current page and selected items
   - Manages filtering and search functionality
-  - Handles pagination state
+  - Handles pagination state for 10k+ games collection
 
 - **games-ui.tsx**: React-based UI components
   - Displays detailed game information (title, year, creator, genre)
@@ -40,7 +41,7 @@ The heart of the museum functionality, managing the display and interaction with
   - Responsive layout adapting to screen size
 
 - **games-pagination-ui.tsx**: Navigation controls
-  - Page navigation buttons
+  - Page navigation buttons for browsing 10k+ games
   - Current page indicator
   - Smooth transition between pages
 
