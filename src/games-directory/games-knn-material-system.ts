@@ -31,6 +31,8 @@ let forceUpdateHighQuality = false // Flag to force update high-quality material
 const planesWithMaterials = new Set<Entity>()
 // Track temporary identifiers in use
 const temporaryIdentifiersInUse = new Set<string>()
+// Global map of identifier to thumbnailPath for resolving temporary materials
+const identifierToThumbnailPath = new Map<string, string>()
 
 interface PlaneDistance {
   entity: Entity
@@ -118,8 +120,11 @@ function applyHighQualityMaterialToPlane(planeEntity: Entity) {
   const planeData = PlaneData.getOrNull(planeEntity)
   if (!planeData || !planeData.identifier) return
   
+  // Update global mapping
+  identifierToThumbnailPath.set(planeData.identifier, planeData.thumbnailPath || planeData.identifier)
+  
   // Apply high-quality material directly to this plane
-  const thumbnailPath = `thumbnails/${planeData.identifier}/__ia_thumb.jpg`
+  const thumbnailPath = `thumbnails/${planeData.thumbnailPath || planeData.identifier}/__ia_thumb.jpg`
   const texture = getCachedTexture(thumbnailPath)
   
   Material.setPbrMaterial(planeEntity, {
@@ -170,6 +175,8 @@ function assignTemporaryIdentifiers() {
     const sourcePlaneData = PlaneData.getOrNull(sourceEntity)
     if (sourcePlaneData && sourcePlaneData.identifier) {
       temporaryPool.push(sourcePlaneData.identifier)
+      // Update global mapping
+      identifierToThumbnailPath.set(sourcePlaneData.identifier, sourcePlaneData.thumbnailPath || sourcePlaneData.identifier)
     }
   }
   
@@ -199,8 +206,10 @@ function applyTemporaryMaterial(entity: Entity) {
   const planeData = PlaneData.getOrNull(entity)
   if (!planeData || !planeData.temporaryIdentifier) return
   
+  // Look up the thumbnailPath for this temporaryIdentifier
+  const resolvedPath = identifierToThumbnailPath.get(planeData.temporaryIdentifier) || planeData.temporaryIdentifier
   // Apply low-quality material directly using temporaryIdentifier
-  const thumbnailPath = `thumbnails/${planeData.temporaryIdentifier}/__ia_thumb.jpg`
+  const thumbnailPath = `thumbnails/${resolvedPath}/__ia_thumb.jpg`
   const texture = getCachedTexture(thumbnailPath)
   
   Material.setPbrMaterial(entity, {

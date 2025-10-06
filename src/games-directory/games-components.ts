@@ -21,5 +21,6 @@ export const PlaneData = engine.defineComponent('plane-data', {
   isSpecialPlane: Schemas.Boolean,
   gameIndex: Schemas.Number,  // Store the actual game index for material sync
   identifier: Schemas.String,  // Unique game identifier for consistent material mapping
-  temporaryIdentifier: Schemas.String  // Identifier for distant plane material (from subset of closest 45)
+  temporaryIdentifier: Schemas.String,  // Identifier for distant plane material (from subset of closest 45)
+  thumbnailPath: Schemas.String  // Path to thumbnail with year-based organization
 })

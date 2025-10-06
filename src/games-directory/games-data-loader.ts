@@ -1,5 +1,6 @@
 export interface GameData {
   identifier: string
+  thumbnailPath?: string
   description?: string
   mediatype?: string
   title: string

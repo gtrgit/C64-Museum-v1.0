@@ -92,7 +92,7 @@ const uiComponent = () => {
           uiBackground={{
             textureMode: 'stretch',
             texture: {
-              src: `thumbnails/${gameData.identifier}/__ia_thumb.jpg`,
+              src: `thumbnails/${gameData.thumbnailPath || gameData.identifier}/__ia_thumb.jpg`,
             },
           }}
         />

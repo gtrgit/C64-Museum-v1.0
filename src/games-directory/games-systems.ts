@@ -87,7 +87,7 @@ export function planeSelectionSystem() {
       // Use stored game index from plane data (ensures sync with materials)
       const gameIndex = planeData.gameIndex || 0
       const game = games[gameIndex % games.length]
-      const thumbnailPath = game ? `thumbnails/${game.identifier}/__ia_thumb.jpg` : null
+      const thumbnailPath = game ? `thumbnails/${game.thumbnailPath || game.identifier}/__ia_thumb.jpg` : null
       
       // Material hover effects removed - no material changes to prevent leaks
       // The PointerEvent tooltips provide sufficient hover feedback
@@ -113,7 +113,7 @@ export function planeSelectionSystem() {
       // Use stored game index from plane data (ensures sync with materials)
       const gameIndex = planeData.gameIndex || 0
       const game = games[gameIndex % games.length]
-      const thumbnailPath = game ? `thumbnails/${game.identifier}/__ia_thumb.jpg` : null
+      const thumbnailPath = game ? `thumbnails/${game.thumbnailPath || game.identifier}/__ia_thumb.jpg` : null
       
       // Material restore effects removed - no material changes to prevent leaks
       // Materials remain in their original state

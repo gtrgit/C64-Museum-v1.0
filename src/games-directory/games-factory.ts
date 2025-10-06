@@ -227,7 +227,7 @@ export async function createCurvedGrid(
       const game = games.length > 0 ? games[gameIndex % games.length] : null
       const planeId = `r${v}-c${h}`
       const planeTitle = game ? (game.title || `Game ${gameIndex}`) : `Loading...`
-      const thumbnailPath = game ? `thumbnails/${game.identifier}/__ia_thumb.jpg` : null
+      const thumbnailPath = game ? `thumbnails/${game.thumbnailPath || game.identifier}/__ia_thumb.jpg` : null
       
       // Handle description properly - could be string or array
       let description = 'Hello World'
@@ -246,7 +246,8 @@ export async function createCurvedGrid(
         isSpecialPlane: false,
         gameIndex: gameIndex % games.length,  // Store the actual game index
         identifier: game && game.identifier ? String(game.identifier) : '',  // Store unique game identifier
-        temporaryIdentifier: ''  // Will be populated from subset of closest 45
+        temporaryIdentifier: '',  // Will be populated from subset of closest 45
+        thumbnailPath: game && game.thumbnailPath ? String(game.thumbnailPath) : (game && game.identifier ? String(game.identifier) : '')  // Use thumbnailPath with fallback to identifier
       })
       
       // Calculate position on curved grid
@@ -411,7 +412,7 @@ export async function createSingleCurvedGrid(
       const game = games[gameIndex % games.length]
       const planeId = `r${v}-c${h}`
       const planeTitle = game ? (game.title || `Game ${gameIndex}`) : `Plane ${planeId}`
-      const thumbnailPath = game ? `thumbnails/${game.identifier}/__ia_thumb.jpg` : null
+      const thumbnailPath = game ? `thumbnails/${game.thumbnailPath || game.identifier}/__ia_thumb.jpg` : null
       
       // Handle description
       let description = 'No description'
@@ -428,7 +429,8 @@ export async function createSingleCurvedGrid(
         isSpecialPlane: false,
         gameIndex: gameIndex % games.length,  // Store the actual game index
         identifier: game && game.identifier ? String(game.identifier) : '',  // Store unique game identifier
-        temporaryIdentifier: ''  // Will be populated from subset of closest 45
+        temporaryIdentifier: '',  // Will be populated from subset of closest 45
+        thumbnailPath: game && game.thumbnailPath ? String(game.thumbnailPath) : (game && game.identifier ? String(game.identifier) : '')  // Use thumbnailPath with fallback to identifier
       })
       
       // Calculate position on sphere surface
@@ -526,7 +528,7 @@ export async function updatePlanesWithCurrentPage() {
     
     if (game && game.identifier) {
       const planeTitle = String(game.title || `Game ${gameIndex}`)
-      const thumbnailPath = `thumbnails/${game.identifier}/__ia_thumb.jpg`
+      const thumbnailPath = `thumbnails/${game.thumbnailPath || game.identifier}/__ia_thumb.jpg`
       
       // Update plane data - ensure all values are strings
       planeData.title = String(planeTitle)
@@ -543,6 +545,7 @@ export async function updatePlanesWithCurrentPage() {
       planeData.description = description
       planeData.identifier = String(game.identifier) // Update identifier for KNN system
       planeData.gameIndex = gameIndex % games.length // Update gameIndex for KNN system
+      planeData.thumbnailPath = game.thumbnailPath ? String(game.thumbnailPath) : String(game.identifier) // Update thumbnailPath
       
       // Ensure plane is visible (in case it was previously empty and invisible)
       if (!MeshRenderer.has(entity)) {
@@ -569,6 +572,7 @@ export async function updatePlanesWithCurrentPage() {
       planeData.description = ''
       planeData.identifier = '' // Clear identifier so KNN system knows it's empty
       planeData.gameIndex = 0
+      planeData.thumbnailPath = '' // Clear thumbnailPath
       
       // Make empty plane invisible immediately (don't wait for KNN)
       if (Material.has(entity)) {

@@ -16,7 +16,9 @@
       "Bash(npm install)",
       "Bash(cp:*)",
       "Bash(curl:*)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(python3:*)",
+      "Bash(/dev/null)"
     ],
     "deny": []
   }
