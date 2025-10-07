@@ -9,7 +9,7 @@ import { SavedSceneData } from '../src/utils'
 export const savedSceneData: SavedSceneData =  
  {
   "version": "1.0.0",
-  "timestamp": "2025-10-02T14:01:23.529Z",
+  "timestamp": "2025-10-07T05:40:46.263Z",
   "planes": [
     {
       "name": "Template_Plane_1758255860422_768",
@@ -10403,7 +10403,7 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758868215246,
+      "localKnnClusterId": 1758868215199,
       "snapParentId": 0,
       "url": "",
       "material": {
@@ -10461,7 +10461,7 @@ export const savedSceneData: SavedSceneData =
         "z": 1
       },
       "currentImage": "",
-      "localKnnClusterId": 1758868215246,
+      "localKnnClusterId": 1758868215199,
       "snapParentId": 0,
       "url": "",
       "material": {
@@ -14938,6 +14938,2138 @@ export const savedSceneData: SavedSceneData =
         "emissiveIntensity": 2.3
       },
       "texts": []
+    },
+    {
+      "name": "Template_Plane_1759813842823_209",
+      "id": 1759813843405,
+      "position": {
+        "x": 4.215179299895381,
+        "y": 11.58939782145175,
+        "z": 46.1770390962788
+      },
+      "rotation": {
+        "x": -0.016627086825533873,
+        "y": -0.6647586866043709,
+        "z": -0.008921280583655867,
+        "w": 0.7468199469978807
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813843284,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The discipline and creativity required for effective SID programming translate directly to\\ncontemporary music production, game audio design, and electronic music creation, with many\\nprofessional composers crediting their 8-bit background as fundamental to their approach to\\nsynthesizer programming and creative problem-solving under constraints. Modern chiptune artists like\\nAnamanaguchi and Chipzel have built successful careers incorporating 8-bit aesthetics into\\ncontemporary music, while game audio professionals frequently utilize retro synthesis techniques in\\nmodern productions for both nostalgic appeal and distinctive sonic character that cuts through\\ncrowded audio landscapes. The constraint-based creativity, optimization mindset, and deep\\nunderstanding of synthesis fundamentals developed through SID programming provide excellent\\npreparation for careers in electronic music production, audio programming, and creative technology\\ndevelopment where resource efficiency and innovative approaches remain highly valued skills.\\nAdvanced practitioners can contribute to ongoing preservation efforts through HVSC contributions,\\nemulator development, or hardware projects, ensuring that this influential musical medium continues\\nto evolve while remaining accessible to future generations of electronic music innovators.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813842823_492",
+      "id": 1759813843379,
+      "position": {
+        "x": 4.249198568587262,
+        "y": 12.208550332150839,
+        "z": 46.167060434132786
+      },
+      "rotation": {
+        "x": -0.016627086825533873,
+        "y": -0.6647586866043709,
+        "z": -0.008921280583655867,
+        "w": 0.7468199469978807
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813843284,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "SID Skills Open Doors to Modern Music and Technology Careers",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813842823_140",
+      "id": 1759813843284,
+      "position": {
+        "x": 4.255027028019176,
+        "y": 12.94342660330981,
+        "z": 46.15577149219079
+      },
+      "rotation": {
+        "x": -0.016627086825533873,
+        "y": -0.6647586866043709,
+        "z": -0.008921280583655867,
+        "w": 0.7468199469978807
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813843284,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The SID music community remains one of the most welcoming and collaborative scenes in electronic\\nmusic, with active forums, Discord servers, and websites where experienced composers eagerly share\\nknowledge with newcomers and celebrate creative achievements regardless of skill level. Essential\\ncommunity hubs like CSDb (Commodore Scene Database) and Lemon64 Forums provide comprehensive\\ntechnical support, composition feedback, and regular releases of new SID music alongside extensive\\narchives of classic compositions with detailed metadata and analysis. The High Voltage SID\\nCollection (HVSC) serves as the definitive archive of over 55,000 SID files, offering an\\ninexhaustible source of study material and inspiration, while modern platforms like DeepSID provide\\nweb-based playback with real-time register visualization that helps beginners understand how classic\\ncompositions achieve their distinctive effects. Live streaming sessions on Twitch and YouTube allow\\ndirect observation of experienced composers at work, while Discord communities facilitate real-time\\ncollaboration, mentorship, and friendly competitions that maintain the supportive atmosphere that\\nhas characterized SID music culture since its earliest days.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813842823_545",
+      "id": 1759813842998,
+      "position": {
+        "x": 4.278765901533641,
+        "y": 13.612949756287993,
+        "z": 46.14707900865147
+      },
+      "rotation": {
+        "x": -0.016627086825533873,
+        "y": -0.6647586866043709,
+        "z": -0.008921280583655867,
+        "w": 0.7468199469978807
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813843284,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Vibrant Communities Provide Support and Inspiration",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813842823_548",
+      "id": 1759813842952,
+      "position": {
+        "x": 4.2920413342756385,
+        "y": 14.277516688831012,
+        "z": 46.13554952812565
+      },
+      "rotation": {
+        "x": -0.016627086825533873,
+        "y": -0.6647586866043709,
+        "z": -0.008921280583655867,
+        "w": 0.7468199469978807
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813843284,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Today's aspiring SID composers enjoy unprecedented access to sophisticated development tools that\\neliminate the technical barriers that once limited this art form to dedicated programmers and\\nhardware enthusiasts. Modern integrated development environments like SIDFactory II and GoatTracker\\n2 provide intuitive interfaces with real-time preview, syntax highlighting, and comprehensive\\ntutorials that guide newcomers through their first compositions step by step. These tools run on\\ncontemporary computers while maintaining authentic SID chip emulation, allowing immediate\\nexperimentation with waveforms, envelopes, and filter settings without requiring vintage hardware or\\ncomplex setup procedures. Cross-platform emulators like VICE ensure that your compositions will\\nsound identical to original hardware, while modern conveniences like unlimited undo, pattern\\ncopying, and built-in help systems accelerate the learning process that once required months of\\ntrial and error. The combination of authentic sound generation with contemporary workflow features\\nmeans that anyone with musical curiosity can begin creating SID music within minutes of downloading\\nthe software, transforming what was once an esoteric programming discipline into an accessible\\ncreative medium.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813842823_589",
+      "id": 1759813843507,
+      "position": {
+        "x": 4.324472480853616,
+        "y": 14.902042162864975,
+        "z": 46.130342536513446
+      },
+      "rotation": {
+        "x": -0.016627086825533873,
+        "y": -0.6647586866043709,
+        "z": -0.008921280583655867,
+        "w": 0.7468199469978807
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813843284,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Begin Your SID Journey: Essential Resources and Learning Path",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813862326_498",
+      "id": 1759813862719,
+      "position": {
+        "x": 6.898196662094877,
+        "y": 13.153250161870865,
+        "z": 52.457723655129406
+      },
+      "rotation": {
+        "x": -0.036695004714438394,
+        "y": -0.5155058644575335,
+        "z": -0.02120870157188557,
+        "w": 0.8558373335231259
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/jeroen-tel.jpg",
+      "localKnnClusterId": 1759813863049,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759813862326_537",
+      "id": 1759813863103,
+      "position": {
+        "x": 6.8744744328952185,
+        "y": 11.358753405516106,
+        "z": 52.59115796104004
+      },
+      "rotation": {
+        "x": -0.036695004714438394,
+        "y": -0.5155058644575335,
+        "z": -0.02120870157188557,
+        "w": 0.8558373335231259
+      },
+      "scale": {
+        "x": 3.8000000000000025,
+        "y": 0.5000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813863049,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Jeroen Tel - The Dutch Master of Digital Harmony",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813862326_515",
+      "id": 1759813863172,
+      "position": {
+        "x": 8.470978744869852,
+        "y": 11.530204285316662,
+        "z": 55.71478509806218
+      },
+      "rotation": {
+        "x": -0.036695004714438394,
+        "y": -0.5155058644575335,
+        "z": -0.02120870157188557,
+        "w": 0.8558373335231259
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.2000000000000002,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813863049,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Jeroen Tel's transition from SID music to modern electronic music production demonstrated that the skills\\nand musical sensibilities developed during the 8-bit era could successfully adapt to contemporary music\\ntechnology, establishing him as one of the few SID composers to maintain a successful career in\\nprofessional music production. His continued involvement in retro gaming music projects and SID music\\ncompilations has helped preserve and promote the artistic achievements of the 8-bit era while introducing\\nnew generations to the sophisticated musical compositions that emerged from such seemingly primitive\\ntechnology. Tel's modern productions often incorporate elements and techniques derived from his SID\\nprogramming experience, demonstrating how the creative constraints and technical innovations of 8-bit\\nmusic continue to influence contemporary electronic music production and sound design. His ongoing\\nparticipation in SID music festivals, remix projects, and documentary films about retro gaming has helped\\nestablish the historical importance of 8-bit music while maintaining its relevance for contemporary\\naudiences interested in electronic music history and evolution. The lasting appeal of Tel's SID\\ncompositions, evidenced by their continued performance at concerts and festivals worldwide, proves that\\nmusical excellence transcends technological limitations and that the artistic achievements of the 8-bit\\nera represent a legitimate and important chapter in the development of electronic music as an art form.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813862326_671",
+      "id": 1759813862821,
+      "position": {
+        "x": 8.530199107740227,
+        "y": 12.176918189452199,
+        "z": 55.68228531797542
+      },
+      "rotation": {
+        "x": -0.036695004714438394,
+        "y": -0.5155058644575335,
+        "z": -0.02120870157188557,
+        "w": 0.8558373335231259
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813863049,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Enduring Legacy: From 8-Bit Pioneer to Modern Music Producer",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813862326_674",
+      "id": 1759813863049,
+      "position": {
+        "x": 8.565250210598593,
+        "y": 12.84066134112087,
+        "z": 55.65785322965268
+      },
+      "rotation": {
+        "x": -0.036695004714438394,
+        "y": -0.5155058644575335,
+        "z": -0.02120870157188557,
+        "w": 0.8558373335231259
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813863049,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "As a founding member of the legendary Maniacs of Noise collective, Tel helped establish the concept of\\ncollaborative SID music production, working with other talented programmers and musicians to push the\\nboundaries of what could be achieved through shared knowledge and combined expertise. The group's\\napproach to SID composition emphasized technical innovation and musical experimentation, with Tel\\ncontributing compositions that showcased advanced programming techniques like synchronized oscillator\\neffects, complex filter automation, and precisely timed voice coordination that created the illusion of\\nfar more than three simultaneous sounds. His work on games like \"Cybernoid,\" \"Stormlord,\" and \"Turbo\\nOutRun\" demonstrated his ability to create music that was both technically impressive and perfectly\\nsuited to enhance the gaming experience, with each composition featuring multiple musical sections,\\ndynamic arrangements, and sophisticated sound design that rivaled professional studio productions. Tel's\\ncollaborative spirit extended to sharing programming techniques and musical ideas with other SID\\ncomposers, helping to elevate the overall quality of SID music throughout the late 1980s and early 1990s.\\nHis influence on the SID music scene extended beyond his own compositions to include his role as a mentor\\nand technical innovator who helped establish many of the advanced programming techniques that became\\nstandard practice among serious SID musicians.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813862326_311",
+      "id": 1759813862813,
+      "position": {
+        "x": 8.614920909094732,
+        "y": 13.508254499467448,
+        "z": 55.630421112499434
+      },
+      "rotation": {
+        "x": -0.036695004714438394,
+        "y": -0.5155058644575335,
+        "z": -0.02120870157188557,
+        "w": 0.8558373335231259
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813863049,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Maniacs of Noise: Collaborative Innovation and Technical Excellence",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813862326_457",
+      "id": 1759813863193,
+      "position": {
+        "x": 8.653594839600107,
+        "y": 14.171410078067977,
+        "z": 55.60420358939339
+      },
+      "rotation": {
+        "x": -0.036695004714438394,
+        "y": -0.5155058644575335,
+        "z": -0.02120870157188557,
+        "w": 0.8558373335231259
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813863049,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Jeroen Tel emerged from the Netherlands' vibrant electronic music scene of the early 1980s with an\\nextraordinary combination of classical musical training and intuitive understanding of synthesizer\\nprogramming that would make him one of the most technically accomplished SID composers of the era. His\\nbackground with hardware synthesizers and drum machines gave him a sophisticated understanding of\\nelectronic music production that he translated directly to the SID chip, treating it not as a limited\\ncomputer sound generator but as a complex instrument capable of producing studio-quality electronic\\nmusic. Tel's early exposure to artists like Jean-Michel Jarre, Kraftwerk, and Klaus Schulze influenced\\nhis approach to SID composition, inspiring him to create expansive, atmospheric pieces that pushed the\\nboundaries of what three-voice synthesis could achieve in terms of both technical complexity and\\nemotional depth. His meticulous attention to every aspect of sound design, from envelope shaping to\\nfilter programming, resulted in SID compositions that exhibited a level of sonic sophistication that\\nrivaled contemporary electronic music being produced on far more expensive equipment. Tel's systematic\\napproach to learning the SID's capabilities led him to develop programming techniques that other\\ncomposers would later adopt as standard practice, establishing him as both an innovator and educator\\nwithin the SID music community.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813862326_722",
+      "id": 1759813862702,
+      "position": {
+        "x": 8.71055631145883,
+        "y": 14.793630915184423,
+        "z": 55.577603556884306
+      },
+      "rotation": {
+        "x": -0.036695004714438394,
+        "y": -0.5155058644575335,
+        "z": -0.02120870157188557,
+        "w": 0.8558373335231259
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813863049,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Synthesizer Prodigy: From Hardware to SID Mastery",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813900034_416",
+      "id": 1759813900308,
+      "position": {
+        "x": 13.507623620337665,
+        "y": 12.914164440915394,
+        "z": 62.91350998323915
+      },
+      "rotation": {
+        "x": -0.050428639275573,
+        "y": -0.3582404297134926,
+        "z": -0.020516217902074724,
+        "w": 0.9320407641967233
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Martin-Galway.jpg",
+      "localKnnClusterId": 1759813900994,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 7
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759813900034_813",
+      "id": 1759813900037,
+      "position": {
+        "x": 13.495380050832281,
+        "y": 11.321855216800866,
+        "z": 63.07630187567719
+      },
+      "rotation": {
+        "x": -0.050428639275573,
+        "y": -0.3582404297134926,
+        "z": -0.020516217902074724,
+        "w": 0.9320407641967233
+      },
+      "scale": {
+        "x": 3.300000000000002,
+        "y": 0.6000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813900994,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Martin Galway - The Melodic Master",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813900034_80",
+      "id": 1759813900370,
+      "position": {
+        "x": 16.073555918533206,
+        "y": 11.6116106087515,
+        "z": 65.45693900226502
+      },
+      "rotation": {
+        "x": -0.050428639275573,
+        "y": -0.3582404297134926,
+        "z": -0.020516217902074724,
+        "w": 0.9320407641967233
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813900994,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Martin Galway's approach to SID composition exemplified how creative constraints could inspire\\nrather than limit artistic expression, as he developed innovative techniques that maximized the\\nmusical potential of the chip's three voices through clever programming and musical arrangement. His\\nuse of rapid arpeggiation created the illusion of complex chord progressions and harmonic movement\\nthat seemed impossible within the SID's limitations, while his rhythmic programming incorporated\\nsubtle timing variations and accent patterns that gave his music a human, organic feel despite its\\nelectronic origins. Galway's compositions often featured elaborate bass lines that functioned as\\nboth rhythmic foundation and melodic counterpoint, demonstrating his understanding that each voice\\nneeded to serve multiple musical functions simultaneously to create rich, full arrangements. His\\ninfluence extended beyond his own compositions to inspire countless other SID musicians who studied\\nhis techniques and attempted to incorporate his melodic sensibilities into their own work,\\nestablishing a school of SID composition that prioritized memorable melodies and emotional impact\\nover pure technical demonstration. The enduring popularity of Galway's SID music, evidenced by\\ncountless remixes, covers, and reinterpretations across multiple decades, proves that his focus on\\nmelody and musical communication transcended the technological limitations of his medium to create\\nmusic that remains compelling and emotionally powerful regardless of the playback system.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813900034_732",
+      "id": 1759813900084,
+      "position": {
+        "x": 16.130788288029308,
+        "y": 12.226496258789638,
+        "z": 65.39562998261181
+      },
+      "rotation": {
+        "x": -0.050428639275573,
+        "y": -0.3582404297134926,
+        "z": -0.020516217902074724,
+        "w": 0.9320407641967233
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.10000000000000014,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813900994,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Innovation Through Limitation: The Art of SID Composition",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813900034_842",
+      "id": 1759813900994,
+      "position": {
+        "x": 16.169168495559656,
+        "y": 12.849016092784325,
+        "z": 65.34930337133306
+      },
+      "rotation": {
+        "x": -0.050428639275573,
+        "y": -0.3582404297134926,
+        "z": -0.020516217902074724,
+        "w": 0.9320407641967233
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813900994,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Galway's composition for \"Arkanoid\" became one of the most iconic pieces of SID music ever created,\\ndemonstrating his unparalleled ability to craft infectious melodies that perfectly balanced\\naccessibility with sophistication. The track's driving rhythm and memorable main theme showcased his\\ntalent for creating music that was simultaneously complex enough to reward repeated listening and\\nsimple enough to appeal to players of all ages and musical backgrounds. His subsequent work on\\n\"Times of Lore,\" \"Parallax,\" and \"Wizball\" established a distinctive musical voice that combined\\nEuropean electronic music influences with the melodic sensibilities of pop music, creating a unique\\nstyle that was instantly recognizable as unmistakably Galway. His compositions featured intricate\\nharmonic progressions, sophisticated rhythmic patterns, and melodic lines that demonstrated his deep\\nunderstanding of both classical composition techniques and contemporary electronic music production.\\nGalway's ability to create music that enhanced gameplay while remaining memorable outside the gaming\\ncontext helped establish the concept that video game music could be enjoyed as standalone\\nentertainment, paving the way for the concert performances and soundtrack releases that would become\\ncommon in later decades.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813900034_361",
+      "id": 1759813900087,
+      "position": {
+        "x": 16.218999789725387,
+        "y": 13.455044616042168,
+        "z": 65.29616996687967
+      },
+      "rotation": {
+        "x": -0.050428639275573,
+        "y": -0.3582404297134926,
+        "z": -0.020516217902074724,
+        "w": 0.9320407641967233
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813900994,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Arkanoid and Beyond: Defining the Sound of an Era",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813900034_389",
+      "id": 1759813900956,
+      "position": {
+        "x": 16.25883721498196,
+        "y": 14.116900041247364,
+        "z": 65.24801693303095
+      },
+      "rotation": {
+        "x": -0.050428639275573,
+        "y": -0.3582404297134926,
+        "z": -0.020516217902074724,
+        "w": 0.9320407641967233
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813900994,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Martin Galway's journey to SID music stardom began in Belfast, Northern Ireland, where his teenage\\nfascination with electronic music and early computer programming converged into an extraordinary talent\\nfor crafting memorable melodies within severe technical constraints. Starting his career at Ocean\\nSoftware at just 17 years old, Galway possessed an intuitive understanding of melody and harmony that\\ncomplemented his rapid mastery of SID chip programming, allowing him to create compositions that were\\nboth technically impressive and emotionally resonant. His early works for games like \"Green Beret\" and\\n\"Rambo\" demonstrated an remarkable ability to capture the essence of movie soundtracks and translate them\\ninto the SID's three-voice limitations, creating music that enhanced the gaming experience while standing\\nalone as compelling instrumental pieces. Galway's youth worked to his advantage, as he approached the SID\\nchip without preconceptions about what computer music should sound like, instead treating it as a\\nlegitimate instrument capable of expressing complex emotions and musical ideas. His fresh perspective and\\nnatural musical instincts quickly established him as one of the most sought-after composers in the\\nrapidly expanding game industry, with his music becoming a selling point for games rather than merely an\\naccompaniment to the action.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813900034_985",
+      "id": 1759813900264,
+      "position": {
+        "x": 16.31494437980427,
+        "y": 14.737408500452293,
+        "z": 65.19386744551501
+      },
+      "rotation": {
+        "x": -0.050428639275573,
+        "y": -0.3582404297134926,
+        "z": -0.020516217902074724,
+        "w": 0.9320407641967233
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813900994,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Belfast Beginnings: From Teenager to SID Sensation",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813918927_59",
+      "id": 1759813919604,
+      "position": {
+        "x": 37.40295144604257,
+        "y": 12.96691707538224,
+        "z": 72.58534798260835
+      },
+      "rotation": {
+        "x": 0.015072345283041853,
+        "y": 0.030651035270871034,
+        "z": 0.008913602609036338,
+        "w": 0.9993768534823102
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/SID.jpg",
+      "localKnnClusterId": 1759813919034,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759813918927_288",
+      "id": 1759813919550,
+      "position": {
+        "x": 37.53394285943144,
+        "y": 11.387403314477638,
+        "z": 72.44369807473348
+      },
+      "rotation": {
+        "x": 0.015072345283041853,
+        "y": 0.030651035270871034,
+        "z": 0.008913602609036338,
+        "w": 0.9993768534823102
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 0.5000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813919034,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "The Sound of a Generation: SID Music's Revolutionary Journey",
+          "fontSize": 2.200000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813918927_431",
+      "id": 1759813919250,
+      "position": {
+        "x": 41.033829528348726,
+        "y": 11.501133805156307,
+        "z": 72.32083631413923
+      },
+      "rotation": {
+        "x": 0.015072345283041853,
+        "y": 0.030651035270871034,
+        "z": 0.008913602609036338,
+        "w": 0.9993768534823102
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1758868215199,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The SID chip's unique analog filter section became the defining characteristic that separated Commodore 64\\nmusic from all other computer audio, creating a warm, organic sound signature that remains instantly\\nrecognizable four decades later. Unlike the harsh, clinical tones of pure digital synthesis, the SID's analog\\ncomponents introduced subtle variations, harmonic distortions, and frequency responses that gave each chip a\\nslightly different personality—variations that modern musicians and producers actively seek out for their\\nirreplaceable character. This analog warmth, combined with the creative constraints of three-voice limitation,\\nforced composers to develop innovative techniques like rapid arpeggiation, complex rhythm programming, and\\ningenious use of the noise channel for percussion, creating a distinctive musical language that influenced\\nelectronic music far beyond the gaming world. Legendary SID composers like Rob Hubbard, Martin Galway, and\\nJeroen Tel elevated these technical limitations into artistic strengths, crafting compositions that\\ndemonstrated how creative ingenuity could overcome hardware constraints to produce music of stunning\\ncomplexity and emotional depth. The SID's influence extended well beyond the Commodore 64's commercial\\nlifespan, inspiring entire genres of electronic music, spawning countless remixes and reinterpretations, and\\nestablishing chiptune as a legitimate musical movement that continues to evolve today, with original SID chips\\ncommanding premium prices among musicians who understand that the analog magic of Yannes' design cannot be\\nperfectly emulated, only experienced through the original hardware.",
+          "fontSize": 0.5000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813918927_14",
+      "id": 1759813919899,
+      "position": {
+        "x": 41.02172749809104,
+        "y": 12.181016280187864,
+        "z": 72.33171713330405
+      },
+      "rotation": {
+        "x": 0.015072345283041853,
+        "y": 0.030651035270871034,
+        "z": 0.008913602609036338,
+        "w": 0.9993768534823102
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813919034,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Analog Soul in a Digital World: The Distinctive SID Character",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813918927_671",
+      "id": 1759813919034,
+      "position": {
+        "x": 41.00646495488353,
+        "y": 12.914607223957606,
+        "z": 72.37433102200522
+      },
+      "rotation": {
+        "x": 0.015072345283041853,
+        "y": 0.030651035270871034,
+        "z": 0.008913602609036338,
+        "w": 0.9993768534823102
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813919034,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Bob Yannes' creation of the SID (Sound Interface Device) chip stemmed from his frustration as both\\nan electrical engineer and accomplished musician with the primitive audio capabilities of existing\\ncomputers. Drawing from his experience with analog synthesizers and deep understanding of musical\\nacoustics, Yannes designed what was essentially a complete analog synthesizer implemented in\\nsilicon—a revolutionary concept that had never been attempted at such scale or price point. The\\nSID's three independent oscillators each generated four distinct waveforms (sawtooth, triangle,\\npulse with variable width, and noise), while sophisticated ADSR envelope generators allowed sounds\\nto evolve naturally over time, mimicking the attack and decay characteristics of acoustic\\ninstruments. Most remarkably, Yannes included a genuine analog filter section—a 24dB/octave\\nmultimode filter that could be dynamically controlled and modulated, giving SID music its\\ndistinctive warm, organic character that digital approximations couldn't replicate. Advanced\\nfeatures like ring modulation between oscillators created metallic, bell-like tones, while\\noscillator synchronization enabled complex harmonic effects that pushed the boundaries of what three\\nvoices could achieve. Yannes' comprehensive approach included two analog-to-digital converters for\\npaddle input, making the SID a complete audio interface that established the technical foundation\\nfor an entirely new musical culture centered around creative constraint and innovation.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813918927_93",
+      "id": 1759813919679,
+      "position": {
+        "x": 40.99514724368981,
+        "y": 13.584196610305728,
+        "z": 72.39488150949857
+      },
+      "rotation": {
+        "x": 0.015072345283041853,
+        "y": 0.030651035270871034,
+        "z": 0.008913602609036338,
+        "w": 0.9993768534823102
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813919034,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Bob Yannes' Vision: Engineering Musical Innovation",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813918927_156",
+      "id": 1759813919386,
+      "position": {
+        "x": 40.9804595023454,
+        "y": 14.248134117029855,
+        "z": 72.42537158569216
+      },
+      "rotation": {
+        "x": 0.015072345283041853,
+        "y": 0.030651035270871034,
+        "z": 0.008913602609036338,
+        "w": 0.9993768534823102
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813919034,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "The transformation of computer audio from primitive beeps and buzzes to sophisticated musical\\ncompositions represents one of the most dramatic evolutions in digital entertainment history. In the\\nearly 1980s, most computers could barely produce simple square waves or harsh noise bursts,\\nrelegating game audio to functional afterthoughts that merely indicated success or failure. The\\nCommodore 64 shattered these limitations overnight, introducing a generation of players to rich,\\nmulti-layered soundtracks that rivaled contemporary pop music in complexity and emotional impact.\\nGame composers suddenly found themselves with a three-voice synthesizer capable of producing\\neverything from haunting melodies to driving basslines, complete with sophisticated envelope\\ncontrols and filtering capabilities that had previously been exclusive to expensive studio\\nequipment. This leap forward inspired a new breed of musician-programmers who understood both\\nmusical theory and technical constraints, leading to compositions that maximized every cycle of the\\nSID chip's capabilities. The result was a golden age of game music where titles like \"The Last\\nNinja,\" \"Monty on the Run,\" and \"Wizball\" featured soundtracks that players would remember for\\ndecades, establishing video game music as a legitimate artistic medium worthy of serious musical\\nconsideration.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813918927_709",
+      "id": 1759813919342,
+      "position": {
+        "x": 40.973356188546,
+        "y": 14.8734165428883,
+        "z": 72.43444916830201
+      },
+      "rotation": {
+        "x": 0.015072345283041853,
+        "y": 0.030651035270871034,
+        "z": 0.008913602609036338,
+        "w": 0.9993768534823102
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813919034,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "From Beeps to Symphonies: The Musical Revolution",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813942186_296",
+      "id": 1759813942400,
+      "position": {
+        "x": 22.251077248656195,
+        "y": 13.019420447570957,
+        "z": 69.20220408687813
+      },
+      "rotation": {
+        "x": -0.022217594140232097,
+        "y": -0.202208819065419,
+        "z": -0.0006490609951746718,
+        "w": 0.9790902782957703
+      },
+      "scale": {
+        "x": 4.000000000000003,
+        "y": 4.000000000000003,
+        "z": 1
+      },
+      "currentImage": "exhibitions/Rob-Hubbard.jpg",
+      "localKnnClusterId": 1759813943084,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": []
+    },
+    {
+      "name": "Template_Plane_1759813942186_207",
+      "id": 1759813942199,
+      "position": {
+        "x": 22.35772899894576,
+        "y": 11.323795926881582,
+        "z": 69.25434692242777
+      },
+      "rotation": {
+        "x": -0.022217594140232097,
+        "y": -0.202208819065419,
+        "z": -0.0006490609951746718,
+        "w": 0.9790902782957703
+      },
+      "scale": {
+        "x": 3.6000000000000023,
+        "y": 0.5000000000000001,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813943084,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Rob Hubbard - The Synthesizer Virtuoso",
+          "fontSize": 2.5000000000000013,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813942186_519",
+      "id": 1759813942610,
+      "position": {
+        "x": 25.550952004280212,
+        "y": 11.514596537528035,
+        "z": 70.70156884229337
+      },
+      "rotation": {
+        "x": -0.022217594140232097,
+        "y": -0.202208819065419,
+        "z": -0.0006490609951746718,
+        "w": 0.9790902782957703
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813943084,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Rob Hubbard's SID compositions established the gold standard for game music quality and demonstrated\\nthat electronic game soundtracks could achieve the same emotional impact and musical sophistication\\nas any other musical medium. His work inspired an entire generation of composers to view game music\\nas a serious artistic pursuit rather than a technical afterthought, elevating the status of video\\ngame music throughout the industry and beyond. Modern electronic music producers continue to study\\nHubbard's techniques, with many contemporary artists citing his SID compositions as formative\\ninfluences on their understanding of synthesizer programming and electronic music arrangement. His\\nmusic has been remixed, reinterpreted, and performed by orchestras worldwide, with the \"Commando\"\\ntheme becoming perhaps the most recognizable piece of video game music from the 8-bit era. Hubbard's\\ntransition to composing for more advanced systems like the Amiga and PC maintained his reputation\\nfor technical excellence and musical innovation, but it was his groundbreaking SID work that\\nestablished him as one of the most important figures in video game music history, proving that\\ngenuine artistry could flourish even within the most constraining technical limitations.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813942186_718",
+      "id": 1759813942972,
+      "position": {
+        "x": 25.56188547406755,
+        "y": 12.19349067004337,
+        "z": 70.66299087590956
+      },
+      "rotation": {
+        "x": -0.022217594140232097,
+        "y": -0.202208819065419,
+        "z": -0.0006490609951746718,
+        "w": 0.9790902782957703
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.30000000000000016,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813943084,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "Legacy of Excellence and Lasting Influence",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813942186_687",
+      "id": 1759813943084,
+      "position": {
+        "x": 25.55780192043946,
+        "y": 12.928309124950314,
+        "z": 70.64783374286255
+      },
+      "rotation": {
+        "x": -0.022217594140232097,
+        "y": -0.202208819065419,
+        "z": -0.0006490609951746718,
+        "w": 0.9790902782957703
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1.1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813943084,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Hubbard's compositions pushed the SID chip to its absolute limits through his deep understanding of\\nboth musical theory and hardware programming, creating pieces that seemed to transcend the technical\\nconstraints of the medium entirely. His masterpiece \"Commando\" theme demonstrated his ability to\\ncreate driving, energetic music that perfectly complemented intense gameplay while showcasing every\\nadvanced feature of the SID chip in a single composition. The track's iconic bassline utilized\\npulse-width modulation and filter sweeps to create a sound that was both powerful and nuanced, while\\nthe lead melody employed ring modulation and synchronization effects that had never been heard in\\ngame music before. Hubbard's innovative use of the SID's filter section became his signature,\\ncreating swooshing sound effects and dynamic timbral changes that gave his music an organic,\\nbreathing quality that made the electronic instruments sound almost alive. His compositions for\\n\"Monty on the Run,\" \"Zoids,\" and \"Lightforce\" established a template for SID music that combined\\ntechnical virtuosity with memorable melodies, proving that the constraints of three-voice synthesis\\ncould inspire rather than limit musical creativity. Each Hubbard composition became a technical\\nshowcase that other programmers would study and attempt to reverse-engineer, trying to understand\\nhow he achieved such rich, complex sounds from the same hardware they were using.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813942186_439",
+      "id": 1759813942531,
+      "position": {
+        "x": 25.564673558315324,
+        "y": 13.597647385791324,
+        "z": 70.6188605752776
+      },
+      "rotation": {
+        "x": -0.022217594140232097,
+        "y": -0.202208819065419,
+        "z": -0.0006490609951746718,
+        "w": 0.9790902782957703
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813943084,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.2999999999999998
+      },
+      "texts": [
+        {
+          "text": "Technical Mastery Meets Musical Innovation",
+          "fontSize": 0.9,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813942186_559",
+      "id": 1759813942768,
+      "position": {
+        "x": 25.563838590222492,
+        "y": 14.262105083099417,
+        "z": 70.59756103772169
+      },
+      "rotation": {
+        "x": -0.022217594140232097,
+        "y": -0.202208819065419,
+        "z": -0.0006490609951746718,
+        "w": 0.9790902782957703
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 1,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813943084,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 0.2,
+          "g": 0.2,
+          "b": 0.3,
+          "a": 1
+        },
+        "emissiveIntensity": 2.3
+      },
+      "texts": [
+        {
+          "text": "Rob Hubbard arrived at the nascent game music scene in 1985 with an impressive background as a\\nprofessional musician and synthesizer programmer, having worked in recording studios and composed\\nmusic for television commercials. Unlike many of his contemporaries who stumbled into game music by\\naccident, Hubbard approached the SID chip with the trained ear of a studio professional who\\nunderstood both musical arrangement and synthesizer programming at the highest level. His experience\\nwith high-end analog synthesizers like the Sequential Circuits Prophet-5 and Oberheim gave him\\nimmediate insight into the SID's capabilities and limitations, allowing him to treat it not as a\\nprimitive computer sound generator but as a sophisticated instrument worthy of serious musical\\ncomposition. Hubbard's first SID compositions for games like \"Sanxion\" and \"Delta\" immediately\\nestablished him as the premier talent in the field, demonstrating production values and musical\\nsophistication that elevated game music from simple accompaniment to the primary attraction. His\\nability to coax studio-quality sounds from the three-voice SID chip bordered on the miraculous,\\nusing advanced techniques like rapid arpeggiation, complex modulation, and precise timing to create\\nthe illusion of far more voices than the hardware technically supported.",
+          "fontSize": 0.6000000000000001,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
+    },
+    {
+      "name": "Template_Plane_1759813942186_578",
+      "id": 1759813943110,
+      "position": {
+        "x": 25.57790408865791,
+        "y": 14.88638380300248,
+        "z": 70.56307591620684
+      },
+      "rotation": {
+        "x": -0.022217594140232097,
+        "y": -0.202208819065419,
+        "z": -0.0006490609951746718,
+        "w": 0.9790902782957703
+      },
+      "scale": {
+        "x": 3.0000000000000018,
+        "y": 0.20000000000000015,
+        "z": 1
+      },
+      "currentImage": "",
+      "localKnnClusterId": 1759813943084,
+      "snapParentId": 0,
+      "url": "",
+      "material": {
+        "albedoColor": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "emissiveColor": {
+          "r": 1,
+          "g": 0.5019607843137255,
+          "b": 0,
+          "a": 1
+        },
+        "emissiveIntensity": 1.3
+      },
+      "texts": [
+        {
+          "text": "From Studio Professional to SID Pioneer",
+          "fontSize": 1,
+          "font": "sans-serif",
+          "textColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          },
+          "outlineColor": {
+            "r": 0,
+            "g": 0,
+            "b": 0,
+            "a": 1
+          }
+        }
+      ]
     }
   ]
 }
